@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Source PDFs must never be committed or redistributed with the skill
+*.pdf
+
+# Local scratch
+*.log
+!reports/verification.log

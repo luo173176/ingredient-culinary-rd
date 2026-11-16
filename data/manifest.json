@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-16T18:12:19",
+  "knowledge_base": "four-book-v1",
+  "books": [
+    {
+      "source_id": "MM-ZYX-2016",
+      "title": "中药学",
+      "pages": 841,
+      "near_empty_pages": 9,
+      "low_confidence_pages": 0,
+      "printed_page_observed": 0
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "title": "中国地道食材图录大全",
+      "pages": 239,
+      "near_empty_pages": 0,
+      "low_confidence_pages": 8,
+      "printed_page_observed": 194
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "title": "盐，脂，酸，热：制造美味的新科学",
+      "pages": 364,
+      "near_empty_pages": 39,
+      "low_confidence_pages": 0,
+      "printed_page_observed": 0
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "title": "食材百科全书",
+      "pages": 531,
+      "near_empty_pages": 26,
+      "low_confidence_pages": 28,
+      "printed_page_observed": 76
+    }
+  ],
+  "totals": {
+    "pages": 1975,
+    "chunks": 2589,
+    "herbs": 558,
+    "main_herbs": 434,
+    "attached_herbs": 124,
+    "ingredient_cards": 12,
+    "visual_records": 1152,
+    "content_images": 353,
+    "page_scans": 769,
+    "table_candidates": 30
+  },
+  "database": {
+    "pages": 1975,
+    "chunks": 2589,
+    "chunks_fts": 2589,
+    "herbs": 558,
+    "aliases": 813,
+    "sources": 4
+  },
+  "visuals": {
+    "records": 1152,
+    "images": 353,
+    "page_scans": 769,
+    "table_candidates": 30,
+    "books": [
+      {
+        "source_id": "MM-ZYX-2016",
+        "images": 42,
+        "page_scans": 0,
+        "table_candidates": 21
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "images": 119,
+        "page_scans": 239,
+        "table_candidates": 0
+      },
+      {
+        "source_id": "FS-SFAH-2023",
+        "images": 192,
+        "page_scans": 0,
+        "table_candidates": 9
+      },
+      {
+        "source_id": "DK-INGREDIENTS",
+        "images": 0,
+        "page_scans": 530,
+        "table_candidates": 0
+      }
+    ],
+    "caveat": "caption_candidate 是邻近文字候选，不是经人工确认的图注；table_candidate 是文本/线框启发式，不是经人工确认的表格结构。"
+  },
+  "checks": {
+    "total": 81,
+    "failed": 0,
+    "failures": []
+  }
+}

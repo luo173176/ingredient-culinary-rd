@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/source.schema.json",
+  "title": "Knowledge Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_id", "short_title", "title", "author", "kind", "file"],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^[A-Z0-9-]+$"},
+    "short_title": {"type": "string"},
+    "title": {"type": "string"},
+    "subtitle": {"type": ["string", "null"]},
+    "author": {"type": "string"},
+    "translator": {"type": ["string", "null"]},
+    "publisher": {"type": ["string", "null"]},
+    "year": {"type": ["string", "null"]},
+    "edition": {"type": ["string", "null"]},
+    "isbn": {"type": ["string", "null"]},
+    "file": {"type": "string"},
+    "kind": {"enum": ["digital", "scanned"]},
+    "domain": {"enum": ["materia-medica", "chinese-ingredients", "flavor-science", "global-ingredients"]},
+    "language": {"type": "string"},
+    "citation_label": {"type": "string"},
+    "sha256": {"type": ["string", "null"]},
+    "page_count": {"type": ["integer", "null"]}
+  }
+}

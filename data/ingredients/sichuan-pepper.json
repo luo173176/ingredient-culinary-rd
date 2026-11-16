@@ -1,0 +1,589 @@
+{
+  "id": "sichuan-pepper",
+  "basic": {
+    "canonical_name_zh": "花椒",
+    "scientific_name": null,
+    "english_name": "Sichuan pepper / prickly ash",
+    "one_line_definition": "书中记其气芳香、味麻且辣，传统属性辛温、归脾胃肾经；既作香料去腥，也入传统方药。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "川椒",
+      "蜀椒"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "MM-ZYX-2016",
+        "book_title": "中药学",
+        "pdf_page": 396,
+        "printed_page": null,
+        "chapter": "第十四章 温里药",
+        "section": null,
+        "quote": "又名川椒、蜀椒",
+        "extraction_method": "text_layer",
+        "confidence": "high"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "调味品",
+      "香辛料"
+    ],
+    "culinary_role": [
+      "麻香",
+      "去腥",
+      "增香"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "《中药学》：主产于辽宁、河北、四川，传统以四川产者为佳",
+        "evidence": [
+          {
+            "source_id": "MM-ZYX-2016",
+            "book_title": "中药学",
+            "pdf_page": 396,
+            "printed_page": null,
+            "chapter": "第十四章 温里药",
+            "section": null,
+            "quote": "主产于辽宁、河北、四川,传统以四川产者为佳",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "秋季采收成熟果实",
+    "availability": null,
+    "notes": "书中记载：秋季采收成熟果实（《中药学》PDF 396）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "《中药学》：花椒以色紫红、无梗、无椒目者为佳",
+        "evidence": [
+          {
+            "source_id": "MM-ZYX-2016",
+            "book_title": "中药学",
+            "pdf_page": 396,
+            "printed_page": null,
+            "chapter": "第十四章 温里药",
+            "section": null,
+            "quote": "花椒以色紫红、无梗、无椒目者为佳",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "《中国地道食材图录大全》：壳色红艳油润、开口不含籽、手感糙硬",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 234,
+            "printed_page": 230,
+            "chapter": "第八章 调味品",
+            "section": null,
+            "quote": "应选购壳色红艳油润,果实开口而不含籽粒,手感糙硬的",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [
+      "芳香"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "MM-ZYX-2016",
+        "book_title": "中药学",
+        "pdf_page": 396,
+        "printed_page": null,
+        "chapter": "第十四章 温里药",
+        "section": null,
+        "quote": "本品气芳香,味麻且辣。",
+        "extraction_method": "text_layer",
+        "confidence": "high"
+      }
+    ]
+  },
+  "taste": {
+    "descriptors": [
+      "麻",
+      "辣",
+      "辛"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "MM-ZYX-2016",
+        "book_title": "中药学",
+        "pdf_page": 396,
+        "printed_page": null,
+        "chapter": "第十四章 温里药",
+        "section": null,
+        "quote": "本品气芳香,味麻且辣。",
+        "extraction_method": "text_layer",
+        "confidence": "high"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 234,
+        "printed_page": 230,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "性味:味辛,性温",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": "脾、胃、肾",
+    "notes": "《中药学》记“辛，温。归脾、胃、肾经”，功效温中止痛、杀虫止痒；属传统理论，不是现代医学证据。（《中药学》PDF 396）"
+  },
+  "tcm_applications": {
+    "functions": [
+      "温中止痛（传统）",
+      "杀虫止痒（传统，外用）"
+    ],
+    "traditional_uses": [
+      "中寒脘腹冷痛、呕吐泄泻（传统应用）",
+      "虫积腹痛（传统应用）",
+      "湿疹/阴痒外用（传统应用）"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "MM-ZYX-2016",
+        "book_title": "中药学",
+        "pdf_page": 396,
+        "printed_page": null,
+        "chapter": "第十四章 温里药",
+        "section": null,
+        "quote": "辛,温。归脾、胃、肾经。",
+        "extraction_method": "text_layer",
+        "confidence": "high"
+      },
+      {
+        "source_id": "MM-ZYX-2016",
+        "book_title": "中药学",
+        "pdf_page": 396,
+        "printed_page": null,
+        "chapter": "第十四章 温里药",
+        "section": null,
+        "quote": "温中止痛,杀虫止痒。",
+        "extraction_method": "text_layer",
+        "confidence": "high"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "烹饪调味",
+      "去腥增香"
+    ],
+    "preparation": [
+      "整粒或磨粉使用；书中未见花椒油温度"
+    ],
+    "heat_notes": "书中未给花椒油温度；避免炸糊发苦（烹饪提示，非原文温度）。"
+  },
+  "flavor_pairings": [
+    {
+      "with": "生姜、白豆蔻",
+      "reason": "《中药学》传统配伍（不是烹饪搭配建议）",
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "book_title": "中药学",
+          "pdf_page": 396,
+          "printed_page": null,
+          "chapter": "第十四章 温里药",
+          "section": null,
+          "quote": "常与生姜、白豆蔻等同用",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "with": "干姜、人参",
+      "reason": "《中药学》传统配伍（大建中汤）",
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "book_title": "中药学",
+          "pdf_page": 396,
+          "printed_page": null,
+          "chapter": "第十四章 温里药",
+          "section": null,
+          "quote": "常与干姜、人参等配伍",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "with": "砂仁、肉豆蔻",
+      "reason": "《中药学》传统配伍",
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "book_title": "中药学",
+          "pdf_page": 396,
+          "printed_page": null,
+          "chapter": "第十四章 温里药",
+          "section": null,
+          "quote": "与砂仁、肉豆蔻等同用",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "with": "乌梅、干姜、黄柏",
+      "reason": "《中药学》传统配伍（乌梅丸）",
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "book_title": "中药学",
+          "pdf_page": 396,
+          "printed_page": null,
+          "chapter": "第十四章 温里药",
+          "section": null,
+          "quote": "与乌梅、干姜、黄柏等同用",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "with": "茯苓",
+      "reason": "《中药学》传统配伍（椒苓丸）",
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "book_title": "中药学",
+          "pdf_page": 396,
+          "printed_page": null,
+          "chapter": "第十四章 温里药",
+          "section": null,
+          "quote": "与茯苓配伍",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [
+      {
+        "statement": "纱布包花椒放入米中，可防虫（书中生活窍门）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 234,
+            "printed_page": 230,
+            "chapter": "第八章 调味品",
+            "section": null,
+            "quote": "可防虫",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "原书：花椒虽可使用但不宜多用（《中国地道食材图录大全》p.230）",
+      "原书称天然调味品“有一定的毒性，可诱发恶性肿瘤”；该表述缺乏现代证据，本卡仅记录为书中说法（《中国地道食材图录大全》p.230）",
+      "《中药学》用法用量为教材临床语境，不是烹饪用量；孕妇、儿童或用药者应咨询专业人士（《中药学》PDF 396）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "又名川椒、蜀椒",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "辛,温。归脾、胃、肾经。",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "温中止痛,杀虫止痒。",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "本品气芳香,味麻且辣。",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "主产于辽宁、河北、四川,传统以四川产者为佳",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "秋季采收成熟果实",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "花椒以色紫红、无梗、无椒目者为佳",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "煎服,3~6g。外用适量,煎汤熏洗。",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "常与生姜、白豆蔻等同用",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "常与干姜、人参等配伍",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "与砂仁、肉豆蔻等同用",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "与乌梅、干姜、黄柏等同用",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MM-ZYX-2016",
+      "book_title": "中药学",
+      "pdf_page": 396,
+      "printed_page": null,
+      "chapter": "第十四章 温里药",
+      "section": null,
+      "quote": "与茯苓配伍",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "性味:味辛,性温",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "功效:温中止痛、杀虫止痒",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "应选购壳色红艳油润,果实开口而不含籽粒,手感糙硬的",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "烹饪时加入少许花椒",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "除各种肉类的腥气",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "可防虫",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "花椒虽可使用但不宜多用",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "可诱发恶性肿瘤",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 234,
+      "printed_page": 230,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "都有一定的毒性",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "花椒麻味物质的定量",
+    "不同产地/品种的系统对比",
+    "烟点/耐热性数据",
+    "书中“可诱发恶性肿瘤”说法的现代毒理学验证"
+  ]
+}

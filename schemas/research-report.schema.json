@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/research-report.schema.json",
+  "title": "Culinary Research Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "title", "question", "scope", "search_strategy", "evidence",
+    "cross_validation", "conflicts", "hypotheses", "experiment", "conclusions",
+    "limitations", "next_steps"
+  ],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "question": {"type": "string"},
+    "scope": {
+      "type": "object",
+      "required": ["sources", "excluded", "boundaries"],
+      "properties": {
+        "sources": {"type": "array", "items": {"type": "string"}},
+        "excluded": {"type": "array", "items": {"type": "string"}},
+        "boundaries": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "search_strategy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query", "source_filter", "hits", "notes"],
+        "properties": {
+          "query": {"type": "string"},
+          "source_filter": {"type": ["string", "null"]},
+          "hits": {"type": "integer", "minimum": 0},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "ingredient.schema.json#/$defs/evidence"}},
+    "cross_validation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "supporting", "contradicting", "verdict"],
+        "properties": {
+          "claim": {"type": "string"},
+          "supporting": {"type": "array", "items": {"type": "string"}},
+          "contradicting": {"type": "array", "items": {"type": "string"}},
+          "verdict": {"enum": ["supported", "partially_supported", "conflicting", "insufficient_evidence"]}
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topic", "positions", "resolution"],
+        "properties": {
+          "topic": {"type": "string"},
+          "positions": {"type": "array", "items": {"type": "string"}},
+          "resolution": {"type": "string"}
+        }
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["statement", "basis", "testable", "status"],
+        "properties": {
+          "statement": {"type": "string"},
+          "basis": {"type": "array", "items": {"type": "string"}},
+          "testable": {"type": "boolean"},
+          "status": {"enum": ["proposed", "testing", "supported", "rejected", "inconclusive"]}
+        }
+      }
+    },
+    "experiment": {
+      "type": ["object", "null"],
+      "required": ["variables", "controls", "metrics", "sample_size", "protocol", "record_template"],
+      "properties": {
+        "variables": {"type": "array", "items": {"type": "string"}},
+        "controls": {"type": "array", "items": {"type": "string"}},
+        "metrics": {"type": "array", "items": {"type": "string"}},
+        "sample_size": {"type": "string"},
+        "protocol": {"type": "array", "items": {"type": "string"}},
+        "record_template": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "conclusions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["statement", "grade", "evidence", "claim_type"],
+        "properties": {
+          "statement": {"type": "string"},
+          "grade": {"enum": ["A_original", "B_cross_source", "C_hypothesis", "D_gap"]},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "claim_type": {"enum": ["original", "cross_source_inference", "hypothesis", "gap"]}
+        }
+      }
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "next_steps": {"type": "array", "items": {"type": "string"}}
+  }
+}

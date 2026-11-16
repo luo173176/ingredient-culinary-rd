@@ -1,0 +1,442 @@
+{
+  "id": "shiitake",
+  "basic": {
+    "canonical_name_zh": "香菇",
+    "scientific_name": null,
+    "english_name": "shiitake",
+    "one_line_definition": "书中称其香气沁人、味道鲜美，记味甘性平凉，并给出热水泡发与“香菇炖杏仁”的做法。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "菌藻类",
+      "食用菌"
+    ],
+    "culinary_role": [
+      "炖",
+      "炒",
+      "提鲜"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "主产区：山东、河南、浙江、福建、台湾、广东、广西等地",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 119,
+            "printed_page": 115,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "主产区:山东、河南、浙江、福建、台湾、广东、广西等地",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "成熟期：1~2月",
+    "availability": null,
+    "notes": "书中记载：成熟期：1~2月（《中国地道食材图录大全》p.115）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "以菌盖肥厚、内侧乳白色、菇柄短者为佳",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 119,
+            "printed_page": 115,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "菌盖肥厚",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          },
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 119,
+            "printed_page": 115,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "内侧为乳白色",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          },
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 119,
+            "printed_page": 115,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "菇柄短",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [
+      "香气沁人",
+      "独特菇香"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 119,
+        "printed_page": 115,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "香气沁人",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 119,
+        "printed_page": 115,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "具有独特的菇香",
+        "extraction_method": "ocr",
+        "confidence": "low"
+      }
+    ]
+  },
+  "taste": {
+    "descriptors": [
+      "鲜美"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 119,
+        "printed_page": 115,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "味道特别鲜美",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "平、凉",
+    "flavor": "甘",
+    "meridians": null,
+    "notes": "书中记“味甘，性平、凉”，功效为益智安神、补肝益肾；属传统理论。（《中国地道食材图录大全》p.115）；传统理论，非现代医学证据。"
+  },
+  "tcm_applications": {
+    "functions": [
+      "益智安神（传统）",
+      "补肝益肾（传统）"
+    ],
+    "traditional_uses": [
+      "香菇炖杏仁（书中食疗方）",
+      "炖/炒"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 119,
+        "printed_page": 115,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "性味:味甘,性平、凉",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 119,
+        "printed_page": 115,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "功效:益智安神,补肝益肾",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "炖",
+      "炒"
+    ],
+    "preparation": [
+      "不宜冷水泡发，应用 60°C 以上热水浸泡（书中窍门）"
+    ],
+    "heat_notes": "书未给温度；泡发水温有明确提示。（《中国地道食材图录大全》p.115）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "杏仁、青豆",
+      "reason": "书中“香菇炖杏仁”配方",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 119,
+          "printed_page": 115,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "香菇炖杏仁",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "不宜冷水泡发，应用 60°C 以上热水浸泡（书中窍门）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 119,
+            "printed_page": 115,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "不宜用冷水泡发,应用热",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          },
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 119,
+            "printed_page": 115,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "六十摄氏度以上的热水中",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "书中“抗肿瘤、降低血脂”等表述不是现代临床证据，本卡不采信为结论（《中国地道食材图录大全》p.115）",
+      "干香菇泡发时间过长有微生物风险（通用食品安全提示，非四书依据）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "性味:味甘,性平、凉",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "功效:益智安神,补肝益肾",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "主产区:山东、河南、浙江、福建、台湾、广东、广西等地",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "成熟期:1~2月",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "菌盖肥厚",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "内侧为乳白色",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "菇柄短",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "香气沁人",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "味道特别鲜美",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "具有独特的菇香",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "不宜用冷水泡发,应用热",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "六十摄氏度以上的热水中",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "香菇炖杏仁",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "略煸炒",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 119,
+      "printed_page": 115,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "抗肿瘤、降低血脂等",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "品种与等级",
+    "替代方案",
+    "香气成分定量",
+    "储存条件"
+  ]
+}

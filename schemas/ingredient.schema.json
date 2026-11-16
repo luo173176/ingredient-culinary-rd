@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/ingredient.schema.json",
+  "title": "Unified Ingredient Record",
+  "description": "统一食材知识模型。所有 17 个知识域必须出现；无依据时用 null + missing_reason，不得留空后伪装成已研究。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "basic", "names", "category", "origin_variety", "seasonality",
+    "appearance_quality", "aroma", "taste", "texture", "tcm_attributes",
+    "tcm_applications", "culinary_uses", "flavor_pairings", "substitutes",
+    "processing_storage", "safety", "sources"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "basic": {
+      "type": "object",
+      "required": ["canonical_name_zh", "scientific_name", "english_name", "one_line_definition"],
+      "properties": {
+        "canonical_name_zh": {"type": "string"},
+        "scientific_name": {"type": ["string", "null"]},
+        "english_name": {"type": ["string", "null"]},
+        "one_line_definition": {"type": "string"},
+        "research_status": {"enum": ["complete", "partial", "stub"]}
+      }
+    },
+    "names": {
+      "type": "object",
+      "required": ["aliases", "alias_evidence"],
+      "properties": {
+        "aliases": {"type": "array", "items": {"type": "string"}},
+        "alias_evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "category": {
+      "type": "object",
+      "required": ["taxonomy", "culinary_role"],
+      "properties": {
+        "taxonomy": {"type": "array", "items": {"type": "string"}},
+        "culinary_role": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "origin_variety": {
+      "type": "object",
+      "required": ["origins", "varieties", "notes"],
+      "properties": {
+        "origins": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "varieties": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "seasonality": {
+      "type": "object",
+      "required": ["peak_season", "availability", "notes"],
+      "properties": {
+        "peak_season": {"type": ["string", "null"]},
+        "availability": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "appearance_quality": {
+      "type": "object",
+      "required": ["traits", "grading", "notes"],
+      "properties": {
+        "traits": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "grading": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "aroma": {"$ref": "#/$defs/sensory"},
+    "taste": {"$ref": "#/$defs/sensory"},
+    "texture": {"$ref": "#/$defs/sensory"},
+    "tcm_attributes": {
+      "type": "object",
+      "required": ["applicable", "nature", "flavor", "meridians", "notes"],
+      "properties": {
+        "applicable": {"type": "boolean"},
+        "nature": {"type": ["string", "null"]},
+        "flavor": {"type": ["string", "null"]},
+        "meridians": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"], "description": "必须注明“传统理论，非现代医学证据”"}
+      }
+    },
+    "tcm_applications": {
+      "type": "object",
+      "required": ["functions", "traditional_uses", "theory_basis", "evidence"],
+      "properties": {
+        "functions": {"type": "array", "items": {"type": "string"}},
+        "traditional_uses": {"type": "array", "items": {"type": "string"}},
+        "theory_basis": {"type": ["string", "null"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "culinary_uses": {
+      "type": "object",
+      "required": ["methods", "preparation", "heat_notes"],
+      "properties": {
+        "methods": {"type": "array", "items": {"type": "string"}},
+        "preparation": {"type": "array", "items": {"type": "string"}},
+        "heat_notes": {"type": ["string", "null"]}
+      }
+    },
+    "flavor_pairings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["with", "reason", "evidence"],
+        "properties": {
+          "with": {"type": ["string", "array"], "items": {"type": "string"}},
+          "reason": {"type": "string"},
+          "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+        }
+      }
+    },
+    "substitutes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "difference", "evidence"],
+        "properties": {
+          "name": {"type": "string"},
+          "difference": {"type": "string"},
+          "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+        }
+      }
+    },
+    "processing_storage": {
+      "type": "object",
+      "required": ["processing", "storage", "shelf_life"],
+      "properties": {
+        "processing": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "storage": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "shelf_life": {"type": ["string", "null"]}
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": ["allergens", "contraindications", "toxicity", "food_safety", "at_risk_groups"],
+      "properties": {
+        "allergens": {"type": "array", "items": {"type": "string"}},
+        "contraindications": {"type": "array", "items": {"type": "string"}},
+        "toxicity": {"type": ["string", "null"]},
+        "food_safety": {"type": "array", "items": {"type": "string"}},
+        "at_risk_groups": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/evidence"}
+    },
+    "gaps": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "四书未覆盖或不确定的字段"
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["source_id", "book_title", "pdf_page", "printed_page", "chapter", "section", "quote", "extraction_method", "confidence"],
+      "properties": {
+        "source_id": {"enum": ["MM-ZYX-2016", "CN-DIDAO-2011", "FS-SFAH-2023", "DK-INGREDIENTS"]},
+        "book_title": {"type": "string"},
+        "pdf_page": {"type": "integer", "minimum": 1},
+        "printed_page": {"type": ["integer", "null"], "minimum": 1},
+        "chapter": {"type": ["string", "null"]},
+        "section": {"type": ["string", "null"]},
+        "quote": {"type": "string", "maxLength": 600},
+        "extraction_method": {"enum": ["text_layer", "ocr", "structured_parse", "manual_review"]},
+        "confidence": {"enum": ["high", "medium", "low"]}
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": ["statement", "evidence", "claim_type"],
+      "properties": {
+        "statement": {"type": "string"},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "claim_type": {"enum": ["original", "cross_source_inference", "hypothesis", "gap"]}
+      }
+    },
+    "sensory": {
+      "type": "object",
+      "required": ["descriptors", "intensity", "evidence"],
+      "properties": {
+        "descriptors": {"type": "array", "items": {"type": "string"}},
+        "intensity": {"enum": ["none", "low", "medium", "high", "unknown"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    }
+  }
+}

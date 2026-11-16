@@ -1,0 +1,626 @@
+{
+  "id": "olive-oil",
+  "basic": {
+    "canonical_name_zh": "橄榄油",
+    "scientific_name": null,
+    "english_name": "olive oil",
+    "one_line_definition": "书中按品种与产地描述橄榄油的果香、苦涩与胡椒风味；《盐，脂，酸，热》补充了变质判断与避光储存。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "特级初榨橄榄油",
+      "初榨橄榄油"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 516,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "特级初榨橄榄油",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "油脂",
+      "调味品"
+    ],
+    "culinary_role": [
+      "烹饪介质",
+      "沙拉酱",
+      "蘸酱",
+      "增香"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "西西里岛（Tonda Iblea 示例）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "这种西西里岛出产的橄榄油",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "西班牙安达卢西亚哈恩地区（Picual 示例）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "原产于安达卢西亚的哈恩地区",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [
+      {
+        "statement": "Tonda Iblea",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "TondaIbleaoil",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "Picual",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "Picualvarietaloil",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "Coratina",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "克拉缇娜橄榄油(Coratinavarietaloil)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "Leccino",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "莱钦橄榄油(Leccinovarietaloil)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "Frantoio",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "佛良多依奥橄概油(Frantoiovarietaloil)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "Koroneiki",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 516,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "克罗内基混合橄榄油(Koroneikivarietalblend)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "劣质橄榄油：苦涩、过于辛辣、混浊、陈腐",
+        "evidence": [
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 58,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "苦涩、过于辛辣、混浊、陈腐,这些都是致命的缺点",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "色泽与品质几乎无关",
+        "evidence": [
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 58,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "橄榄油的色泽与品质几乎没有关系",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "闻起来像蜡笔/蜡烛或陈旧花生酱表层油脂味，说明已变质",
+        "evidence": [
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 58,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "你的橄榄油闻起来像不像蜡笔或蜡烛?",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          },
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 58,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "那么你的橄榄油已经变质了",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [
+      "果香",
+      "香草",
+      "胡椒"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 516,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "有着番茄的滋味,带有香草的回味和中度的苦涩感与胡椒风味",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "taste": {
+    "descriptors": [
+      "苦涩",
+      "辛辣"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 516,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "有着番茄的滋味,带有香草的回味和中度的苦涩感与胡椒风味",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 516,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "有着浓郁的苦涩和胡椒风味",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "《中药学》未收橄榄油；无传统四气五味依据。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [
+      "沙拉",
+      "蘸酱",
+      "意面",
+      "烤/煎肉类",
+      "蔬菜"
+    ],
+    "preparation": [
+      "品尝选油；避免高温加热到冒烟（烹饪提示，书未给烟点）"
+    ],
+    "heat_notes": "书未给烟点；只说不同油耐热性不同，标缺口。"
+  },
+  "flavor_pairings": [
+    {
+      "with": "番茄、罗勒、硬质干酪、烤蔬菜、鸡肉/羊肉",
+      "reason": "书中搭配与用途",
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "book_title": "食材百科全书",
+          "pdf_page": 516,
+          "printed_page": null,
+          "chapter": null,
+          "section": null,
+          "quote": "可以用作菌酱或者用于沙拉、鸡肉、羊肉以及蔬菜类菜肴中",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        },
+        {
+          "source_id": "DK-INGREDIENTS",
+          "book_title": "食材百科全书",
+          "pdf_page": 516,
+          "printed_page": null,
+          "chapter": null,
+          "section": null,
+          "quote": "有着番茄的滋味,带有香草的回味和中度的苦涩感与胡椒风味",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [
+      {
+        "statement": "低温、遮光；暗色玻璃瓶或金属瓶",
+        "evidence": [
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 59,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "请将橄榄油贮存在温度较低的遮光处",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "压榨后 12~14 个月内变质，不宜长期存放",
+        "evidence": [
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 58,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "橄榄油会在压榨后12至14个月内变质",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "油脂过敏少见但存在（通用提示，非四书依据）",
+      "高血脂/高血压人群的用油建议需专业指导，书未给"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "TondaIbleaoil",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "Picualvarietaloil",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "克拉缇娜橄榄油(Coratinavarietaloil)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "莱钦橄榄油(Leccinovarietaloil)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "佛良多依奥橄概油(Frantoiovarietaloil)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "克罗内基混合橄榄油(Koroneikivarietalblend)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "特级初榨橄榄油",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "这种西西里岛出产的橄榄油",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "原产于安达卢西亚的哈恩地区",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "有着番茄的滋味,带有香草的回味和中度的苦涩感与胡椒风味",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "有着浓郁的苦涩和胡椒风味",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 516,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "可以用作菌酱或者用于沙拉、鸡肉、羊肉以及蔬菜类菜肴中",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 58,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "苦涩、过于辛辣、混浊、陈腐,这些都是致命的缺点",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 58,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "橄榄油的色泽与品质几乎没有关系",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 58,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "你的橄榄油闻起来像不像蜡笔或蜡烛?",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 58,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "那么你的橄榄油已经变质了",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 59,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "请将橄榄油贮存在温度较低的遮光处",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 58,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "橄榄油会在压榨后12至14个月内变质",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "烟点/耐热温度",
+    "酸度/过氧化值标准",
+    "每日推荐摄入量"
+  ]
+}

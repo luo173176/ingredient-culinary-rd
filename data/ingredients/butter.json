@@ -1,0 +1,343 @@
+{
+  "id": "butter",
+  "basic": {
+    "canonical_name_zh": "黄油",
+    "scientific_name": null,
+    "english_name": "butter",
+    "one_line_definition": "书中记法国黄油适合烘焙、风味细腻、乳脂质感浓郁；《盐，脂，酸，热》解释其融化后水油分离，澄清黄油耐热性更高。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "乳制品",
+      "油脂"
+    ],
+    "culinary_role": [
+      "烘焙",
+      "煎",
+      "酱汁",
+      "增香"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "法国（书中示例）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 376,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "法国黄油非常适合用来烘焙,在其非常细腻的风味中有着浓郁的乳脂状的质地",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [
+      {
+        "statement": "普通黄油",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 376,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "法国黄油非常适合用来烘焙,在其非常细腻的风味中有着浓郁的乳脂状的质地",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "澄清黄油",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 370,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "澄清黄油这是一种去掉水分和杂质奶之后的黄油",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [
+      "乳香"
+    ],
+    "intensity": "unknown",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 376,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "法国黄油非常适合用来烘焙,在其非常细腻的风味中有着浓郁的乳脂状的质地",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "taste": {
+    "descriptors": [
+      "乳脂"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 376,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "法国黄油非常适合用来烘焙,在其非常细腻的风味中有着浓郁的乳脂状的质地",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [
+      "细腻",
+      "浓郁",
+      "乳脂状"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 376,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "法国黄油非常适合用来烘焙,在其非常细腻的风味中有着浓郁的乳脂状的质地",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "《中药学》未收黄油；无传统四气五味依据。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [
+      "烘焙",
+      "澄清后作烹调用油"
+    ],
+    "preparation": [
+      "软化/融化",
+      "澄清：去水分与杂质"
+    ],
+    "heat_notes": "书中：黄油在 32~35°C 融化；超过融化温度后水油分离；澄清黄油燃点更高。（《盐，脂，酸，热》PDF 70、《食材百科全书》PDF 370）"
+  },
+  "flavor_pairings": [],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "软化/融化",
+        "evidence": [
+          {
+            "source_id": "FS-SFAH-2023",
+            "book_title": "盐，脂，酸，热",
+            "pdf_page": 70,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "黄油从冷冻温度(0摄氏度)一直到融化温度(32~35摄氏度)都能保持固态",
+            "extraction_method": "text_layer",
+            "confidence": "high"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "澄清：去水分与杂质",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 370,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "澄清黄油这是一种去掉水分和杂质奶之后的黄油",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [
+      {
+        "statement": "冷藏；澄清黄油可在冰箱内储存数周",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 370,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "箱内储存几周的时间",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "乳制品过敏/乳糖不耐受需注意（通用提示，非四书依据）",
+      "饱和脂肪摄入需适量；书未给营养建议"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 376,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "法国黄油非常适合用来烘焙,在其非常细腻的风味中有着浓郁的乳脂状的质地",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 370,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "澄清黄油这是一种去掉水分和杂质奶之后的黄油",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 370,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "因为澄清黄油比普通黄油的燃点要高得多",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 370,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "箱内储存几周的时间",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 370,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "搅打奶油",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 70,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "黄油从冷冻温度(0摄氏度)一直到融化温度(32~35摄氏度)都能保持固态",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 70,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "黄油超过融化温度后,水分会随着油脂的融化而分离",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "book_title": "盐，脂，酸，热",
+      "pdf_page": 70,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "融化的黄油是一种分离了的乳浊液",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "烟点精确值",
+    "不同产地黄油的系统对比",
+    "营养数据",
+    "风味搭配"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "CN-DIDAO-2011": {
+    "content_start": 27,
+    "content_end": 238,
+    "chapters": [
+      {"start": 27, "chapter": "第一章 谷物和米面制品"},
+      {"start": 61, "chapter": "第二章 乳制品和蛋"},
+      {"start": 75, "chapter": "第三章 蔬菜"},
+      {"start": 125, "chapter": "第四章 水果"},
+      {"start": 160, "chapter": "第五章 坚果"},
+      {"start": 178, "chapter": "第六章 肉"},
+      {"start": 203, "chapter": "第七章 鱼虾蟹贝"},
+      {"start": 229, "chapter": "第八章 调味品"}
+    ]
+  },
+  "DK-INGREDIENTS": {
+    "content_start": 21,
+    "content_end": 531,
+    "chapters": []
+  },
+  "MM-ZYX-2016": {
+    "content_start": 62,
+    "content_end": 772,
+    "chapters": []
+  },
+  "FS-SFAH-2023": {
+    "content_start": 18,
+    "content_end": 346,
+    "chapters": []
+  }
+}

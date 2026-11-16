@@ -1,0 +1,8955 @@
+{
+  "schema_version": "1.0",
+  "role": "query_normalization",
+  "note": "book_evidenced 别名有原文页码；query_hint 仅用于检索归一化，不作为事实依据。",
+  "entries": [
+    {
+      "canonical": "丁公藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 310,
+          "printed_page": null,
+          "quote": "丁公藤（中国药典）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "丁香",
+      "aliases": [
+        "公丁香"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "三七",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 473,
+          "printed_page": null,
+          "quote": "三七（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "三文鱼",
+      "aliases": [
+        "鲑鱼",
+        "大西洋鲑"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "三棱",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 523,
+          "printed_page": null,
+          "quote": "三棱（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "丝瓜",
+      "aliases": [
+        "水瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "丝瓜络",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 325,
+          "printed_page": null,
+          "quote": "丝瓜络（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "丹参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 500,
+          "printed_page": null,
+          "quote": "丹参（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "乌梅",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 718,
+          "printed_page": null,
+          "quote": "乌梅（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "乌梢蛇",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 302,
+          "printed_page": null,
+          "quote": "乌梢蛇（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "乌药",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 416,
+          "printed_page": null,
+          "quote": "乌药（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "九香虫",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 429,
+          "printed_page": null,
+          "quote": "九香虫（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "五倍子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 719,
+          "printed_page": null,
+          "quote": "五倍子（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "五加皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 327,
+          "printed_page": null,
+          "quote": "五加皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "五味子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 716,
+          "printed_page": null,
+          "quote": "五味子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "京大戟",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 286,
+          "printed_page": null,
+          "quote": "京大戟（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "人参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 632,
+          "printed_page": null,
+          "quote": "人参（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "仙茅",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 661,
+          "printed_page": null,
+          "quote": "仙茅（海药本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "仙鹤草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 479,
+          "printed_page": null,
+          "quote": "仙鹤草（图经本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "代赭石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 601,
+          "printed_page": null,
+          "quote": "代赭石（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "以自然而然的",
+      "aliases": [
+        "叫一烧卖』"
+      ],
+      "category": "未分类",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 55,
+          "printed_page": null,
+          "quote": "水和的面°用一种中间粗、两头有把 主食所以自然而然的俗称叫一烧卖』。 酥烂、口感软糯、甜而不腻、四季皆宜°"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "伸筋草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 306,
+          "printed_page": null,
+          "quote": "伸筋草（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "何首乌",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 689,
+          "printed_page": null,
+          "quote": "何首乌（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "佛手",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 421,
+          "printed_page": null,
+          "quote": "佛手（滇南本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "佩兰",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 336,
+          "printed_page": null,
+          "quote": "佩兰（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "使君子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 446,
+          "printed_page": null,
+          "quote": "使君子（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "侧柏叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 467,
+          "printed_page": null,
+          "quote": "侧柏叶（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "僵蚕",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 616,
+          "printed_page": null,
+          "quote": "僵蚕（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "党参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 636,
+          "printed_page": null,
+          "quote": "党参（增订本草备要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "全蝎",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 614,
+          "printed_page": null,
+          "quote": "全蝎（蜀本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "八角茴香",
+      "aliases": [
+        "八角",
+        "大茴香"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "六神曲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 435,
+          "printed_page": null,
+          "quote": "六神曲（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "冬瓜",
+      "aliases": [
+        "白瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "冬瓜皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 354,
+          "printed_page": null,
+          "quote": "冬瓜皮（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "冬葵子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 369,
+          "printed_page": null,
+          "quote": "冬葵子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "冬虫夏草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 675,
+          "printed_page": null,
+          "quote": "冬虫夏草（本草从新）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "冰片",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 623,
+          "printed_page": null,
+          "quote": "冰片（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "决明子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 202,
+          "printed_page": null,
+          "quote": "决明子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "凌霄花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 511,
+          "printed_page": null,
+          "quote": "凌霄花（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "刀豆",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 430,
+          "printed_page": null,
+          "quote": "刀豆（救荒本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "刘寄奴",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 520,
+          "printed_page": null,
+          "quote": "刘寄奴（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "刺五加",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 648,
+          "printed_page": null,
+          "quote": "刺五加（全国中草药汇编）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "刺猬皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 736,
+          "printed_page": null,
+          "quote": "刺猬皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "刺蒺藜",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 603,
+          "printed_page": null,
+          "quote": "刺蒺藜（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "前胡",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 552,
+          "printed_page": null,
+          "quote": "前胡（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "北沙参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 693,
+          "printed_page": null,
+          "quote": "北沙参（本草汇言）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "千年健",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 330,
+          "printed_page": null,
+          "quote": "千年健（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "千里光",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 254,
+          "printed_page": null,
+          "quote": "千里光（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "千金子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "千金子（蜀本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "升麻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 182,
+          "printed_page": null,
+          "quote": "升麻（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "半夏",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 531,
+          "printed_page": null,
+          "quote": "半夏（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "半边莲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 249,
+          "printed_page": null,
+          "quote": "半边莲（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "南沙参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 694,
+          "printed_page": null,
+          "quote": "南沙参（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "南瓜",
+      "aliases": [
+        "倭瓜",
+        "番瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "南瓜子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 452,
+          "printed_page": null,
+          "quote": "南瓜子（现代实用中药学）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "卷心菜",
+      "aliases": [
+        "包菜",
+        "圆白菜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "历史上",
+      "aliases": [
+        "炮炙修治修事"
+      ],
+      "category": "未分类",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 90,
+          "printed_page": null,
+          "quote": "第三章 中药的炮制 中药的炮制,历史上又称“炮炙”“修治”“修事”,是指中药在应用或制 成各种剂型前,根据中医药理论,依照辨证"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "厚朴",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 339,
+          "printed_page": null,
+          "quote": "厚朴（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "原本",
+      "aliases": [
+        "为山菠菜",
+        "但是也被栽培种植"
+      ],
+      "category": "未分类",
+      "sources": [
+        "DK-INGREDIENTS",
+        "DK-INGREDIENTS"
+      ],
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "菜在欧洲和亚洲的许多温带地区的野外生长。原本俗称为山菠菜,曾经在野外密集生长,但是也被栽培种植,被当作一种蔬菜使用。在经过长久时间的沉寂之后,被人们重新当"
+        },
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "菜在欧洲和亚洲的许多温带地区的野外生长。原本俗称为山菠菜,曾经在野外密集生长,但是也被栽培种植,被当作一种蔬菜使用。在经过长久时间的沉寂之后,被人们重新当"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "合欢皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 591,
+          "printed_page": null,
+          "quote": "合欢皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "吴茱萸",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 388,
+          "printed_page": null,
+          "quote": "吴茱萸（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "咳化增强食欲",
+      "aliases": [
+        "莱生食"
+      ],
+      "category": "未分类",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 90,
+          "printed_page": 86,
+          "quote": "肠radish萝卜,味辛甘”性凉蠕动和止咳化增强食欲又名莱’生食 性味:味辛性平 功效:消积滞、化痰止咳"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "哈蟆油",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 681,
+          "printed_page": null,
+          "quote": "哈蟆油（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "商陆",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 289,
+          "printed_page": null,
+          "quote": "商陆（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "四季青",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 256,
+          "printed_page": null,
+          "quote": "四季青（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "土茯苓",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 234,
+          "printed_page": null,
+          "quote": "土茯苓（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "土荆皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 754,
+          "printed_page": null,
+          "quote": "土荆皮（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "土鳖虫",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 513,
+          "printed_page": null,
+          "quote": "土鳖虫（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "地榆",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 465,
+          "printed_page": null,
+          "quote": "地榆（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "地耳草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 376,
+          "printed_page": null,
+          "quote": "地耳草（生草药性备要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "地肤子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 366,
+          "printed_page": null,
+          "quote": "地肤子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "地锦草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 248,
+          "printed_page": null,
+          "quote": "地锦草（嘉祐本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "地骨皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 270,
+          "printed_page": null,
+          "quote": "地骨皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "地龙",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 612,
+          "printed_page": null,
+          "quote": "地龙（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "坚果",
+      "aliases": [
+        "壳果多为"
+      ],
+      "category": "水果",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 161,
+          "printed_page": null,
+          "quote": "果、核桃、榛子 含大量的维生素、微量元 坚果又称壳果’多为 板栗核桃 送子核桃开心果 松子西瓜子板"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "垂盆草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 376,
+          "printed_page": null,
+          "quote": "垂盆草（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "墨旱莲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 705,
+          "printed_page": null,
+          "quote": "墨旱莲（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "夏枯草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 201,
+          "printed_page": null,
+          "quote": "夏枯草（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "大枣",
+      "aliases": [
+        "红枣",
+        "枣"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "大白菜",
+      "aliases": [
+        "白菜",
+        "结球白菜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "大福果",
+      "aliases": [
+        "拷扁橄榄"
+      ],
+      "category": "水果",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 159,
+          "printed_page": 155,
+          "quote": "甜味渗达果核’富 李胚去核而成°个体较 大福果又名拷扁橄榄 大且肉质较厚”食用方 味别致 选用新鲜"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "大米",
+      "aliases": [
+        "粳米",
+        "稻米"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "大腹皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 427,
+          "printed_page": null,
+          "quote": "大腹皮（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "大蒜",
+      "aliases": [
+        "蒜头",
+        "蒜"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "大蓟",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 464,
+          "printed_page": null,
+          "quote": "大蓟（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "大血藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 237,
+          "printed_page": null,
+          "quote": "大血藤（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "大青叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 222,
+          "printed_page": null,
+          "quote": "大青叶（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "大黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 275,
+          "printed_page": null,
+          "quote": "大黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "天冬",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 698,
+          "printed_page": null,
+          "quote": "天冬（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "天南星",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 533,
+          "printed_page": null,
+          "quote": "天南星（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "天竺黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 551,
+          "printed_page": null,
+          "quote": "天竺黄（蜀本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "天花粉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 196,
+          "printed_page": null,
+          "quote": "天花粉（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "天麻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 610,
+          "printed_page": null,
+          "quote": "天麻（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "太子参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 637,
+          "printed_page": null,
+          "quote": "太子参（中国药用植物志）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "女贞子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 705,
+          "printed_page": null,
+          "quote": "女贞子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "奶酪",
+      "aliases": [
+        "芝士",
+        "干酪"
+      ],
+      "category": "乳蛋",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "姜黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 494,
+          "printed_page": null,
+          "quote": "姜黄（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "威灵仙",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 297,
+          "printed_page": null,
+          "quote": "威灵仙（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "娑罗子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 425,
+          "printed_page": null,
+          "quote": "娑罗子（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "密蒙花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 204,
+          "printed_page": null,
+          "quote": "密蒙花（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "寒水石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 192,
+          "printed_page": null,
+          "quote": "寒水石（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "射干",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 239,
+          "printed_page": null,
+          "quote": "射干（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "小茴香",
+      "aliases": [
+        "茴香",
+        "香丝菜"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "小蓟",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 463,
+          "printed_page": null,
+          "quote": "小蓟（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "小麦",
+      "aliases": [
+        "麦子"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "小黄鱼",
+      "aliases": [
+        "小鲜"
+      ],
+      "category": "水产",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 205,
+          "printed_page": 201,
+          "quote": "中有两颗 国三大海产°身体肥美 花黄鱼°小黄鱼又称小鲜 鱼又称大鲜、大黄花、桂 黄鱼 坚硬的石"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "山慈菇",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 251,
+          "printed_page": null,
+          "quote": "山慈菇（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "山楂",
+      "aliases": [
+        "山里红",
+        "红果"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "山茱萸",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 728,
+          "printed_page": null,
+          "quote": "山茱萸（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "山药",
+      "aliases": [
+        "淮山",
+        "怀山药",
+        "薯蓣"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "山豆根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 240,
+          "printed_page": null,
+          "quote": "山豆根（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "川乌",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 299,
+          "printed_page": null,
+          "quote": "川乌（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "川楝子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 414,
+          "printed_page": null,
+          "quote": "川楝子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "川芎",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 490,
+          "printed_page": null,
+          "quote": "川芎（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "川贝母",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 544,
+          "printed_page": null,
+          "quote": "川贝母（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "巴戟天",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 660,
+          "printed_page": null,
+          "quote": "巴戟天（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "巴豆霜",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 291,
+          "printed_page": null,
+          "quote": "巴豆霜（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "带鱼",
+      "aliases": [
+        "牙带鱼"
+      ],
+      "category": "水产",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 204,
+          "printed_page": 200,
+          "quote": "定的 含有优质蛋白质、丰富脂 产地分布 带鱼又名牙带鱼、刀 青PD主产地:沿海各省 w.gapdf"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "常山",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 740,
+          "printed_page": null,
+          "quote": "常山（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "干姜",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 384,
+          "printed_page": null,
+          "quote": "干姜（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "干酪传统的享",
+      "aliases": [
+        "杰克"
+      ],
+      "category": "未分类",
+      "sources": [
+        "DK-INGREDIENTS"
+      ],
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 399,
+          "printed_page": null,
+          "quote": "桃滋味,并有一丝山花的气息。萨瓦瑞布罗申干酪传统的享俗称“杰克”,这是一种最受欢迎的北美风味干酪之一。刚制用方法是搭配脆皮农家面包、当地风味"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "广藿香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 334,
+          "printed_page": null,
+          "quote": "广藿香（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "延胡索",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 491,
+          "printed_page": null,
+          "quote": "延胡索（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "开心果",
+      "aliases": [
+        "阿月浑子"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "当归",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 683,
+          "printed_page": null,
+          "quote": "当归（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "当时",
+      "aliases": [
+        "一小饼一或一月"
+      ],
+      "category": "未分类",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 55,
+          "printed_page": null,
+          "quote": "是用来祭 f.com ,后来流传到民间 当时俗称一小饼一或一月 称「梢卖』一‘°如今烧卖已成了美味可口"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "徐长卿",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 298,
+          "printed_page": null,
+          "quote": "徐长卿（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "所以",
+      "aliases": [
+        "牛俐生菜",
+        "为菊"
+      ],
+      "category": "未分类",
+      "sources": [
+        "CN-DIDAO-2011",
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 95,
+          "printed_page": 91,
+          "quote": ",油麦菜属于叶用莴苣的变种,与生菜相近,所以又名“牛俐生菜”。 选购指南选购时要选择叶片上带有光泽,"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 102,
+          "printed_page": 98,
+          "quote": "香味,鲜香嫩脆 分运出体外,对于 菊花’所以又称为菊 不备。它的形状类似 可以同食”有特殊 "
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "扇贝",
+      "aliases": [
+        "带子"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "拳参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 231,
+          "printed_page": null,
+          "quote": "拳参（图经本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "故在国外",
+      "aliases": [
+        "星梨"
+      ],
+      "category": "未分类",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 131,
+          "printed_page": 127,
+          "quote": ",约重100~200g,皮很薄,果角星,故在国外又称“星梨”。果汁丰富,宜于生食,入口滑润。 实大而"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "故石菖蒲",
+      "aliases": [
+        "九节菖蒲"
+      ],
+      "category": "未分类",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 628,
+          "printed_page": null,
+          "quote": "古代本草文献称石菖蒲以“一寸九节者良”,故石菖蒲亦称九节菖蒲。 但现代商品药材所用之九节菖蒲为毛茛科"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "斑蝥",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 526,
+          "printed_page": null,
+          "quote": "斑蝥（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "旋覆花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 540,
+          "printed_page": null,
+          "quote": "旋覆花（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "昆布",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 556,
+          "printed_page": null,
+          "quote": "昆布（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "昆明山海棠",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 310,
+          "printed_page": null,
+          "quote": "昆明山海棠（滇南本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "月季花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 510,
+          "printed_page": null,
+          "quote": "月季花（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "有着众多的",
+      "aliases": [
+        "原产于北美",
+        "南美的热带地区",
+        "在菲律宾",
+        "红玛宾被称之为"
+      ],
+      "category": "未分类",
+      "sources": [
+        "DK-INGREDIENTS",
+        "DK-INGREDIENTS",
+        "DK-INGREDIENTS",
+        "DK-INGREDIENTS"
+      ],
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 474,
+          "printed_page": null,
+          "quote": "叫作西班牙李子和乔克特(jocote),有着众多的俗称,原产于北美和南美的热带地区,但是目前在菲律宾也有种植,在菲律宾,红玛宾被称之为丝尼古拉。其肉质在深红色与红色之间,椭圆"
+        },
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 474,
+          "printed_page": null,
+          "quote": "叫作西班牙李子和乔克特(jocote),有着众多的俗称,原产于北美和南美的热带地区,但是目前在菲律宾也有种植,在菲律宾,红玛宾被称之为丝尼古拉。其肉质在深红色与红色之间,椭圆"
+        },
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 474,
+          "printed_page": null,
+          "quote": "叫作西班牙李子和乔克特(jocote),有着众多的俗称,原产于北美和南美的热带地区,但是目前在菲律宾也有种植,在菲律宾,红玛宾被称之为丝尼古拉。其肉质在深红色与红色之间,椭圆"
+        },
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 474,
+          "printed_page": null,
+          "quote": "叫作西班牙李子和乔克特(jocote),有着众多的俗称,原产于北美和南美的热带地区,但是目前在菲律宾也有种植,在菲律宾,红玛宾被称之为丝尼古拉。其肉质在深红色与红色之间,椭圆"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "木瓜",
+      "aliases": [
+        "番木瓜"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "木蝴蝶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 243,
+          "printed_page": null,
+          "quote": "木蝴蝶（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "木贼",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 188,
+          "printed_page": null,
+          "quote": "木贼（嘉祐本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "木通",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 361,
+          "printed_page": null,
+          "quote": "木通（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "木香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 409,
+          "printed_page": null,
+          "quote": "木香（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "朱砂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 581,
+          "printed_page": null,
+          "quote": "朱砂（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "杏仁茶",
+      "aliases": [
+        "杏仁酪或杏酪"
+      ],
+      "category": "水果",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 164,
+          "printed_page": 160,
+          "quote": "就喜食 泽而颜如玉° 杨贵妃喜欢用杏仁 杏仁茶又称杏仁酪或杏酪,是由宫廷传入民间的一种风味小吃。色泽艳丽,香 味纯正,滋补益寿。 材料"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "杜仲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 664,
+          "printed_page": null,
+          "quote": "杜仲（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "松子",
+      "aliases": [
+        "松子仁"
+      ],
+      "category": "坚果种子",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "松子仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 283,
+          "printed_page": null,
+          "quote": "松子仁（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "板蓝根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 223,
+          "printed_page": null,
+          "quote": "板蓝根（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "枇杷叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 571,
+          "printed_page": null,
+          "quote": "枇杷叶（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "枳实",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 407,
+          "printed_page": null,
+          "quote": "枳实（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "枳椇子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 357,
+          "printed_page": null,
+          "quote": "枳椇子（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "枸杞子",
+      "aliases": [
+        "枸杞",
+        "宁夏枸杞"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "柏子仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 588,
+          "printed_page": null,
+          "quote": "柏子仁（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "柑橘",
+      "aliases": [
+        "橘子",
+        "桔子"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "柚子",
+      "aliases": [
+        "文旦",
+        "柚"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "柠檬",
+      "aliases": [
+        "柠果"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "柴胡",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 180,
+          "printed_page": null,
+          "quote": "柴胡（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "柿蒂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 431,
+          "printed_page": null,
+          "quote": "柿蒂（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "栀子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 200,
+          "printed_page": null,
+          "quote": "栀子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "栗子",
+      "aliases": [
+        "板栗"
+      ],
+      "category": "坚果种子",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "核桃",
+      "aliases": [
+        "胡桃"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "核桃仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 674,
+          "printed_page": null,
+          "quote": "核桃仁（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "栽培者",
+      "aliases": [
+        "园参"
+      ],
+      "category": "未分类",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 632,
+          "printed_page": null,
+          "quote": "质量最好,称吉林 参。野生者名“山参”;栽培者俗称“园参”。播种在山林野生状态下自然生 长的称“林"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桂枝",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 150,
+          "printed_page": null,
+          "quote": "桂枝（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桂皮",
+      "aliases": [
+        "肉桂",
+        "官桂或"
+      ],
+      "category": "调味",
+      "sources": [
+        "CN-DIDAO-2011",
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 234,
+          "printed_page": 230,
+          "quote": "去解腻 cassi 香气馥郁’可令肉类 桂皮又称肉桂、官桂或 ”又为食 性味:味辛、甘,性温 功效:"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 234,
+          "printed_page": 230,
+          "quote": "去解腻 cassi 香气馥郁’可令肉类 桂皮又称肉桂、官桂或 ”又为食 性味:味辛、甘,性温 功效:"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桃",
+      "aliases": [
+        "水蜜桃"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "桑叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 176,
+          "printed_page": null,
+          "quote": "桑叶（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桑寄生",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 328,
+          "printed_page": null,
+          "quote": "桑寄生（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桑枝",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 318,
+          "printed_page": null,
+          "quote": "桑枝（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桑椹",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 706,
+          "printed_page": null,
+          "quote": "桑椹（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桑白皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 573,
+          "printed_page": null,
+          "quote": "桑白皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桑螵蛸",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 730,
+          "printed_page": null,
+          "quote": "桑螵蛸（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "桔梗",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 553,
+          "printed_page": null,
+          "quote": "桔梗（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "梅花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 424,
+          "printed_page": null,
+          "quote": "梅花（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "梨",
+      "aliases": [
+        "雪梨",
+        "鸭梨"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "棕榈炭",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 481,
+          "printed_page": null,
+          "quote": "棕榈炭（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "椿皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 737,
+          "printed_page": null,
+          "quote": "椿皮（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "榧子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 458,
+          "printed_page": null,
+          "quote": "榧子（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "槐花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 466,
+          "printed_page": null,
+          "quote": "槐花（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "槟榔",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 450,
+          "printed_page": null,
+          "quote": "槟榔（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "樟脑",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 756,
+          "printed_page": null,
+          "quote": "樟脑（本草品汇精要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "樱桃",
+      "aliases": [
+        "车厘子"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "橄榄油",
+      "aliases": [
+        "洋橄榄油"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "橘皮",
+      "aliases": [
+        "陈皮",
+        "可理气"
+      ],
+      "category": "水果",
+      "sources": [
+        "CN-DIDAO-2011",
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 149,
+          "printed_page": 145,
+          "quote": ",但不宜用鲜 前”将其洗净晒干后冲饮” 橘皮又名陈皮,可理气、健 皮”向内折成双层”将皮中 进冰箱”可排"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 149,
+          "printed_page": 145,
+          "quote": ",但不宜用鲜 前”将其洗净晒干后冲饮” 橘皮又名陈皮,可理气、健 皮”向内折成双层”将皮中 进冰箱”可排"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "橙",
+      "aliases": [
+        "甜橙",
+        "脐橙"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "檀香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 413,
+          "printed_page": null,
+          "quote": "檀香（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "款冬花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 569,
+          "printed_page": null,
+          "quote": "款冬花（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "水牛角",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 266,
+          "printed_page": null,
+          "quote": "水牛角（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "沉香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 411,
+          "printed_page": null,
+          "quote": "沉香（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "沙棘",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 651,
+          "printed_page": null,
+          "quote": "沙棘（晶珠本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "沙苑子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 672,
+          "printed_page": null,
+          "quote": "沙苑子（本草衍义）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "没药",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 497,
+          "printed_page": null,
+          "quote": "没药（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "油松节",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 307,
+          "printed_page": null,
+          "quote": "油松节（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "泽兰",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 505,
+          "printed_page": null,
+          "quote": "泽兰（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "泽泻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 353,
+          "printed_page": null,
+          "quote": "泽泻（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "洋葱",
+      "aliases": [
+        "圆葱",
+        "球葱"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "洋金花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 578,
+          "printed_page": null,
+          "quote": "洋金花（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "浙贝母",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 546,
+          "printed_page": null,
+          "quote": "浙贝母（轩岐救正论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "浮小麦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 714,
+          "printed_page": null,
+          "quote": "浮小麦（本草蒙筌）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "浮萍",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 187,
+          "printed_page": null,
+          "quote": "浮萍（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海带",
+      "aliases": [
+        "昆布"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "海桐皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 320,
+          "printed_page": null,
+          "quote": "海桐皮（海药本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海浮石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 560,
+          "printed_page": null,
+          "quote": "海浮石（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海狗肾",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 679,
+          "printed_page": null,
+          "quote": "海狗肾（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海藻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 555,
+          "printed_page": null,
+          "quote": "海藻（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海蛤壳",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 559,
+          "printed_page": null,
+          "quote": "海蛤壳（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海螵蛸",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 731,
+          "printed_page": null,
+          "quote": "海螵蛸（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海金沙",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 367,
+          "printed_page": null,
+          "quote": "海金沙（嘉祐本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海风藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 308,
+          "printed_page": null,
+          "quote": "海风藤（本草再新）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "海马",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 680,
+          "printed_page": null,
+          "quote": "海马（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "淡竹叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 198,
+          "printed_page": null,
+          "quote": "淡竹叶（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "淡豆豉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 186,
+          "printed_page": null,
+          "quote": "淡豆豉（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "淫羊藿",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 659,
+          "printed_page": null,
+          "quote": "淫羊藿（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "滑石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 360,
+          "printed_page": null,
+          "quote": "滑石（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "漏芦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 233,
+          "printed_page": null,
+          "quote": "漏芦（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "火麻仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 282,
+          "printed_page": null,
+          "quote": "火麻仁（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "灯心草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 370,
+          "printed_page": null,
+          "quote": "灯心草（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "灵芝",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 589,
+          "printed_page": null,
+          "quote": "灵芝（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "灶心土",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 486,
+          "printed_page": null,
+          "quote": "灶心土（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "炉甘石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 770,
+          "printed_page": null,
+          "quote": "炉甘石（本草品汇精要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "炮姜",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 485,
+          "printed_page": null,
+          "quote": "炮姜（珍珠囊）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "熊胆粉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 252,
+          "printed_page": null,
+          "quote": "熊胆粉（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "熟地黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 685,
+          "printed_page": null,
+          "quote": "熟地黄（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "燕麦",
+      "aliases": [
+        "莜麦"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "牛奶",
+      "aliases": [
+        "牛乳"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "牛油果",
+      "aliases": [
+        "鳄梨",
+        "油梨"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "牛肉",
+      "aliases": [
+        "黄牛肉",
+        "水牛肉"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "牛膝",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 506,
+          "printed_page": null,
+          "quote": "牛膝（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "牛蒡子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 173,
+          "printed_page": null,
+          "quote": "牛蒡子（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "牛黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 606,
+          "printed_page": null,
+          "quote": "牛黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "牡丹皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 262,
+          "printed_page": null,
+          "quote": "牡丹皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "牡蛎",
+      "aliases": [
+        "生蚝",
+        "蚝"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "牵牛子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 290,
+          "printed_page": null,
+          "quote": "牵牛子（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "狗脊",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 329,
+          "printed_page": null,
+          "quote": "狗脊（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "独活",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 296,
+          "printed_page": null,
+          "quote": "独活（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "猕猴桃",
+      "aliases": [
+        "奇异果"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "猪肉",
+      "aliases": [
+        "豚肉"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "猪苓",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 352,
+          "printed_page": null,
+          "quote": "猪苓（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "猫爪草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 542,
+          "printed_page": null,
+          "quote": "猫爪草（中药材手册）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "玄参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 261,
+          "printed_page": null,
+          "quote": "玄参（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "玉竹",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 701,
+          "printed_page": null,
+          "quote": "玉竹（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "玉米",
+      "aliases": [
+        "苞米",
+        "玉蜀黍",
+        "包谷丶包"
+      ],
+      "category": "谷物",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 34,
+          "printed_page": 30,
+          "quote": "棒子、玉蜀黍等’是 ’中美洲的印第安人 玉米又称包谷丶包 对人体的健康非常 别名:玉米、包谷 性"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "玉米须",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 355,
+          "printed_page": null,
+          "quote": "玉米须（滇南本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "王不留行",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 509,
+          "printed_page": null,
+          "quote": "王不留行（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "玫瑰花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 423,
+          "printed_page": null,
+          "quote": "玫瑰花（食物本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "珍珠",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 608,
+          "printed_page": null,
+          "quote": "珍珠（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "珍珠母",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 597,
+          "printed_page": null,
+          "quote": "珍珠母（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "珍珠草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 378,
+          "printed_page": null,
+          "quote": "珍珠草（生草药性备要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "琥珀",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 585,
+          "printed_page": null,
+          "quote": "琥珀（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "瓜蒌",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 547,
+          "printed_page": null,
+          "quote": "瓜蒌（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "瓦楞子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 561,
+          "printed_page": null,
+          "quote": "瓦楞子（本草备要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "甘松",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 428,
+          "printed_page": null,
+          "quote": "甘松（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "甘草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 645,
+          "printed_page": null,
+          "quote": "甘草（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "甘薯",
+      "aliases": [
+        "红薯",
+        "地瓜",
+        "番薯"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "甘遂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 285,
+          "printed_page": null,
+          "quote": "甘遂（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "甜瓜",
+      "aliases": [
+        "香瓜",
+        "哈密瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "甜瓜蒂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 742,
+          "printed_page": null,
+          "quote": "甜瓜蒂（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "甜面酱",
+      "aliases": [
+        "甜酱"
+      ],
+      "category": "谷物",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 239,
+          "printed_page": 235,
+          "quote": "状调味品° 甜面酱又称甜酱’ 发酵而成的一种酱 以面粉为主原料 史°"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "生地黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 259,
+          "printed_page": null,
+          "quote": "生地黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "生姜",
+      "aliases": [
+        "姜",
+        "鲜姜",
+        "姜块"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "生菜",
+      "aliases": [
+        "叶用莴苣"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "甲鱼",
+      "aliases": [
+        "团鱼等"
+      ],
+      "category": "水产",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 223,
+          "printed_page": 219,
+          "quote": "le 75g 水分 经常食用甲鱼肉,能 甲鱼俗称团鱼等 2.1g 碳水化合物 17.8g 蛋白"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "番泻叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 279,
+          "printed_page": null,
+          "quote": "番泻叶（饮片新参）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "番茄",
+      "aliases": [
+        "西红柿",
+        "洋柿子"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "白前",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 541,
+          "printed_page": null,
+          "quote": "白前（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白及",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 478,
+          "printed_page": null,
+          "quote": "白及（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白头翁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 244,
+          "printed_page": null,
+          "quote": "白头翁（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白扁豆",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 644,
+          "printed_page": null,
+          "quote": "白扁豆（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白术",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 641,
+          "printed_page": null,
+          "quote": "白术（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白果",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 575,
+          "printed_page": null,
+          "quote": "白果（日用本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白矾",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 751,
+          "printed_page": null,
+          "quote": "白矾（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白糖",
+      "aliases": [
+        "白砂糖",
+        "砂糖"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "白色耦米",
+      "aliases": [
+        "如寿司米等"
+      ],
+      "category": "谷物",
+      "sources": [
+        "DK-INGREDIENTS"
+      ],
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "pdf_page": 501,
+          "printed_page": null,
+          "quote": "糯米(white stickyrice)白色耦米又称之为黏米或者甜糯米,这些米趋向于短粒米品种,如寿司米等。自色耦米在加热的过程中会变得有黏性,因"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白芍",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 686,
+          "printed_page": null,
+          "quote": "白芍（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白花蛇舌草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 250,
+          "printed_page": null,
+          "quote": "白花蛇舌草（广西中药志）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白芷",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 160,
+          "printed_page": null,
+          "quote": "白芷（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白茅根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 469,
+          "printed_page": null,
+          "quote": "白茅根（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白蔹",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 255,
+          "printed_page": null,
+          "quote": "白蔹（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白薇",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 269,
+          "printed_page": null,
+          "quote": "白薇（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白豆蔻",
+      "aliases": [
+        "豆蔻",
+        "白蔻"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "白附子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 535,
+          "printed_page": null,
+          "quote": "白附子（中药志）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "白鲜皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 215,
+          "printed_page": null,
+          "quote": "白鲜皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "百合",
+      "aliases": [
+        "百合瓣"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "百部",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 567,
+          "printed_page": null,
+          "quote": "百部（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "皂荚",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 538,
+          "printed_page": null,
+          "quote": "皂荚（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "皮蛋",
+      "aliases": [
+        "松花蛋"
+      ],
+      "category": "乳蛋",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 69,
+          "printed_page": 65,
+          "quote": " 蛋白质 ”纯碱’食盐” 口感鲜滑爽口 皮蛋又称松花蛋 10.7g 脂肪 4.5g 碳水化合物"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "益智仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 670,
+          "printed_page": null,
+          "quote": "益智仁（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "益母草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 504,
+          "printed_page": null,
+          "quote": "益母草（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "盐",
+      "aliases": [
+        "食盐",
+        "海盐",
+        "精盐"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "瞿麦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 364,
+          "printed_page": null,
+          "quote": "瞿麦（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "知母",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 193,
+          "printed_page": null,
+          "quote": "知母（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "矮地茶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 576,
+          "printed_page": null,
+          "quote": "矮地茶（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "石决明",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 596,
+          "printed_page": null,
+          "quote": "石决明（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "石斛",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 699,
+          "printed_page": null,
+          "quote": "石斛（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "石榴皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 723,
+          "printed_page": null,
+          "quote": "石榴皮（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "石膏",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 191,
+          "printed_page": null,
+          "quote": "石膏（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "石菖蒲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 627,
+          "printed_page": null,
+          "quote": "石菖蒲（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "石韦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 368,
+          "printed_page": null,
+          "quote": "石韦（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "砂仁",
+      "aliases": [
+        "缩砂仁",
+        "阳春砂"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "砒石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 766,
+          "printed_page": null,
+          "quote": "砒石（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "硫黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 750,
+          "printed_page": null,
+          "quote": "硫黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "硼砂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 772,
+          "printed_page": null,
+          "quote": "硼砂（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "磁石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 582,
+          "printed_page": null,
+          "quote": "磁石（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "礞石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 562,
+          "printed_page": null,
+          "quote": "礞石（嘉祐本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "禹余粮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 726,
+          "printed_page": null,
+          "quote": "禹余粮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "秋葵",
+      "aliases": [
+        "羊角豆"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "秦皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 213,
+          "printed_page": null,
+          "quote": "秦皮（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "秦艽",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 315,
+          "printed_page": null,
+          "quote": "秦艽（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "稻芽",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 439,
+          "printed_page": null,
+          "quote": "稻芽（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "穿山甲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 527,
+          "printed_page": null,
+          "quote": "穿山甲（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "穿山龙",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 313,
+          "printed_page": null,
+          "quote": "穿山龙（东北药用植物志）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "穿心莲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 220,
+          "printed_page": null,
+          "quote": "穿心莲（岭南采药录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "章鱼",
+      "aliases": [
+        "八爪鱼"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "竹叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 197,
+          "printed_page": null,
+          "quote": "竹叶（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "竹沥",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 550,
+          "printed_page": null,
+          "quote": "竹沥（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "竹笋",
+      "aliases": [
+        "笋",
+        "春笋",
+        "冬笋"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "竹茹",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 549,
+          "printed_page": null,
+          "quote": "竹茹（本草经集注）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "糯稻根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 715,
+          "printed_page": null,
+          "quote": "糯稻根（本草再新）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "糯米",
+      "aliases": [
+        "江米"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "紫河车",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 658,
+          "printed_page": null,
+          "quote": "紫河车（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫珠叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 480,
+          "printed_page": null,
+          "quote": "紫珠叶（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫石英",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 678,
+          "printed_page": null,
+          "quote": "紫石英（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫花地丁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 228,
+          "printed_page": null,
+          "quote": "紫花地丁（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫苏叶",
+      "aliases": [
+        "紫苏",
+        "白苏"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "紫苏子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 566,
+          "printed_page": null,
+          "quote": "紫苏子（本草经集注）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 265,
+          "printed_page": null,
+          "quote": "紫草（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫菀",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 568,
+          "printed_page": null,
+          "quote": "紫菀（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "紫菜",
+      "aliases": [
+        "坛紫菜",
+        "条斑紫菜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "紫贝齿",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 600,
+          "printed_page": null,
+          "quote": "紫贝齿（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "红景天",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 650,
+          "printed_page": null,
+          "quote": "红景天（四部医典）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "红粉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 762,
+          "printed_page": null,
+          "quote": "红粉（外科大成）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "红糖",
+      "aliases": [
+        "赤砂糖",
+        "黑糖"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "细辛",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 162,
+          "printed_page": null,
+          "quote": "细辛（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "络石藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 321,
+          "printed_page": null,
+          "quote": "络石藤（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "绞股蓝",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 649,
+          "printed_page": null,
+          "quote": "绞股蓝（救荒本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "续断",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 665,
+          "printed_page": null,
+          "quote": "续断（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "绿豆",
+      "aliases": [
+        "青小豆"
+      ],
+      "category": "本草",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 40,
+          "printed_page": 36,
+          "quote": "颜色青绿而得名 增强体力 世长谷一之称 绿豆又名青小豆 补充营养 ,济 别名:豆、植豆 性味:"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "罂粟壳",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 720,
+          "printed_page": null,
+          "quote": "罂粟壳（本草发挥）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "罗布麻叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 604,
+          "printed_page": null,
+          "quote": "罗布麻叶（救荒本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "羊肉",
+      "aliases": [
+        "绵羊肉",
+        "山羊肉"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "羊蹄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 471,
+          "printed_page": null,
+          "quote": "羊蹄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "羌活",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 159,
+          "printed_page": null,
+          "quote": "羌活（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "羚羊角",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 605,
+          "printed_page": null,
+          "quote": "羚羊角（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "老鹳草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 324,
+          "printed_page": null,
+          "quote": "老鹳草（救荒本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "肉桂",
+      "aliases": [
+        "桂皮"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "肉苁蓉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 666,
+          "printed_page": null,
+          "quote": "肉苁蓉（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "肉豆蔻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 724,
+          "printed_page": null,
+          "quote": "肉豆蔻（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "胆矾",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 744,
+          "printed_page": null,
+          "quote": "胆矾（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "胖大海",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 554,
+          "printed_page": null,
+          "quote": "胖大海（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "胡椒",
+      "aliases": [
+        "白胡椒",
+        "黑胡椒"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "胡芦巴",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 663,
+          "printed_page": null,
+          "quote": "胡芦巴（嘉祐本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "胡荽",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 169,
+          "printed_page": null,
+          "quote": "胡荽（食疗本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "胡萝卜",
+      "aliases": [
+        "红萝卜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "胡黄连",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 272,
+          "printed_page": null,
+          "quote": "胡黄连（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "腰果",
+      "aliases": [
+        "鸡腰果"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "自然铜",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 515,
+          "printed_page": null,
+          "quote": "自然铜（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "臭梧桐",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 319,
+          "printed_page": null,
+          "quote": "臭梧桐（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "艾叶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 484,
+          "printed_page": null,
+          "quote": "艾叶（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芒果",
+      "aliases": [
+        "杧果"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "芒硝",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 277,
+          "printed_page": null,
+          "quote": "芒硝（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芜荑",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 460,
+          "printed_page": null,
+          "quote": "芜荑（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芝麻",
+      "aliases": [
+        "胡麻"
+      ],
+      "category": "坚果种子",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "芡实",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 735,
+          "printed_page": null,
+          "quote": "芡实（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芥子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 537,
+          "printed_page": null,
+          "quote": "芥子（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芦根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 195,
+          "printed_page": null,
+          "quote": "芦根（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芦荟",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 280,
+          "printed_page": null,
+          "quote": "芦荟（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芫花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 287,
+          "printed_page": null,
+          "quote": "芫花（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "花椒",
+      "aliases": [
+        "川椒",
+        "蜀椒",
+        "秦椒"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "花椰菜",
+      "aliases": [
+        "菜花",
+        "花菜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "花生",
+      "aliases": [
+        "落花生",
+        "长生果"
+      ],
+      "category": "坚果种子",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "花蕊石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 477,
+          "printed_page": null,
+          "quote": "花蕊石（嘉祐本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "芹菜",
+      "aliases": [
+        "旱芹",
+        "药芹"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "苋菜",
+      "aliases": [
+        "野苋菜"
+      ],
+      "category": "蔬菜",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 97,
+          "printed_page": 93,
+          "quote": "白质和 amaranth 31kcal 苋菜又名野苋菜 2.8g 它还有清 5.9g 0.4g"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苍术",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 337,
+          "printed_page": null,
+          "quote": "苍术（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苍耳子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 165,
+          "printed_page": null,
+          "quote": "苍耳子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苎麻根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 470,
+          "printed_page": null,
+          "quote": "苎麻根（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苏合香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 625,
+          "printed_page": null,
+          "quote": "苏合香（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苏木",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 516,
+          "printed_page": null,
+          "quote": "苏木（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苦参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 214,
+          "printed_page": null,
+          "quote": "苦参（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苦杏仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 564,
+          "printed_page": null,
+          "quote": "苦杏仁（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苦楝皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 448,
+          "printed_page": null,
+          "quote": "苦楝皮（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "苦瓜",
+      "aliases": [
+        "凉瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "茄子",
+      "aliases": [
+        "落苏"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "茜草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 474,
+          "printed_page": null,
+          "quote": "茜草（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "茯苓",
+      "aliases": [
+        "云苓",
+        "白茯苓"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "茵陈",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 372,
+          "printed_page": null,
+          "quote": "茵陈（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "荆芥",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 156,
+          "printed_page": null,
+          "quote": "荆芥（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "草果",
+      "aliases": [
+        "草果仁"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "草莓",
+      "aliases": [
+        "士多啤梨"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "草豆蔻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 345,
+          "printed_page": null,
+          "quote": "草豆蔻（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "荔枝核",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 418,
+          "printed_page": null,
+          "quote": "荔枝核（本草衍义）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "荜澄茄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 400,
+          "printed_page": null,
+          "quote": "荜澄茄（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "荜茇",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 399,
+          "printed_page": null,
+          "quote": "荜茇（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "荞麦",
+      "aliases": [
+        "三角麦"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "荸荠",
+      "aliases": [
+        "马蹄",
+        "地栗"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "莪术",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 522,
+          "printed_page": null,
+          "quote": "莪术（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "莱菔子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 441,
+          "printed_page": null,
+          "quote": "莱菔子（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "莲子",
+      "aliases": [
+        "莲实",
+        "藕实"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "莲藕",
+      "aliases": [
+        "藕"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "莴笋",
+      "aliases": [
+        "莴苣"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "菊花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 177,
+          "printed_page": null,
+          "quote": "菊花（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "菟丝子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 671,
+          "printed_page": null,
+          "quote": "菟丝子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "菠菜",
+      "aliases": [
+        "波斯菜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "菠萝",
+      "aliases": [
+        "凤梨"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "萆薢",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 371,
+          "printed_page": null,
+          "quote": "萆薢（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "萝卜",
+      "aliases": [
+        "白萝卜",
+        "莱菔"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "萹蓄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 365,
+          "printed_page": null,
+          "quote": "萹蓄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "葛根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "葛根（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "葡萄",
+      "aliases": [
+        "提子"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "葫芦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 355,
+          "printed_page": null,
+          "quote": "葫芦（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "葱",
+      "aliases": [
+        "大葱",
+        "小葱",
+        "香葱"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "葱白",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 168,
+          "printed_page": null,
+          "quote": "葱白（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "葶苈子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 574,
+          "printed_page": null,
+          "quote": "葶苈子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蒲公英",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 227,
+          "printed_page": null,
+          "quote": "蒲公英（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蒲黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 475,
+          "printed_page": null,
+          "quote": "蒲黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蓝莓",
+      "aliases": [
+        "越橘"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "蔓荆子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 179,
+          "printed_page": null,
+          "quote": "蔓荆子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蕲蛇",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 301,
+          "printed_page": null,
+          "quote": "蕲蛇（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "薄荷",
+      "aliases": [
+        "银丹草"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "薏苡仁",
+      "aliases": [
+        "薏米",
+        "苡仁"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "薤白",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 426,
+          "printed_page": null,
+          "quote": "薤白（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "藁本",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 164,
+          "printed_page": null,
+          "quote": "藁本（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "藜芦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 746,
+          "printed_page": null,
+          "quote": "藜芦（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "虎杖",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 374,
+          "printed_page": null,
+          "quote": "虎杖（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "虻虫",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 525,
+          "printed_page": null,
+          "quote": "虻虫（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "虾",
+      "aliases": [
+        "对虾",
+        "明虾",
+        "基围虾"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "蚕沙",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 305,
+          "printed_page": null,
+          "quote": "蚕沙（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蚕豆",
+      "aliases": [
+        "胡豆"
+      ],
+      "category": "谷物",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 42,
+          "printed_page": 38,
+          "quote": "broad bean 11.1g 水分 蚕豆又称胡豆、佛 .21.6g. 蛋白质 碳水化合物61"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蛇床子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 753,
+          "printed_page": null,
+          "quote": "蛇床子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蛤蚧",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 673,
+          "printed_page": null,
+          "quote": "蛤蚧（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蛤蜊",
+      "aliases": [
+        "花蛤",
+        "文蛤"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "蜂房",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 755,
+          "printed_page": null,
+          "quote": "蜂房（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蜂蜜",
+      "aliases": [
+        "蜜",
+        "白蜜"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "蜈蚣",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 615,
+          "printed_page": null,
+          "quote": "蜈蚣（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蝉蜕",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 174,
+          "printed_page": null,
+          "quote": "蝉蜕（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "蟹",
+      "aliases": [
+        "河蟹",
+        "大闸蟹",
+        "海蟹"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "蟾酥",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 758,
+          "printed_page": null,
+          "quote": "蟾酥（药性本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "血余炭",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 482,
+          "printed_page": null,
+          "quote": "血余炭（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "血竭",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 518,
+          "printed_page": null,
+          "quote": "血竭（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "补骨脂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 668,
+          "printed_page": null,
+          "quote": "补骨脂（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "裙带菜",
+      "aliases": [
+        "厂若布"
+      ],
+      "category": "蔬菜",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 113,
+          "printed_page": 109,
+          "quote": "小宝库 vagum 热量 16kcal 裙带菜又称厂若布 940mg 胡萝卜素 、智力发育极为 "
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "西兰花",
+      "aliases": [
+        "青花菜",
+        "绿菜花"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "西河柳",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 170,
+          "printed_page": null,
+          "quote": "西河柳（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "西洋参",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 634,
+          "printed_page": null,
+          "quote": "西洋参（增订本草备要）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "西瓜",
+      "aliases": [
+        "寒瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "覆盆子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 729,
+          "printed_page": null,
+          "quote": "覆盆子（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "诃子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 722,
+          "printed_page": null,
+          "quote": "诃子（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "谷精草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 189,
+          "printed_page": null,
+          "quote": "谷精草（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "豆腐",
+      "aliases": [
+        "水豆腐",
+        "嫩豆腐"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "豆蔻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 343,
+          "printed_page": null,
+          "quote": "豆蔻（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "豌豆",
+      "aliases": [
+        "雪豆"
+      ],
+      "category": "谷物",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 39,
+          "printed_page": null,
+          "quote": "豆、留豆等 ,种子可食用°豌豆 pea 豌豆又名雪豆、寨 ”又可磨成豌 ,也常被用 每100g豌"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "豨莶草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 318,
+          "printed_page": null,
+          "quote": "豨莶草（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "败酱草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 238,
+          "printed_page": null,
+          "quote": "败酱草（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "贯众",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 225,
+          "printed_page": null,
+          "quote": "贯众（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "赤小豆",
+      "aliases": [
+        "赤豆",
+        "红小豆"
+      ],
+      "category": "谷物",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 33,
+          "printed_page": 29,
+          "quote": "利水消肿,解毒排脓 止吐明代李时珍称之 赤小豆又名赤豆 red bean 、红豆等赤小 F原创"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "赤石脂",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 725,
+          "printed_page": null,
+          "quote": "赤石脂（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "赤芍",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 263,
+          "printed_page": null,
+          "quote": "赤芍（开宝本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "路路通",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 312,
+          "printed_page": null,
+          "quote": "路路通（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "车前子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 359,
+          "printed_page": null,
+          "quote": "车前子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "轻粉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 764,
+          "printed_page": null,
+          "quote": "轻粉（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "辛夷",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 167,
+          "printed_page": null,
+          "quote": "辛夷（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "辣椒",
+      "aliases": [
+        "辣子",
+        "海椒"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "远志",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 592,
+          "printed_page": null,
+          "quote": "远志（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "连翘",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 219,
+          "printed_page": null,
+          "quote": "连翘（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "通草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 363,
+          "printed_page": null,
+          "quote": "通草（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "郁李仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 282,
+          "printed_page": null,
+          "quote": "郁李仁（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "酱油",
+      "aliases": [
+        "生抽",
+        "老抽"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "酸枣仁",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 587,
+          "printed_page": null,
+          "quote": "酸枣仁（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "醋",
+      "aliases": [
+        "米醋",
+        "陈醋",
+        "香醋"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "重楼",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 230,
+          "printed_page": null,
+          "quote": "重楼（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "野菊花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 229,
+          "printed_page": null,
+          "quote": "野菊花（本草正）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "金樱子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 732,
+          "printed_page": null,
+          "quote": "金樱子（雷公炮炙论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "金荞麦",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 236,
+          "printed_page": null,
+          "quote": "金荞麦（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "金钱草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 373,
+          "printed_page": null,
+          "quote": "金钱草（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "金银花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 217,
+          "printed_page": null,
+          "quote": "金银花（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "钩藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 609,
+          "printed_page": null,
+          "quote": "钩藤（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "铅丹",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 768,
+          "printed_page": null,
+          "quote": "铅丹（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "银柴胡",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 271,
+          "printed_page": null,
+          "quote": "银柴胡（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "银耳",
+      "aliases": [
+        "白木耳",
+        "雪耳"
+      ],
+      "category": "未分类",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "锁阳",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 668,
+          "printed_page": null,
+          "quote": "锁阳（本草衍义补遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "闽菜",
+      "aliases": [
+        "福建菜",
+        "是我国八大菜系之"
+      ],
+      "category": "蔬菜",
+      "sources": [
+        "CN-DIDAO-2011",
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 17,
+          "printed_page": null,
+          "quote": "香、脆 具有悠久历史的浙江菜品种丰富’ 闽菜又称福建菜,是我国八大菜系之 闽菜除了招牌莱一佛跳 一。在后来发展中"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 17,
+          "printed_page": null,
+          "quote": "香、脆 具有悠久历史的浙江菜品种丰富’ 闽菜又称福建菜,是我国八大菜系之 闽菜除了招牌莱一佛跳 一。在后来发展中"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "防己",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 316,
+          "printed_page": null,
+          "quote": "防己（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "防风",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 157,
+          "printed_page": null,
+          "quote": "防风（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "阳起石",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 677,
+          "printed_page": null,
+          "quote": "阳起石（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "阿胶",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 688,
+          "printed_page": null,
+          "quote": "阿胶（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "附子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 381,
+          "printed_page": null,
+          "quote": "附子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "陈皮",
+      "aliases": [
+        "橘皮",
+        "广陈皮",
+        "新会皮"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "降香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 498,
+          "printed_page": null,
+          "quote": "降香（证类本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "雄黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 749,
+          "printed_page": null,
+          "quote": "雄黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "雷丸",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 454,
+          "printed_page": null,
+          "quote": "雷丸（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "雷公藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 322,
+          "printed_page": null,
+          "quote": "雷公藤（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "青果",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 242,
+          "printed_page": null,
+          "quote": "青果（日华子本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "青皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 405,
+          "printed_page": null,
+          "quote": "青皮（本草图经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "青葙子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 204,
+          "printed_page": null,
+          "quote": "青葙子（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "青蒿",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 268,
+          "printed_page": null,
+          "quote": "青蒿（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "青风藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 309,
+          "printed_page": null,
+          "quote": "青风藤（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "青黛",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 224,
+          "printed_page": null,
+          "quote": "青黛（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "面粉",
+      "aliases": [
+        "小麦粉"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "韭菜",
+      "aliases": [
+        "起阳草"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "韭菜子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 676,
+          "printed_page": null,
+          "quote": "韭菜子（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "饴糖",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 652,
+          "printed_page": null,
+          "quote": "饴糖（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "首乌藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 590,
+          "printed_page": null,
+          "quote": "首乌藤（何首乌传）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "香加皮",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 356,
+          "printed_page": null,
+          "quote": "香加皮（中药志）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "香橼",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 422,
+          "printed_page": null,
+          "quote": "香橼（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "香油",
+      "aliases": [
+        "为一麻"
+      ],
+      "category": "调味",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 239,
+          "printed_page": 235,
+          "quote": " 味’故称为香油° 油一”从芝麻中提炼 香油又称为一麻 而得”具有特别香 瓜、烤鸭等菜品°甜面"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "香菇",
+      "aliases": [
+        "冬菇",
+        "花菇"
+      ],
+      "category": "未分类",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "香菜",
+      "aliases": [
+        "芫荽",
+        "胡荽"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "香蕉",
+      "aliases": [
+        "甘蕉"
+      ],
+      "category": "水果",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "香薷",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 155,
+          "printed_page": null,
+          "quote": "香薷（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "香附",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 419,
+          "printed_page": null,
+          "quote": "香附（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "马兜铃",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 570,
+          "printed_page": null,
+          "quote": "马兜铃（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "马勃",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 241,
+          "printed_page": null,
+          "quote": "马勃（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "马钱子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 514,
+          "printed_page": null,
+          "quote": "马钱子（本草纲目）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "马铃薯",
+      "aliases": [
+        "土豆",
+        "洋芋",
+        "山药蛋"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "马齿苋",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 245,
+          "printed_page": null,
+          "quote": "马齿苋（本草经集注）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "驴打滚",
+      "aliases": [
+        "豆面糕",
+        "是北京小吃"
+      ],
+      "category": "未分类",
+      "sources": [
+        "CN-DIDAO-2011",
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 32,
+          "printed_page": 28,
+          "quote": "特点:豆香馅甜,入口绵 软,别具风味。 驴打滚又称豆面糕,是北京小吃 中的古老品种之一。因面糕蒸熟 后,需在"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 32,
+          "printed_page": 28,
+          "quote": "特点:豆香馅甜,入口绵 软,别具风味。 驴打滚又称豆面糕,是北京小吃 中的古老品种之一。因面糕蒸熟 后,需在"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "骨碎补",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 517,
+          "printed_page": null,
+          "quote": "骨碎补（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "高良姜",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 394,
+          "printed_page": null,
+          "quote": "高良姜（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鱼腥草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 235,
+          "printed_page": null,
+          "quote": "鱼腥草（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鱿鱼",
+      "aliases": [
+        "枪乌贼"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鲈鱼",
+      "aliases": [
+        "花鲈",
+        "七星鲈"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鲫鱼",
+      "aliases": [
+        "鲫仔生"
+      ],
+      "category": "水产",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 202,
+          "printed_page": 198,
+          "quote": ",盛产期多在秋、冬 食用鱼类 脂肪的配 鲫鱼又名鲫仔’生 配比’具有很高 ,更是滋补佳品” 常食"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鲳鱼",
+      "aliases": [
+        "银鲳",
+        "白鲳"
+      ],
+      "category": "水产",
+      "sources": [
+        "CN-DIDAO-2011",
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 218,
+          "printed_page": 214,
+          "quote": "率的重要物质 产地分布 pomfret 鲳鱼又名银鲳、白鲳 主产地:主要分布于我国南 海、东海、黄"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 218,
+          "printed_page": 214,
+          "quote": "率的重要物质 产地分布 pomfret 鲳鱼又名银鲳、白鲳 主产地:主要分布于我国南 海、东海、黄"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鲷鱼",
+      "aliases": [
+        "加吉鱼",
+        "真鲷"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鳕鱼",
+      "aliases": [
+        "大口鳕"
+      ],
+      "category": "水产",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鳖甲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 710,
+          "printed_page": null,
+          "quote": "鳖甲（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鸡内金",
+      "aliases": [
+        "鸡肫皮"
+      ],
+      "category": "本草",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鸡冠花",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 738,
+          "printed_page": null,
+          "quote": "鸡冠花（滇南本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鸡肉",
+      "aliases": [
+        "鸡"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鸡蛋",
+      "aliases": [
+        "鸡子",
+        "鸡卵"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鸡血藤",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 508,
+          "printed_page": null,
+          "quote": "鸡血藤（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鸡骨草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 377,
+          "printed_page": null,
+          "quote": "鸡骨草（岭南采药录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鸦胆子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 246,
+          "printed_page": null,
+          "quote": "鸦胆子（本草纲目拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鸭肉",
+      "aliases": [
+        "鸭"
+      ],
+      "category": "肉",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "鸭跖草",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 199,
+          "printed_page": null,
+          "quote": "鸭跖草（本草拾遗）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鸽蛋",
+      "aliases": [
+        "鸽卵口感细"
+      ],
+      "category": "乳蛋",
+      "sources": [
+        "CN-DIDAO-2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "pdf_page": 65,
+          "printed_page": 61,
+          "quote": "蛋的三倍之多 营养丰富’ pigeon 鸽蛋又称鸽卵’口感细 1 eggs 性味:味甘,性平 选购指"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鹤草芽",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 453,
+          "printed_page": null,
+          "quote": "鹤草芽（中华医学杂志）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鹤虱",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 456,
+          "printed_page": null,
+          "quote": "鹤虱（新修本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "鹿茸",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 656,
+          "printed_page": null,
+          "quote": "鹿茸（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "麝香",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 620,
+          "printed_page": null,
+          "quote": "麝香（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "麦冬",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 696,
+          "printed_page": null,
+          "quote": "麦冬（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "麦芽",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 437,
+          "printed_page": null,
+          "quote": "麦芽（药性论）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "麻黄",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 149,
+          "printed_page": null,
+          "quote": "麻黄（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "麻黄根",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 713,
+          "printed_page": null,
+          "quote": "麻黄根（本草经集注）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄柏",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 210,
+          "printed_page": null,
+          "quote": "黄柏（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄瓜",
+      "aliases": [
+        "青瓜",
+        "胡瓜"
+      ],
+      "category": "蔬菜",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "黄精",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 702,
+          "printed_page": null,
+          "quote": "黄精（名医别录）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄芩",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 206,
+          "printed_page": null,
+          "quote": "黄芩（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄芪",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 638,
+          "printed_page": null,
+          "quote": "黄芪（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄药子",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 557,
+          "printed_page": null,
+          "quote": "黄药子（滇南本草）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄豆",
+      "aliases": [
+        "大豆"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "黄连",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 208,
+          "printed_page": null,
+          "quote": "黄连（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黄酒",
+      "aliases": [
+        "料酒",
+        "绍兴酒"
+      ],
+      "category": "调味",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "黑木耳",
+      "aliases": [
+        "木耳",
+        "云耳"
+      ],
+      "category": "未分类",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "黑芝麻",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 707,
+          "printed_page": null,
+          "quote": "黑芝麻（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "黑豆",
+      "aliases": [
+        "乌豆"
+      ],
+      "category": "谷物",
+      "sources": [],
+      "evidence": [],
+      "alias_kind": "query_hint"
+    },
+    {
+      "canonical": "龙眼肉",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 691,
+          "printed_page": null,
+          "quote": "龙眼肉（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "龙胆",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 212,
+          "printed_page": null,
+          "quote": "龙胆（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "龙骨",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 584,
+          "printed_page": null,
+          "quote": "龙骨（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    },
+    {
+      "canonical": "龟甲",
+      "aliases": [],
+      "category": "本草",
+      "sources": [
+        "MM-ZYX-2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "MM-ZYX-2016",
+          "pdf_page": 708,
+          "printed_page": null,
+          "quote": "龟甲（神农本草经）"
+        }
+      ],
+      "alias_kind": "book_evidenced"
+    }
+  ]
+}

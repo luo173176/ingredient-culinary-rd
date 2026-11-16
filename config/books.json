@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "knowledge_base": "四书知识库（第一阶段）",
+  "policy": {
+    "allowed_sources_only": true,
+    "external_sources_allowed": false,
+    "note": "第一阶段事实依据仅限下列四本书。任何超出四书的知识必须标注为“知识库暂无依据”，不得补写。"
+  },
+  "books": [
+    {
+      "source_id": "MM-ZYX-2016",
+      "short_title": "中药学",
+      "title": "中药学",
+      "subtitle": "全国中医药行业高等教育“十三五”规划教材（新世纪第四版）",
+      "author": "钟赣生（主编）",
+      "publisher": "中国中医药出版社",
+      "year": "2016",
+      "edition": "第4版",
+      "isbn": "978-7-5132-3371-2",
+      "file": "../中药学（新世纪第四版 十三五规划教材）钟赣生.pdf",
+      "kind": "digital",
+      "domain": "materia-medica",
+      "language": "zh",
+      "citation_label": "《中药学》（钟赣生主编，第4版）"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "short_title": "中国地道食材图录大全",
+      "title": "中国地道食材图录大全",
+      "subtitle": null,
+      "author": "李清",
+      "publisher": "武汉出版社",
+      "year": "2011",
+      "edition": null,
+      "isbn": null,
+      "file": "../中国地道食材图录大全（李清）武汉出版社 2011.pdf",
+      "kind": "scanned",
+      "domain": "chinese-ingredients",
+      "language": "zh",
+      "citation_label": "《中国地道食材图录大全》（李清，武汉出版社2011）"
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "short_title": "盐，脂，酸，热",
+      "title": "盐，脂，酸，热：制造美味的新科学",
+      "subtitle": null,
+      "author": "萨明·诺斯拉特（Samin Nosrat）",
+      "translator": "靳婷婷",
+      "publisher": "中信出版社",
+      "year": "2023",
+      "edition": null,
+      "isbn": "9787521758467",
+      "file": "../盐脂酸热 制造美味的新科学（[美]萨明·诺斯拉特）.pdf",
+      "kind": "digital",
+      "domain": "flavor-science",
+      "language": "zh",
+      "citation_label": "《盐，脂，酸，热：制造美味的新科学》（萨明·诺斯拉特，中信出版社2023）"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "short_title": "食材百科全书",
+      "title": "食材百科全书",
+      "subtitle": "The Cook's Book of Ingredients（中文版）",
+      "author": "英国DK出版社",
+      "translator": "丛龙岩",
+      "publisher": "中国轻工业出版社",
+      "year": null,
+      "edition": null,
+      "isbn": null,
+      "file": "../食材百科全书.pdf",
+      "kind": "scanned",
+      "domain": "global-ingredients",
+      "language": "zh",
+      "citation_label": "《食材百科全书》（英国DK出版社，丛龙岩译，中国轻工业出版社）"
+    }
+  ]
+}

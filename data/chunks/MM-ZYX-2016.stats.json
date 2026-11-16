@@ -1,0 +1,15 @@
+{
+  "source_id": "MM-ZYX-2016",
+  "chunks": 856,
+  "chars": 520964,
+  "by_content_type": {
+    "text": 853,
+    "heading": 2,
+    "attribute": 1
+  },
+  "pages_with_chunks": 831,
+  "high_confidence": 856,
+  "medium_confidence": 0,
+  "low_confidence": 0,
+  "output": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\data\\chunks\\MM-ZYX-2016.jsonl"
+}

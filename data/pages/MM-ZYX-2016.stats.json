@@ -1,0 +1,23 @@
+{
+  "source_id": "MM-ZYX-2016",
+  "title": "中药学",
+  "pages": 841,
+  "pages_with_text": 831,
+  "near_empty_pages": [
+    1,
+    2,
+    110,
+    147,
+    346,
+    436,
+    489,
+    771,
+    816,
+    841
+  ],
+  "chars": 536681,
+  "printed_page_detected": 0,
+  "toc_entries": 696,
+  "elapsed_s": 3.0,
+  "output": "data\\pages\\MM-ZYX-2016.jsonl"
+}

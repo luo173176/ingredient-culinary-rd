@@ -1,0 +1,380 @@
+{
+  "id": "star-anise",
+  "basic": {
+    "canonical_name_zh": "八角",
+    "scientific_name": null,
+    "english_name": "star anise",
+    "one_line_definition": "书中记其又称八角茴香、气味芳香而甜，传统属性辛温，常用于炖肉、卤煮与腌渍。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "八角茴香",
+      "大料",
+      "大茴香"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "又称八角茴香",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "大料和大茴香",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "调味品",
+      "香辛料"
+    ],
+    "culinary_role": [
+      "卤",
+      "炖",
+      "增香"
+    ]
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [
+      "芳香",
+      "甜",
+      "强烈香味"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "气味芳香而甜",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "具强烈香味",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "taste": {
+    "descriptors": [
+      "辛"
+    ],
+    "intensity": "unknown",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "性味:味辛,性温",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "温",
+    "flavor": "辛",
+    "meridians": null,
+    "notes": "书中记“味辛，性温”，功效温阳散寒、理气止痛；属传统理论。（《中国地道食材图录大全》p.232）；传统理论，非现代医学证据。"
+  },
+  "tcm_applications": {
+    "functions": [
+      "温阳散寒（传统）",
+      "理气止痛（传统）"
+    ],
+    "traditional_uses": [
+      "炖肉",
+      "卤味",
+      "腌渍",
+      "煮蛋"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "性味:味辛,性温",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 236,
+        "printed_page": 232,
+        "chapter": "第八章 调味品",
+        "section": null,
+        "quote": "功效:温阳散寒,理气止痛",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "煮",
+      "炸",
+      "卤",
+      "酱",
+      "烧",
+      "磨粉"
+    ],
+    "preparation": [
+      "整颗或磨粉使用"
+    ],
+    "heat_notes": "书未给温度；整颗耐炖，磨粉后易失香（烹饪提示）。（《中国地道食材图录大全》p.232）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "肉类",
+      "reason": "书中“炖肉时，将八角与肉一同下锅”",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 236,
+          "printed_page": 232,
+          "chapter": "第八章 调味品",
+          "section": null,
+          "quote": "将八角与肉一同",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "with": "鸡蛋、鸭蛋",
+      "reason": "书中煮蛋时放入八角",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 236,
+          "printed_page": 232,
+          "chapter": "第八章 调味品",
+          "section": null,
+          "quote": "放入八角则会",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "整颗或磨粉使用",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 236,
+            "printed_page": 232,
+            "chapter": "第八章 调味品",
+            "section": null,
+            "quote": "或磨粉使用",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "书未给明确禁忌；作为香辛料不宜大量（按原书语境提示）",
+      "书中“刺激胃肠神经血管”等表述属传统/通俗描述，不是现代临床结论（《中国地道食材图录大全》p.232）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "又称八角茴香",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "大料和大茴香",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "性味:味辛,性温",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "功效:温阳散寒,理气止痛",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "气味芳香而甜",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "具强烈香味",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "煮、炸、卤、酱及烧等烹调加",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "或磨粉使用",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "将八角与肉一同",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "放入八角则会",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 236,
+      "printed_page": 232,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "能刺激胃肠神经血",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "产地/品种",
+    "选购标准",
+    "替代方案",
+    "现代安全性数据"
+  ]
+}

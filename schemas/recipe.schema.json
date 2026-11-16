@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/recipe.schema.json",
+  "title": "Culinary R&D Recipe",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "title", "positioning", "rnd_rationale", "ingredients", "preprocessing",
+    "steps", "temperature_time", "seasoning_logic", "expected_flavor", "risks",
+    "adjustable_parameters", "evidence", "claims", "validation_status"
+  ],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "servings": {"type": "integer", "minimum": 1},
+    "positioning": {
+      "type": "object",
+      "required": ["occasion", "style", "target_sensory_profile", "difficulty"],
+      "properties": {
+        "occasion": {"type": "string"},
+        "style": {"type": "string"},
+        "target_sensory_profile": {"type": "array", "items": {"type": "string"}},
+        "difficulty": {"enum": ["easy", "medium", "hard"]}
+      }
+    },
+    "rnd_rationale": {
+      "type": "object",
+      "required": ["problem", "design_logic", "hypotheses"],
+      "properties": {
+        "problem": {"type": "string"},
+        "design_logic": {"type": "array", "items": {"type": "string"}},
+        "hypotheses": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["name", "amount", "unit", "role", "prep"],
+        "properties": {
+          "name": {"type": "string"},
+          "amount": {"type": ["number", "string"]},
+          "unit": {"type": "string"},
+          "role": {"enum": ["main", "supporting", "aromatic", "seasoning", "fat", "acid", "texture", "garnish"]},
+          "prep": {"type": "string"},
+          "substitutes": {"type": "array", "items": {"type": "string"}},
+          "allergen": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "preprocessing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item", "action", "time", "purpose"],
+        "properties": {
+          "item": {"type": "string"},
+          "action": {"type": "string"},
+          "time": {"type": "string"},
+          "purpose": {"type": "string"}
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["n", "action", "heat", "time", "cue"],
+        "properties": {
+          "n": {"type": "integer", "minimum": 1},
+          "action": {"type": "string"},
+          "heat": {"type": ["string", "null"]},
+          "time": {"type": ["string", "null"]},
+          "cue": {"type": "string", "description": "可观察的判断标准，如颜色、声音、质地"}
+        }
+      }
+    },
+    "temperature_time": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["stage", "temperature_c", "time", "target"],
+        "properties": {
+          "stage": {"type": "string"},
+          "temperature_c": {"type": ["number", "string", "null"]},
+          "time": {"type": "string"},
+          "target": {"type": "string"}
+        }
+      }
+    },
+    "seasoning_logic": {
+      "type": "object",
+      "required": ["salt", "fat", "acid", "heat", "sequence", "balance_rationale"],
+      "properties": {
+        "salt": {"type": "string"},
+        "fat": {"type": "string"},
+        "acid": {"type": "string"},
+        "heat": {"type": "string"},
+        "sequence": {"type": "array", "items": {"type": "string"}},
+        "balance_rationale": {"type": "string"}
+      }
+    },
+    "expected_flavor": {
+      "type": "object",
+      "required": ["aroma", "taste", "texture", "finish"],
+      "properties": {
+        "aroma": {"type": "array", "items": {"type": "string"}},
+        "taste": {"type": "array", "items": {"type": "string"}},
+        "texture": {"type": "array", "items": {"type": "string"}},
+        "finish": {"type": "string"}
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["risk", "mitigation"],
+        "properties": {
+          "risk": {"type": "string"},
+          "mitigation": {"type": "string"}
+        }
+      }
+    },
+    "adjustable_parameters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["parameter", "range", "effect"],
+        "properties": {
+          "parameter": {"type": "string"},
+          "range": {"type": "string"},
+          "effect": {"type": "string"}
+        }
+      }
+    },
+    "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "ingredient.schema.json#/$defs/evidence"}},
+    "claims": {"type": "array", "items": {"$ref": "ingredient.schema.json#/$defs/claim"}},
+    "validation_status": {
+      "enum": ["not_tested", "designed_only", "kitchen_tested", "sensory_panel_tested"],
+      "description": "没有真实实验时只能是 not_tested 或 designed_only"
+    }
+  }
+}

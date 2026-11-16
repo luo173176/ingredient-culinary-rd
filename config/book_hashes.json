@@ -1,0 +1,22 @@
+{
+  "MM-ZYX-2016": {
+    "sha256": "edf95057dde2f1484809244e34de4fd7c75472b78efb99226bc490116f2497f9",
+    "bytes": 21288770,
+    "pages": 841
+  },
+  "CN-DIDAO-2011": {
+    "sha256": "8864acf46b2ee97a7203e139e2a258c76bdb7fc6fe7f0812f425d0117f21c901",
+    "bytes": 61009781,
+    "pages": 239
+  },
+  "FS-SFAH-2023": {
+    "sha256": "968bf96921ad5662c7828f5110ea88f18c946cdb5410a849b5ff8c80887dee11",
+    "bytes": 39859673,
+    "pages": 364
+  },
+  "DK-INGREDIENTS": {
+    "sha256": "c0ac3fd4d2cda4c92537d860625ce8e8028312a0029af20c7bd316b51d9278b3",
+    "bytes": 200363567,
+    "pages": 531
+  }
+}

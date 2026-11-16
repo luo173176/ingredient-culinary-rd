@@ -1,0 +1,391 @@
+{
+  "id": "kidney-bean",
+  "basic": {
+    "canonical_name_zh": "芸豆",
+    "scientific_name": null,
+    "english_name": "kidney bean",
+    "one_line_definition": "书中记其味甘性温，主产地山东，收有多个品种群与“话梅芸豆”等小食做法。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "白肾豆",
+      "架豆",
+      "大四季豆米",
+      "白腰豆"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 41,
+        "printed_page": 37,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "别名:白肾豆、架豆",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 41,
+        "printed_page": 37,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "俗称“大四季豆米”,亦称“白腰豆”",
+        "extraction_method": "ocr",
+        "confidence": "low"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "豆类",
+      "蔬菜/杂粮"
+    ],
+    "culinary_role": [
+      "炖煮",
+      "制馅",
+      "做糕点"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "主产地：山东省",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 41,
+            "printed_page": 37,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "主产地:山东省",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [
+      {
+        "statement": "大白芸豆（俗称大四季豆米、白腰豆）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 41,
+            "printed_page": 37,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "俗称“大四季豆米”,亦称“白腰豆”",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "成熟期：8月上旬",
+    "availability": null,
+    "notes": "书中记载：成熟期：8月上旬（《中国地道食材图录大全》p.37）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "红芸豆颗粒硕大、色泽鲜艳",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 41,
+            "printed_page": 37,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "颗粒硕大、色泽鲜艳",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "温",
+    "flavor": "甘",
+    "meridians": null,
+    "notes": "书中记“味甘性温”；属传统食疗属性，不是现代医学证据。（《中国地道食材图录大全》p.37）"
+  },
+  "tcm_applications": {
+    "functions": [
+      "温中下气（传统记载）",
+      "利肠胃（传统记载）",
+      "益肾补元气（传统记载）"
+    ],
+    "traditional_uses": [
+      "豆沙",
+      "糕点",
+      "炖煮"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 41,
+        "printed_page": 37,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "性味:味甘性温",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "蒸/高压锅蒸",
+      "煮",
+      "制豆沙/豆馅/糕点/甜汤"
+    ],
+    "preparation": [
+      "凉水泡一夜",
+      "先煮熟再蒸（书中芸豆卷做法）"
+    ],
+    "heat_notes": "书中“话梅芸豆”用高压锅蒸三十分钟；芸豆卷先煮熟再蒸二十分钟；未给温度。（《中国地道食材图录大全》p.37）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "话梅、红枣、冰糖",
+      "reason": "书中小食“话梅芸豆”的组合",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 41,
+          "printed_page": 37,
+          "chapter": "第一章 谷物和米面制品",
+          "section": null,
+          "quote": "话梅芸豆",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "凉水泡一夜",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 41,
+            "printed_page": 37,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "芸豆洗净后在凉水里泡一夜",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "先煮熟再蒸（书中芸豆卷做法）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 41,
+            "printed_page": 37,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "芸豆煮熟后入锅蒸20分钟",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "生豆类含凝集素，必须彻底煮熟；四书未展开毒理，属通用食品安全提示（非四书依据）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "别名:白肾豆、架豆",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "性味:味甘性温",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "主产地:山东省",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "成熟期:8月上旬",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "俗称“大四季豆米”,亦称“白腰豆”",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "颗粒硕大、色泽鲜艳",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "制作糕点、豆馅、甜汤、豆沙的优质原料",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "高压锅里蒸三十分钟",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "芸豆煮熟后入锅蒸20分钟",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "芸豆洗净后在凉水里泡一夜",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "话梅芸豆",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 41,
+      "printed_page": 37,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "对癌细胞的扩散有一定的抑制作用",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "香气描述",
+    "替代方案",
+    "储存期限",
+    "书中“抑制癌细胞扩散”表述不是现代临床证据"
+  ]
+}

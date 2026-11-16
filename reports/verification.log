@@ -1,0 +1,117 @@
+=== validate_kb.py ===
+
+== 1. 原始文件与哈希 ==
+  OK   MM-ZYX-2016 文件存在
+  OK   MM-ZYX-2016 文件大小
+  OK   MM-ZYX-2016 SHA-256
+  OK   CN-DIDAO-2011 文件存在
+  OK   CN-DIDAO-2011 文件大小
+  OK   CN-DIDAO-2011 SHA-256
+  OK   FS-SFAH-2023 文件存在
+  OK   FS-SFAH-2023 文件大小
+  OK   FS-SFAH-2023 SHA-256
+  OK   DK-INGREDIENTS 文件存在
+  OK   DK-INGREDIENTS 文件大小
+  OK   DK-INGREDIENTS SHA-256
+== 2. 页级记录 ==
+  OK   MM-ZYX-2016 页文件存在
+  OK   MM-ZYX-2016 页数
+  OK   MM-ZYX-2016 页号连续
+  OK   MM-ZYX-2016 printed_page 合理
+  OK   CN-DIDAO-2011 页文件存在
+  OK   CN-DIDAO-2011 页数
+  OK   CN-DIDAO-2011 页号连续
+  OK   CN-DIDAO-2011 printed_page 合理
+  OK   FS-SFAH-2023 页文件存在
+  OK   FS-SFAH-2023 页数
+  OK   FS-SFAH-2023 页号连续
+  OK   FS-SFAH-2023 printed_page 合理
+  OK   DK-INGREDIENTS 页文件存在
+  OK   DK-INGREDIENTS 页数
+  OK   DK-INGREDIENTS 页号连续
+  OK   DK-INGREDIENTS printed_page 合理
+== 3. 知识片段与引用 ==
+  OK   MM-ZYX-2016 chunk 文件存在
+  OK   MM-ZYX-2016 chunk 非空
+  OK   MM-ZYX-2016 chunk 页码在范围内
+  OK   MM-ZYX-2016 citation 与页码字段一致
+  OK   MM-ZYX-2016 char_len 一致
+  OK   MM-ZYX-2016 chunk 内容非空
+  OK   CN-DIDAO-2011 chunk 文件存在
+  OK   CN-DIDAO-2011 chunk 非空
+  OK   CN-DIDAO-2011 chunk 页码在范围内
+  OK   CN-DIDAO-2011 citation 与页码字段一致
+  OK   CN-DIDAO-2011 char_len 一致
+  OK   CN-DIDAO-2011 chunk 内容非空
+  OK   FS-SFAH-2023 chunk 文件存在
+  OK   FS-SFAH-2023 chunk 非空
+  OK   FS-SFAH-2023 chunk 页码在范围内
+  OK   FS-SFAH-2023 citation 与页码字段一致
+  OK   FS-SFAH-2023 char_len 一致
+  OK   FS-SFAH-2023 chunk 内容非空
+  OK   DK-INGREDIENTS chunk 文件存在
+  OK   DK-INGREDIENTS chunk 非空
+  OK   DK-INGREDIENTS chunk 页码在范围内
+  OK   DK-INGREDIENTS citation 与页码字段一致
+  OK   DK-INGREDIENTS char_len 一致
+  OK   DK-INGREDIENTS chunk 内容非空
+  OK   chunk 总数
+== 4. SQLite 索引 ==
+  OK   SQLite 存在
+  OK   SQLite integrity_check
+  OK   pages 行数 = 页记录总数
+  OK   chunks 行数 = chunk 文件总数
+  OK   FTS 行数 = chunks
+  OK   sources = 4
+== 5. 本草结构化记录 ==
+  OK   herbs.jsonl 存在
+  OK   herbs 总数 558
+  OK   主条目 434
+  OK   附药 124
+  OK   主条目字段完整/页码合理
+  OK   主条目功效覆盖率 100%
+  OK   herb-index.md 存在
+  OK   herb-index 行数 = 434
+== 6. 食材卡与引文回查 ==
+  OK   ingredient.schema.json 存在
+  OK   食材卡数量 12
+  OK   食材卡通过 JSON Schema
+  OK   食材卡引文均回查命中
+  OK   食材卡页码/印刷页一致
+  OK   本草属性带传统理论声明
+== 7. 图像、整页扫描与表格候选 ==
+  OK   视觉清单存在
+  OK   视觉清单非空
+  OK   视觉记录页码存在
+  OK   视觉记录 printed_page 与页记录一致
+  OK   图注候选均标记待审/无图注
+  OK   视觉统计文件存在
+  OK   视觉统计 records 与清单一致
+== 8. 必需参考文件 ==
+  OK   必需文件齐全
+== 9. 汇总 ==
+{
+  "totals": {
+    "pages": 1975,
+    "chunks": 2589,
+    "herbs": 558,
+    "main_herbs": 434,
+    "attached_herbs": 124,
+    "ingredient_cards": 12,
+    "visual_records": 1152,
+    "content_images": 353,
+    "page_scans": 769,
+    "table_candidates": 30
+  },
+  "checks": 81,
+  "failed": 0
+}
+
+=== run_evals.py --strict ===
+
+{"cases": 10, "auto_passed": 10, "auto_pass_rate": "100%", "auto_score": "900.0/900", "citation_errors": 0, "hard_failures": 0}
+
+=== pytest ===
+
+..............................                                           [100%]
+30 passed in 6.09s

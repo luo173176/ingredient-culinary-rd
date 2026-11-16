@@ -1,0 +1,14 @@
+{
+  "source_id": "DK-INGREDIENTS",
+  "chunks": 1075,
+  "chars": 667986,
+  "by_content_type": {
+    "text": 1074,
+    "recipe": 1
+  },
+  "pages_with_chunks": 505,
+  "high_confidence": 0,
+  "medium_confidence": 1061,
+  "low_confidence": 14,
+  "output": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\data\\chunks\\DK-INGREDIENTS.jsonl"
+}

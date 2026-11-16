@@ -1,0 +1,62 @@
+{
+  "id": "E10",
+  "type": "alias",
+  "title": "别名识别：西红柿、土豆、青小豆",
+  "question": "西红柿和土豆在书里叫什么？青小豆是什么？",
+  "expected_pages": [
+    {
+      "source_id": "DK-INGREDIENTS",
+      "pdf_page": 270
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "pdf_page": 89
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "pdf_page": 40
+    }
+  ],
+  "required_keywords": [
+    "番茄",
+    "马铃薯",
+    "绿豆",
+    "高产期",
+    "性平"
+  ],
+  "expected_points": [
+    "西红柿归一化为番茄",
+    "土豆归一化为马铃薯",
+    "青小豆即绿豆",
+    "别名只用于检索"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把别名当成新食材",
+    "是否编造别名来源"
+  ],
+  "alias_checks": [
+    {
+      "query": "西红柿",
+      "expect_source": "DK-INGREDIENTS",
+      "expect_page": 270
+    },
+    {
+      "query": "土豆",
+      "expect_source": "CN-DIDAO-2011",
+      "expect_page": 89
+    },
+    {
+      "query": "青小豆",
+      "expect_source": "CN-DIDAO-2011",
+      "expect_page": 40
+    }
+  ],
+  "reference_answer": "## 结论\n- 西红柿 → 番茄。《食材百科全书》PDF 270 的条目名是“番茄(tomato)”，并记“高产期是在夏天到初秋时节”。\n- 土豆 → 马铃薯。《中国地道食材图录大全》p.85（PDF 89）记“马铃薯原产于安第斯山”，性味“味甘,性平”，功效“和胃健中,解毒消肿”。\n- 青小豆 → 绿豆。《中国地道食材图录大全》p.36（PDF 40）：“绿豆又名青小豆”。\n\n## 说明\n别名归一化用于检索，不是把别名当成新食材；回答时仍以书页上的 canonical 名称为准。",
+  "search_queries": [
+    "番茄 高产期",
+    "马铃薯 土豆",
+    "绿豆 青小豆"
+  ]
+}

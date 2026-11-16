@@ -1,0 +1,535 @@
+{
+  "id": "tomato",
+  "basic": {
+    "canonical_name_zh": "番茄",
+    "scientific_name": null,
+    "english_name": "tomato",
+    "one_line_definition": "书中记番茄品种多样、夏到初秋为高产期，可生食、烤、炒、煎、炖、制酱，并列出多种香草与奶酪搭配。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "蔬菜",
+      "茄果类"
+    ],
+    "culinary_role": [
+      "生食",
+      "烤",
+      "炒",
+      "制酱",
+      "汤"
+    ]
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [
+      {
+        "statement": "球形番茄",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "球形番茄(globetomatoes)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "樱桃番茄",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "樱桃番茄(cherrytomatoes)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "牛排番茄",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "牛排番茄(beefsteaktomato)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "李子番茄",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "李子番茄(plumtomatoes)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "高产期：夏天到初秋",
+    "availability": null,
+    "notes": "书中记载：高产期：夏天到初秋（《食材百科全书》PDF 270）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "成熟番茄味道最佳",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "要寻找那些成熟的番茄,这样的番茄味道最佳",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "非当季番茄应质地硬实、表面无瑕疵（OCR 作“瑕癌”，待复核）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "其质地应硬实",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [
+      "酸甜"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 270,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "酸甜适口,质地多汁",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 270,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "甘甜多汁",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [
+      "多汁",
+      "肉质硬实"
+    ],
+    "intensity": "high",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 270,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "酸甜适口,质地多汁",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 270,
+        "printed_page": null,
+        "chapter": null,
+        "section": null,
+        "quote": "肉质硬实",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "《中药学》未收番茄；无传统四气五味依据。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [
+      "生食",
+      "烤",
+      "炒",
+      "煎",
+      "炖",
+      "制沙司/汤",
+      "腌渍/烘干"
+    ],
+    "preparation": [
+      "去籽切碎（鳄梨酱）",
+      "去皮切碎（番茄沙司）"
+    ],
+    "heat_notes": "书中番茄沙司小火炖约 20 分钟；未给温度。（《食材百科全书》PDF 271）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "帕玛森干酪、马祖丽娜干酪、罗勒、大蒜、洋葱、青葱、香芹、甘蓝、香脂醋、牛至、百里香、马郁兰",
+      "reason": "书中“搭配各种风味”",
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "book_title": "食材百科全书",
+          "pdf_page": 270,
+          "printed_page": null,
+          "chapter": null,
+          "section": null,
+          "quote": "帕玛森干酪,马祖丽娜干酪,罗勒,大蒜,洋葱,青葱,香芹,甘蓝,香脂醋,牛至,百里香,马郁兰等",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "去籽切碎（鳄梨酱）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "腌制时:烘干之后可以浸泡到橄榄油里",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "去皮切碎（番茄沙司）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 271,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "小火炖大约20分钟",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [
+      {
+        "statement": "室温存放，避免相互接触；熟透后才可冷藏",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 270,
+            "printed_page": null,
+            "chapter": null,
+            "section": null,
+            "quote": "番茄要在室温下存放,不要放到冰箱内储存",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "对番茄过敏者避免（通用提示，非四书依据）",
+      "未成熟绿番茄的龙葵碱风险，书未展开，标缺口"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "番茄(tomato)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "球形番茄(globetomatoes)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "樱桃番茄(cherrytomatoes)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "牛排番茄(beefsteaktomato)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "李子番茄(plumtomatoes)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "番茄的高产期是在夏天到初秋时节",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "要寻找那些成熟的番茄,这样的番茄味道最佳",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "其质地应硬实",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "番茄要在室温下存放,不要放到冰箱内储存",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "番茄可以整个的烤",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "可以铁、炒、煎,或者炖等",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "可以用来制作沙司或者汤菜",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "腌制时:烘干之后可以浸泡到橄榄油里",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "帕玛森干酪,马祖丽娜干酪,罗勒,大蒜,洋葱,青葱,香芹,甘蓝,香脂醋,牛至,百里香,马郁兰等",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "酸甜适口,质地多汁",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "甘甜多汁",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 270,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "肉质硬实",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 271,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": "小火炖大约20分钟",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "具体品种的糖酸比",
+    "产地",
+    "番茄红素等营养数据",
+    "绿番茄安全性"
+  ]
+}

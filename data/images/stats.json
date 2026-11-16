@@ -1,0 +1,33 @@
+{
+  "records": 1152,
+  "images": 353,
+  "page_scans": 769,
+  "table_candidates": 30,
+  "books": [
+    {
+      "source_id": "MM-ZYX-2016",
+      "images": 42,
+      "page_scans": 0,
+      "table_candidates": 21
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "images": 119,
+      "page_scans": 239,
+      "table_candidates": 0
+    },
+    {
+      "source_id": "FS-SFAH-2023",
+      "images": 192,
+      "page_scans": 0,
+      "table_candidates": 9
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "images": 0,
+      "page_scans": 530,
+      "table_candidates": 0
+    }
+  ],
+  "caveat": "caption_candidate 是邻近文字候选，不是经人工确认的图注；table_candidate 是文本/线框启发式，不是经人工确认的表格结构。"
+}

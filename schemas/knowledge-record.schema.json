@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/knowledge-record.schema.json",
+  "title": "Source-anchored Knowledge Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id", "book_title", "chapter", "section", "printed_page", "pdf_page",
+    "content_type", "content", "keywords", "related_ingredients", "confidence", "extraction_method"
+  ],
+  "properties": {
+    "source_id": {"type": "string"},
+    "book_title": {"type": "string"},
+    "chapter": {"type": ["string", "null"]},
+    "section": {"type": ["string", "null"]},
+    "printed_page": {"type": ["integer", "null"], "minimum": 1},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "content_type": {"enum": ["text", "heading", "attribute", "recipe", "table", "image_caption", "index"]},
+    "content": {"type": "string", "minLength": 1},
+    "keywords": {"type": "array", "items": {"type": "string"}},
+    "related_ingredients": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "extraction_method": {"enum": ["text_layer", "ocr", "manual_review", "structured_parse"]},
+    "ocr_mean_score": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  }
+}

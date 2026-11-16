@@ -1,0 +1,137 @@
+[
+  {
+    "id": "mung-bean",
+    "name": "绿豆",
+    "english": "mung bean",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 17,
+    "gaps": 4
+  },
+  {
+    "id": "kidney-bean",
+    "name": "芸豆",
+    "english": "kidney bean",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 12,
+    "gaps": 4
+  },
+  {
+    "id": "black-bean",
+    "name": "黑豆",
+    "english": "black bean",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 9,
+    "gaps": 4
+  },
+  {
+    "id": "bitter-melon",
+    "name": "苦瓜",
+    "english": "bitter melon / balsam pear",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 20,
+    "gaps": 4
+  },
+  {
+    "id": "lotus-root",
+    "name": "莲藕",
+    "english": "lotus root",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 16,
+    "gaps": 4
+  },
+  {
+    "id": "shiitake",
+    "name": "香菇",
+    "english": "shiitake",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 15,
+    "gaps": 4
+  },
+  {
+    "id": "sichuan-pepper",
+    "name": "花椒",
+    "english": "Sichuan pepper / prickly ash",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011",
+      "MM-ZYX-2016"
+    ],
+    "evidence_count": 22,
+    "gaps": 4
+  },
+  {
+    "id": "star-anise",
+    "name": "八角",
+    "english": "star anise",
+    "domain": "cn",
+    "sources": [
+      "CN-DIDAO-2011"
+    ],
+    "evidence_count": 11,
+    "gaps": 4
+  },
+  {
+    "id": "tomato",
+    "name": "番茄",
+    "english": "tomato",
+    "domain": "dk",
+    "sources": [
+      "DK-INGREDIENTS"
+    ],
+    "evidence_count": 18,
+    "gaps": 4
+  },
+  {
+    "id": "sea-bream",
+    "name": "鲷鱼",
+    "english": "sea bream / snapper",
+    "domain": "dk",
+    "sources": [
+      "DK-INGREDIENTS"
+    ],
+    "evidence_count": 18,
+    "gaps": 4
+  },
+  {
+    "id": "olive-oil",
+    "name": "橄榄油",
+    "english": "olive oil",
+    "domain": "dk",
+    "sources": [
+      "DK-INGREDIENTS",
+      "FS-SFAH-2023"
+    ],
+    "evidence_count": 18,
+    "gaps": 3
+  },
+  {
+    "id": "butter",
+    "name": "黄油",
+    "english": "butter",
+    "domain": "dk",
+    "sources": [
+      "DK-INGREDIENTS",
+      "FS-SFAH-2023"
+    ],
+    "evidence_count": 8,
+    "gaps": 4
+  }
+]

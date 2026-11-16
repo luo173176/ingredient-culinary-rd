@@ -1,0 +1,482 @@
+{
+  "id": "lotus-root",
+  "basic": {
+    "canonical_name_zh": "莲藕",
+    "scientific_name": null,
+    "english_name": "lotus root",
+    "one_line_definition": "书中记其味甘性平，可除热渴、散淤血；微甜且脆，收有莲藕排骨煨汤与藕汁蜂蜜的做法。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "藕",
+      "莲菜"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 87,
+        "printed_page": 83,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "又称莲藕",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 87,
+        "printed_page": 83,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "又称莲菜",
+        "extraction_method": "ocr",
+        "confidence": "low"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "蔬菜",
+      "根茎类"
+    ],
+    "culinary_role": [
+      "煲汤",
+      "清炒",
+      "凉拌",
+      "榨汁"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "主产区：江苏省、浙江省",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 87,
+            "printed_page": 83,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "主产区:江苏省、浙江省",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "成熟期：9~10月",
+    "availability": null,
+    "notes": "书中记载：成熟期：9~10月（《中国地道食材图录大全》p.83）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "选藕孔小者；藕孔带红或出现茶色黏液表示不新鲜",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 87,
+            "printed_page": 83,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "藕孔小的",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          },
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 87,
+            "printed_page": 83,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "如果藕孔中带红或出现茶色黏液,就表",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [
+      "微甜"
+    ],
+    "intensity": "medium",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 87,
+        "printed_page": 83,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "微甜且脆",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [
+      "脆"
+    ],
+    "intensity": "medium",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 87,
+        "printed_page": 83,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "微甜且脆",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": null,
+    "notes": "书中记“味甘，性平”，功效为除热渴、散淤血；属传统理论。（《中国地道食材图录大全》p.83）；传统理论，非现代医学证据。"
+  },
+  "tcm_applications": {
+    "functions": [
+      "除热渴（传统）",
+      "散淤血（传统）"
+    ],
+    "traditional_uses": [
+      "莲藕排骨煨汤（书中湖北做法）",
+      "藕汁加蜂蜜（书中）"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 87,
+        "printed_page": 83,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "性味:味甘,性平",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 87,
+        "printed_page": 83,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "功效:除热渴,散淤血",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "生食",
+      "煲汤",
+      "榨汁"
+    ],
+    "preparation": [
+      "去皮切片/切块；排骨先焯去血沫（书中）"
+    ],
+    "heat_notes": "书中排骨汤：大火煮开后转小火炖约一小时；未给温度。（《中国地道食材图录大全》p.83）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "排骨",
+      "reason": "书中“莲藕排骨煨汤”",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 87,
+          "printed_page": 83,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "莲藕排骨煨汤",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "with": "蜂蜜",
+      "reason": "书中“藕榨汁后加入蜂蜜”",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 87,
+          "printed_page": 83,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "藕榨汁后加入蜂蜜",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "with": "盐、葱、姜",
+      "reason": "书中汤品调味",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 87,
+          "printed_page": 83,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "盐、葱、姜调味即可",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "去皮切片/切块；排骨先焯去血沫（书中）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 87,
+            "printed_page": 83,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "后调成小火,炖一小时后加",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "脾胃虚寒、大便溏泄者不要生吃藕（原书）（《中国地道食材图录大全》p.83）",
+      "产妇不宜过早食用（原书）（《中国地道食材图录大全》p.83）",
+      "生藕汁饮用有微生物风险，建议充分清洗或加热（通用食品安全提示，非四书依据）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "又称莲藕",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "又称莲菜",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "性味:味甘,性平",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "功效:除热渴,散淤血",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "主产区:江苏省、浙江省",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "成熟期:9~10月",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "藕孔小的",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "如果藕孔中带红或出现茶色黏液,就表",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "微甜且脆",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "可生食也可做菜",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "莲藕排骨煨汤",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "藕榨汁后加入蜂蜜",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "后调成小火,炖一小时后加",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "盐、葱、姜调味即可",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "泄者不要生吃藕",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 87,
+      "printed_page": 83,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "产妇不宜",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "香气描述",
+    "品种",
+    "替代方案",
+    "藕粉/藕节的独立数据"
+  ]
+}

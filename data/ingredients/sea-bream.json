@@ -1,0 +1,574 @@
+{
+  "id": "sea-bream",
+  "basic": {
+    "canonical_name_zh": "鲷鱼",
+    "scientific_name": null,
+    "english_name": "sea bream / snapper",
+    "one_line_definition": "书中记鲷鱼鱼肉多为浅白色、加热后变白，适合蒸、煎、铁扒、烘烤、炒；并给出海鲈鱼、石斑鱼替代。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "红鲷鱼",
+      "真鲷（OCR 作“真纳”）"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 41,
+        "printed_page": 136,
+        "chapter": "鱼类和海鲜类",
+        "section": null,
+        "quote": "红鲷鱼",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 30,
+        "printed_page": 25,
+        "chapter": "鱼类和海鲜类",
+        "section": null,
+        "quote": "red sea bream",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "水产",
+      "鱼类"
+    ],
+    "culinary_role": [
+      "主料"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "世界各地的热带水域（不同种）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "在世界各地的热带水域中均可以见到它们的身影",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [
+      {
+        "statement": "红鲷鱼",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "红鲷鱼",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "巴哈马笛鲷",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "巴哈马笛鲷",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "黄尾笛鲷",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "黄尾笛鲷",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "真鲷（书中英文 red sea bream，OCR 作“真纳”）",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 30,
+            "printed_page": 25,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "red sea bream",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "牙鲷",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 30,
+            "printed_page": 25,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "牙鲷(dentex)",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "整条售卖需修剪、去鳞、去内脏",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "整条售卖的鱼在加热烹调之前,需要经过修剪、去掉鱼鳞以及内脏",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [
+      "甘美"
+    ],
+    "intensity": "medium",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 41,
+        "printed_page": 136,
+        "chapter": "鱼类和海鲜类",
+        "section": null,
+        "quote": "有着甘美的美好滋味",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "texture": {
+    "descriptors": [
+      "肉质洁白",
+      "硬实"
+    ],
+    "intensity": "medium",
+    "evidence": [
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 41,
+        "printed_page": 136,
+        "chapter": "鱼类和海鲜类",
+        "section": null,
+        "quote": "在加热烹调的过程中会变成白色",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "DK-INGREDIENTS",
+        "book_title": "食材百科全书",
+        "pdf_page": 30,
+        "printed_page": 25,
+        "chapter": "鱼类和海鲜类",
+        "section": null,
+        "quote": "肉质变得硬实而不透明",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "《中药学》未收鲷鱼；无传统四气五味依据。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [
+      "蒸",
+      "煎",
+      "铁扒",
+      "烘烤",
+      "炒",
+      "纸包烤"
+    ],
+    "preparation": [
+      "去鳞、去内脏；整条/鱼排/鱼肉"
+    ],
+    "heat_notes": "书中纸包海鲷鱼：烤箱 210°C，烤 12~15 分钟至鱼肉硬实不透明。（《食材百科全书》p.25）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "香油、酱油、姜、大蒜、香菜、棕榈糖、泰国鱼汁、柠檬/青柠",
+      "reason": "书中“搭配各种风味”（OCR“大”应为“大蒜”）",
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "book_title": "食材百科全书",
+          "pdf_page": 41,
+          "printed_page": 136,
+          "chapter": "鱼类和海鲜类",
+          "section": null,
+          "quote": "香油、酱油、姜、大、香菜、棕榈糖、泰国鱼汁等",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "substitutes": [
+    {
+      "name": "海鲈鱼",
+      "difference": "书中列为可替代鱼类",
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "book_title": "食材百科全书",
+          "pdf_page": 41,
+          "printed_page": 136,
+          "chapter": "鱼类和海鲜类",
+          "section": null,
+          "quote": "下列鱼类可以用来代替它们:海鲈鱼、石斑鱼等",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "石斑鱼",
+      "difference": "书中列为可替代鱼类",
+      "evidence": [
+        {
+          "source_id": "DK-INGREDIENTS",
+          "book_title": "食材百科全书",
+          "pdf_page": 41,
+          "printed_page": 136,
+          "chapter": "鱼类和海鲜类",
+          "section": null,
+          "quote": "下列鱼类可以用来代替它们:海鲈鱼、石斑鱼等",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "去鳞、去内脏；整条/鱼排/鱼肉",
+        "evidence": [
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "整条售卖的鱼在加热烹调之前,需要经过修剪、去掉鱼鳞以及内脏",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          },
+          {
+            "source_id": "DK-INGREDIENTS",
+            "book_title": "食材百科全书",
+            "pdf_page": 41,
+            "printed_page": 136,
+            "chapter": "鱼类和海鲜类",
+            "section": null,
+            "quote": "可以是整条、可以剔取鱼肉、切割成鱼排等",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "鱼类过敏原（通用提示，非四书依据）",
+      "生食水产有寄生虫/微生物风险；书未给生食安全参数",
+      "书中提示部分鲷鱼捕捞过度/濒危，选择时关注可持续性（《食材百科全书》p.136）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "鲷鱼(snapper)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "在世界各地的热带水域中均可以见到它们的身影",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "红鲷鱼",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "巴哈马笛鲷",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "黄尾笛鲷",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "整条售卖的鱼在加热烹调之前,需要经过修剪、去掉鱼鳞以及内脏",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "在加热烹调的过程中会变成白色",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "有着甘美的美好滋味",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "可以蒸、煎、铁扒、烘烤、炒等",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "可以是整条、可以剔取鱼肉、切割成鱼排等",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "下列鱼类可以用来代替它们:海鲈鱼、石斑鱼等",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "香油、酱油、姜、大、香菜、棕榈糖、泰国鱼汁等",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 41,
+      "printed_page": 136,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "部分地区属于濒临灭绝的鱼类",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 30,
+      "printed_page": 25,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "red sea bream",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 30,
+      "printed_page": 25,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "牙鲷(dentex)",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 30,
+      "printed_page": 25,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "将烤箱预热至210°C",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 30,
+      "printed_page": 25,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "放入烤箱烘烤12~15分钟",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "DK-INGREDIENTS",
+      "book_title": "食材百科全书",
+      "pdf_page": 30,
+      "printed_page": 25,
+      "chapter": "鱼类和海鲜类",
+      "section": null,
+      "quote": "肉质变得硬实而不透明",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "各品种的精确风味差异",
+    "中心温度安全阈值",
+    "产地季节",
+    "储存条件"
+  ]
+}

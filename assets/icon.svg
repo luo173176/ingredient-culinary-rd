@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Ingredient Research and Culinary R&D">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#f1e4cf"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f8f4e"/>
+      <stop offset="1" stop-color="#2f5e3a"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9774d"/>
+      <stop offset="1" stop-color="#8f3f2c"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="48" fill="url(#paper)" stroke="#3b342d" stroke-width="6"/>
+  <path d="M45 178c0-10 8-18 18-18h130c10 0 18 8 18 18v18H45z" fill="url(#pot)"/>
+  <path d="M64 196h128c-5 18-20 28-40 28H104c-20 0-35-10-40-28z" fill="#6f2e22"/>
+  <path d="M73 160c4-19 18-34 35-44" fill="none" stroke="#3b342d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M184 160c-5-20-20-35-37-45" fill="none" stroke="#3b342d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M128 118c-24-8-39-27-40-55 28 3 47 18 55 42-4 7-9 12-15 13z" fill="url(#leaf)"/>
+  <path d="M128 118c24-8 39-27 40-55-28 3-47 18-55 42 4 7 9 12 15 13z" fill="#7aa65e"/>
+  <path d="M128 113v39" stroke="#3b342d" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#d9a441">
+    <circle cx="93" cy="133" r="5"/>
+    <circle cx="163" cy="137" r="4"/>
+    <circle cx="176" cy="124" r="3.5"/>
+    <circle cx="84" cy="117" r="3.5"/>
+  </g>
+  <path d="M84 196h88" stroke="#f8e7cf" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+</svg>

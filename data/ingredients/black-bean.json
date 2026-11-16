@@ -1,0 +1,321 @@
+{
+  "id": "black-bean",
+  "basic": {
+    "canonical_name_zh": "黑豆",
+    "scientific_name": null,
+    "english_name": "black bean",
+    "one_line_definition": "书中记其味甘性平，主产区为东北三省与河南，并收有“何首乌黑豆煲鸡脚”食疗方。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "槽豆",
+      "乌豆",
+      "枝仔豆",
+      "黑大豆"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 43,
+        "printed_page": 39,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "别名:槽豆、乌豆、枝仔豆、黑大豆",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "豆类",
+      "谷物杂粮"
+    ],
+    "culinary_role": [
+      "煲汤",
+      "炒制",
+      "制豉"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "主产区：东北三省、河南省",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 43,
+            "printed_page": 39,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "主产区:东北三省,河南省",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "成熟期：12月~次年3月",
+    "availability": null,
+    "notes": "书中记载：成熟期：12月~次年3月（《中国地道食材图录大全》p.39）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "种脐处有白点（书中用于辨别真假黑豆）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 43,
+            "printed_page": 39,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "脐处有白点",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "平",
+    "flavor": "甘",
+    "meridians": null,
+    "notes": "书中记“味甘性平”，功效记载为补肾益阴、健脾利湿、除热解毒；属传统理论。（《中国地道食材图录大全》p.39）；传统理论，非现代医学证据。"
+  },
+  "tcm_applications": {
+    "functions": [
+      "补肾益阴（传统）",
+      "健脾利湿（传统）",
+      "除热解毒（传统）"
+    ],
+    "traditional_uses": [
+      "何首乌黑豆煲鸡脚（书中小食/食疗方）"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 43,
+        "printed_page": 39,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "性味:味甘性平",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 43,
+        "printed_page": 39,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "补肾益阴、健脾利湿、除热解毒",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "煲汤",
+      "炒至豆壳裂开"
+    ],
+    "preparation": [
+      "洗净",
+      "炒至豆壳裂开（书中煲汤做法）"
+    ],
+    "heat_notes": "书中煲汤约三小时；未给温度。（《中国地道食材图录大全》p.39）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "何首乌、红枣、鸡脚、猪瘦肉",
+      "reason": "书中“何首乌黑豆煲鸡脚”食疗方组合",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 43,
+          "printed_page": 39,
+          "chapter": "第一章 谷物和米面制品",
+          "section": null,
+          "quote": "何首乌黑豆煲鸡脚",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "炒至豆壳裂开（书中煲汤做法）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 43,
+            "printed_page": 39,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "黑豆洗净放锅中炒至豆壳裂开",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "书中食疗方含何首乌；四书未提供何首乌肝损伤风险的系统数据，不建议自行长期服用（缺口提示）",
+      "豆类必须彻底煮熟；四书未展开毒理，属通用食品安全提示（非四书依据）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "别名:槽豆、乌豆、枝仔豆、黑大豆",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "性味:味甘性平",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "补肾益阴、健脾利湿、除热解毒",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "主产区:东北三省,河南省",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "成熟期:12月~次年3月",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "脐处有白点",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "黑豆洗净放锅中炒至豆壳裂开",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "全部用料放入煲内,加适量清水煲3小时",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 43,
+      "printed_page": 39,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "何首乌黑豆煲鸡脚",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "香气、质地的系统描述",
+    "替代方案",
+    "储存条件",
+    "何首乌配伍的现代安全性证据"
+  ]
+}

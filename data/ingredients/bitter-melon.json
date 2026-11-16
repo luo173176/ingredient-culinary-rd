@@ -1,0 +1,550 @@
+{
+  "id": "bitter-melon",
+  "basic": {
+    "canonical_name_zh": "苦瓜",
+    "scientific_name": null,
+    "english_name": "bitter melon / balsam pear",
+    "one_line_definition": "书中记其味苦、性寒、无毒，果瘤与果肉颜色是品质线索；收有苦瓜汤、烧鱼、榨汁等做法。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "凉瓜",
+      "癫瓜",
+      "锦荔枝",
+      "葡萄"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 80,
+        "printed_page": 76,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "别名:凉瓜、癫瓜、锦荔枝、葡萄",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "蔬菜",
+      "瓜类"
+    ],
+    "culinary_role": [
+      "清炒",
+      "煲汤",
+      "凉拌",
+      "榨汁"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "主产地：福建、两广地区",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 80,
+            "printed_page": 76,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "主产地:福建两广地区",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "成熟期：4~9月",
+    "availability": null,
+    "notes": "书中记载：成熟期：4~9月（《中国地道食材图录大全》p.76）"
+  },
+  "appearance_quality": {
+    "traits": [
+      {
+        "statement": "果瘤颗粒大而饱满者瓜肉较厚",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 80,
+            "printed_page": 76,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "颗粒大而饱",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "果肉洁白为佳；发黄表示已过熟、口感下降",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 80,
+            "printed_page": 76,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "好的苦瓜一般果肉洁白,若果肉发黄,则表示已过",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "寒",
+    "flavor": "苦",
+    "meridians": null,
+    "notes": "书中记“味苦，性寒，无毒”，并记清热解暑、补脾和胃、滋肝明目；属传统理论。（《中国地道食材图录大全》p.76）；传统理论，非现代医学证据。"
+  },
+  "tcm_applications": {
+    "functions": [
+      "清热解暑（传统）",
+      "补脾和胃（传统）",
+      "滋肝明目（传统）"
+    ],
+    "traditional_uses": [
+      "暑天清炒/煲汤",
+      "苦瓜配辣椒/木耳（书中饮食搭配）"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 80,
+        "printed_page": 76,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "性味:味苦,性寒,无毒",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 80,
+        "printed_page": 76,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "清热解暑",
+        "extraction_method": "ocr",
+        "confidence": "low"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 80,
+        "printed_page": 76,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "补脾和胃",
+        "extraction_method": "ocr",
+        "confidence": "low"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 80,
+        "printed_page": 76,
+        "chapter": "第三章 蔬菜",
+        "section": null,
+        "quote": "滋肝明目",
+        "extraction_method": "ocr",
+        "confidence": "low"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "煮汤",
+      "烧",
+      "榨汁"
+    ],
+    "preparation": [
+      "切段/切块；书中有氽烫、快炒做法"
+    ],
+    "heat_notes": "书未给温度；苦瓜烧鱼为“快炒至香”后小火焖约十分钟。（《中国地道食材图录大全》p.77）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "葱白、生姜",
+      "reason": "书中饮食搭配，用于暑天感冒发热、身痛口苦",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 80,
+          "printed_page": 76,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "葱白生姜",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 80,
+          "printed_page": 76,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "用于暑天感冒发热、身痛口苦",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "with": "菊花",
+      "reason": "书中饮食搭配，用于肝热目赤或疼痛",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 80,
+          "printed_page": 76,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "苦瓜菊花",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        },
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 80,
+          "printed_page": 76,
+          "chapter": "第三章 蔬菜",
+          "section": null,
+          "quote": "用于肝热目赤或疼痛",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "with": "辣椒",
+      "reason": "书中记“苦瓜辣椒共炒食，可清热、开胃”",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 235,
+          "printed_page": 231,
+          "chapter": "第八章 调味品",
+          "section": null,
+          "quote": "苦瓜辣椒共炒食,可清热、开胃",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "切段/切块；书中有氽烫、快炒做法",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 81,
+            "printed_page": 77,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "将苦瓜切段、蚌肉切片",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          },
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 81,
+            "printed_page": 77,
+            "chapter": "第三章 蔬菜",
+            "section": null,
+            "quote": "苦瓜烧鱼",
+            "extraction_method": "ocr",
+            "confidence": "low"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "书中称苦瓜可刺激子宫收缩、孕妇不要食用；同时又记瓜中奎宁含量较低。按保守原则，孕妇应咨询医生（《中国地道食材图录大全》p.76）",
+      "书中“防癌抗癌”“降糖”等表述不是现代临床证据，本卡不采信为结论"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "别名:凉瓜、癫瓜、锦荔枝、葡萄",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "性味:味苦,性寒,无毒",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "主产地:福建两广地区",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "成熟期:4~9月",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "颗粒大而饱",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "好的苦瓜一般果肉洁白,若果肉发黄,则表示已过",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "清热解暑",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "补脾和胃",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "滋肝明目",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "葱白生姜",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "用于暑天感冒发热、身痛口苦",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "苦瓜菊花",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "用于肝热目赤或疼痛",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 235,
+      "printed_page": 231,
+      "chapter": "第八章 调味品",
+      "section": null,
+      "quote": "苦瓜辣椒共炒食,可清热、开胃",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "可刺激子宫收缩",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 80,
+      "printed_page": 76,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "瓜中奎宁的含量较低",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 81,
+      "printed_page": 77,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "蚌肉苦瓜汤",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 81,
+      "printed_page": 77,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "苦瓜烧鱼",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 81,
+      "printed_page": 77,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "香蕉苦瓜汁",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 81,
+      "printed_page": 77,
+      "chapter": "第三章 蔬菜",
+      "section": null,
+      "quote": "将苦瓜切段、蚌肉切片",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "香气/质地的系统描述",
+    "替代方案",
+    "苦味物质的定量数据",
+    "孕妇食用的现代安全性证据"
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "id": "mung-bean",
+  "basic": {
+    "canonical_name_zh": "绿豆",
+    "scientific_name": null,
+    "english_name": "mung bean",
+    "one_line_definition": "中国传统豆类；书中记其味甘性凉，可煮粥、制粉、发豆芽，并收有数个食疗小方。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [
+      "青小豆",
+      "植豆"
+    ],
+    "alias_evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 40,
+        "printed_page": 36,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "绿豆又名青小豆",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      },
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 40,
+        "printed_page": 36,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "别名:豆、植豆",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "category": {
+    "taxonomy": [
+      "豆类",
+      "谷物杂粮"
+    ],
+    "culinary_role": [
+      "煮汤",
+      "煮粥",
+      "制粉",
+      "发豆芽"
+    ]
+  },
+  "origin_variety": {
+    "origins": [
+      {
+        "statement": "主产地：东北三省",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 40,
+            "printed_page": 36,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "主产地:东北三省",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": "成熟期：8月（原文作“成熟时期”）",
+    "availability": null,
+    "notes": "书中记载：成熟期：8月（原文作“成熟时期”）（《中国地道食材图录大全》p.36）"
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": true,
+    "nature": "凉",
+    "flavor": "甘",
+    "meridians": null,
+    "notes": "书中记“味甘性凉”；属传统食疗属性，不是现代医学证据。（《中国地道食材图录大全》p.36）"
+  },
+  "tcm_applications": {
+    "functions": [
+      "清热解毒（书中食疗表述）",
+      "补充营养"
+    ],
+    "traditional_uses": [
+      "夏季煮汤/煮粥",
+      "绿豆糕",
+      "发豆芽"
+    ],
+    "theory_basis": "《中药学》/《中国地道食材图录大全》传统记载",
+    "evidence": [
+      {
+        "source_id": "CN-DIDAO-2011",
+        "book_title": "中国地道食材图录大全",
+        "pdf_page": 40,
+        "printed_page": 36,
+        "chapter": "第一章 谷物和米面制品",
+        "section": null,
+        "quote": "性味:味甘性凉",
+        "extraction_method": "ocr",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "culinary_uses": {
+    "methods": [
+      "煮粥/豆饭",
+      "制粉条/粉丝/糕点",
+      "发豆芽"
+    ],
+    "preparation": [
+      "洗净晾干",
+      "干炒十分钟后再煮（书中小窍门）"
+    ],
+    "heat_notes": "书中小窍门：干炒十分钟左右再煮，绿豆更易煮烂；未给温度。（《中国地道食材图录大全》p.36）"
+  },
+  "flavor_pairings": [
+    {
+      "with": "金银花",
+      "reason": "书中小食方：煎煮后加红糖饮用，书中称“可解酒”",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 40,
+          "printed_page": 36,
+          "chapter": "第一章 谷物和米面制品",
+          "section": null,
+          "quote": "绿豆金银花100g30g煎煮后加红糖饮用,可解酒",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "with": "甘草",
+      "reason": "书中小食方组合",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 40,
+          "printed_page": 36,
+          "chapter": "第一章 谷物和米面制品",
+          "section": null,
+          "quote": "绿豆甘草50g10g",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "with": "绿茶",
+      "reason": "书中小食方组合",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 40,
+          "printed_page": 36,
+          "chapter": "第一章 谷物和米面制品",
+          "section": null,
+          "quote": "绿豆绿茶50g10g",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "with": "生甘草",
+      "reason": "书中小食方组合",
+      "evidence": [
+        {
+          "source_id": "CN-DIDAO-2011",
+          "book_title": "中国地道食材图录大全",
+          "pdf_page": 40,
+          "printed_page": 36,
+          "chapter": "第一章 谷物和米面制品",
+          "section": null,
+          "quote": "绿豆生甘草",
+          "extraction_method": "ocr",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [
+      {
+        "statement": "洗净晾干",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 40,
+            "printed_page": 36,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "好的绿豆洗净晾干",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      },
+      {
+        "statement": "干炒十分钟后再煮（书中小窍门）",
+        "evidence": [
+          {
+            "source_id": "CN-DIDAO-2011",
+            "book_title": "中国地道食材图录大全",
+            "pdf_page": 40,
+            "printed_page": 36,
+            "chapter": "第一章 谷物和米面制品",
+            "section": null,
+            "quote": "在铁锅中干炒十分钟",
+            "extraction_method": "ocr",
+            "confidence": "medium"
+          }
+        ],
+        "claim_type": "original"
+      }
+    ],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [
+      "脾胃虚弱者不宜多吃（原书食疗宜忌）（《中国地道食材图录大全》p.36）",
+      "服温补药时忌食绿豆食品（原书饮食禁忌，属传统说法）（《中国地道食材图录大全》p.36）"
+    ],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆又名青小豆",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "别名:豆、植豆",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "性味:味甘性凉",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "主产地:东北三省",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "成熟时期:8月",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "作豆粥、豆饭、豆酒",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "粉条、粉丝、糕点",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆在发芽过程中",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "好的绿豆洗净晾干",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "在铁锅中干炒十分钟",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆性凉,脾胃虚弱的人不",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "补药时忌食绿豆食品",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆金银花100g30g煎煮后加红糖饮用,可解酒",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆甘草50g10g",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆绿茶50g10g",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆生甘草",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    },
+    {
+      "source_id": "CN-DIDAO-2011",
+      "book_title": "中国地道食材图录大全",
+      "pdf_page": 40,
+      "printed_page": 36,
+      "chapter": "第一章 谷物和米面制品",
+      "section": null,
+      "quote": "绿豆淀粉中含有相当数量的低聚糖",
+      "extraction_method": "ocr",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "香气、质地的系统描述",
+    "品种与等级",
+    "储存条件与保质期",
+    "书中“辅助治疗糖尿病及肥胖症”“抑制癌细胞”等表述不是现代临床证据，本卡不采信为结论"
+  ]
+}

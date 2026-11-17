@@ -1,4 +1,4 @@
-"""Validate the four-book knowledge base and write data/manifest.json.
+"""Validate the ten-book knowledge base and write data/manifest.json.
 
 Checks are deliberately concrete: file presence, page counts, citation/page
 agreement, FTS/chunk parity, herb record integrity, ingredient-card schema
@@ -43,7 +43,16 @@ PAGE_FILES = {
     "CN-DIDAO-2011": PAGES_DIR / "CN-DIDAO-2011.ocr.jsonl",
     "FS-SFAH-2023": PAGES_DIR / "FS-SFAH-2023.jsonl",
     "DK-INGREDIENTS": PAGES_DIR / "DK-INGREDIENTS.ocr.jsonl",
+    "MCG-V1-2013": PAGES_DIR / "MCG-V1-2013.ocr.jsonl",
+    "MCG-V2-2013": PAGES_DIR / "MCG-V2-2013.ocr.jsonl",
+    "MCG-V3-2013": PAGES_DIR / "MCG-V3-2013.ocr.jsonl",
+    "FC-BELITZ-2009": PAGES_DIR / "FC-BELITZ-2009.jsonl",
+    "FB-PAGE-2008": PAGES_DIR / "FB-PAGE-2008.jsonl",
+    "CR-WXY-2003": PAGES_DIR / "CR-WXY-2003.ocr.jsonl",
 }
+
+PHASE1 = ["MM-ZYX-2016", "CN-DIDAO-2011", "FS-SFAH-2023", "DK-INGREDIENTS"]
+PHASE2 = ["MCG-V1-2013", "MCG-V2-2013", "MCG-V3-2013", "FC-BELITZ-2009", "FB-PAGE-2008", "CR-WXY-2003"]
 
 FAILURES: list[str] = []
 CHECKS = 0
@@ -131,6 +140,11 @@ def main() -> int:
             }
         )
 
+    phase1_pages = sum(x["pages"] for x in book_stats if x["source_id"] in PHASE1)
+    phase2_pages = sum(x["pages"] for x in book_stats if x["source_id"] in PHASE2)
+    check("第一阶段 4 书页记录基线 1975", phase1_pages == 1975, f"{phase1_pages} != 1975")
+    check("第二阶段 6 书页记录非空", phase2_pages > 0, str(phase2_pages))
+
     print("== 3. 知识片段与引用 ==")
     chunk_rows: list[dict[str, Any]] = []
     for b in books:
@@ -167,7 +181,11 @@ def main() -> int:
                 break
 
     total_chunks = len(chunk_rows)
-    check("chunk 总数", total_chunks == 2589, f"{total_chunks} != 2589")
+    phase1_chunks = sum(1 for r in chunk_rows if r["source_id"] in PHASE1)
+    phase2_chunks = sum(1 for r in chunk_rows if r["source_id"] in PHASE2)
+    check("第一阶段 4 书 chunk 基线 2589", phase1_chunks == 2589, f"{phase1_chunks} != 2589")
+    check("第二阶段 6 书 chunk 非空", phase2_chunks > 0, str(phase2_chunks))
+    check("全库 chunk 总数 = 各书之和", total_chunks == phase1_chunks + phase2_chunks, str(total_chunks))
 
     print("== 4. SQLite 索引 ==")
     db = INDEX_DIR / "knowledge.sqlite"
@@ -178,13 +196,37 @@ def main() -> int:
         try:
             integrity = con.execute("PRAGMA integrity_check").fetchone()[0]
             check("SQLite integrity_check", integrity == "ok", integrity)
-            for table in ("pages", "chunks", "chunks_fts", "herbs", "aliases", "sources"):
+            for table in (
+                "pages", "chunks", "chunks_fts", "herbs", "aliases", "sources",
+                "flavor_pairings", "flavor_affinities", "chemistry_topics",
+                "culinary_sections", "conflict_candidates",
+            ):
                 n = con.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
                 db_counts[table] = n
             check("pages 行数 = 页记录总数", db_counts["pages"] == sum(len(v) for v in page_cache.values()), str(db_counts))
             check("chunks 行数 = chunk 文件总数", db_counts["chunks"] == total_chunks, f"{db_counts['chunks']} != {total_chunks}")
             check("FTS 行数 = chunks", db_counts["chunks_fts"] == db_counts["chunks"], str(db_counts))
-            check("sources = 4", db_counts["sources"] == 4, str(db_counts["sources"]))
+            check("sources = 10", db_counts["sources"] == 10, str(db_counts["sources"]))
+            check("flavor_pairings 非空", db_counts["flavor_pairings"] > 0, str(db_counts["flavor_pairings"]))
+            check("flavor_affinities 非空", db_counts["flavor_affinities"] > 0, str(db_counts["flavor_affinities"]))
+            check("chemistry_topics 非空", db_counts["chemistry_topics"] > 0, str(db_counts["chemistry_topics"]))
+            check("culinary_sections 非空", db_counts["culinary_sections"] > 0, str(db_counts["culinary_sections"]))
+            bad_levels = con.execute(
+                "SELECT COUNT(*) FROM flavor_pairings WHERE evidence_level NOT IN "
+                "('explicit_pairing_listing','explicit_affinity_combination',"
+                "'derived_from_affinity_combination','ai_hypothesis')"
+            ).fetchone()[0]
+            check("flavor_pairings evidence_level 合法", bad_levels == 0, str(bad_levels))
+            bad_pair_pages = con.execute(
+                "SELECT COUNT(*) FROM flavor_pairings p LEFT JOIN pages g "
+                "ON g.source_id=p.source_id AND g.pdf_page=p.pdf_page WHERE g.pdf_page IS NULL"
+            ).fetchone()[0]
+            check("flavor_pairings 页码均存在", bad_pair_pages == 0, str(bad_pair_pages))
+            bad_topic_pages = con.execute(
+                "SELECT COUNT(*) FROM chemistry_topics t LEFT JOIN pages g "
+                "ON g.source_id=t.source_id AND g.pdf_page=t.pdf_page WHERE g.pdf_page IS NULL"
+            ).fetchone()[0]
+            check("chemistry_topics 页码均存在", bad_topic_pages == 0, str(bad_topic_pages))
         finally:
             con.close()
 
@@ -220,9 +262,13 @@ def main() -> int:
     schema = load_json(schema_path)
     check("ingredient.schema.json 存在", bool(schema), str(schema_path))
     validator = Draft202012Validator(schema) if schema and Draft202012Validator else None
-    cards = sorted((DATA / "ingredients").glob("*.json"))
-    cards = [p for p in cards if not p.name.startswith("_")]
-    check("食材卡数量 12", len(cards) == 12, str(len(cards)))
+    old_cards = sorted((DATA / "ingredients").glob("*.json"))
+    old_cards = [p for p in old_cards if not p.name.startswith("_")]
+    new_cards = sorted((DATA / "ingredients-phase2").glob("*.json"))
+    new_cards = [p for p in new_cards if not p.name.startswith("_")]
+    cards = old_cards + new_cards
+    check("第一阶段食材卡数量 12", len(old_cards) == 12, str(len(old_cards)))
+    check("第二阶段食材卡数量 6", len(new_cards) == 6, str(len(new_cards)))
     bad_schema = []
     bad_quote = []
     bad_page = []
@@ -303,6 +349,14 @@ def main() -> int:
         "references/flavor-science/acid.md",
         "references/flavor-science/heat.md",
         "references/flavor-science/balance.md",
+        "references/food-chemistry/README.md",
+        "references/food-chemistry/topics.md",
+        "references/food-chemistry/limitations-2009.md",
+        "references/flavor-pairing/README.md",
+        "references/flavor-pairing/index.md",
+        "references/flavor-pairing/evidence-policy.md",
+        "references/culinary-ingredients/README.md",
+        "references/food-and-cooking/README.md",
         "workflows/01-ingredient-deep-dive.md",
         "workflows/02-ingredient-comparison.md",
         "workflows/03-pairing-analysis.md",
@@ -324,6 +378,17 @@ def main() -> int:
         "main_herbs": len(main_herbs),
         "attached_herbs": len(attached),
         "ingredient_cards": len(cards),
+        "phase1_ingredient_cards": len(old_cards),
+        "phase2_ingredient_cards": len(new_cards),
+        "phase1_pages": phase1_pages,
+        "phase2_pages": phase2_pages,
+        "phase1_chunks": phase1_chunks,
+        "phase2_chunks": phase2_chunks,
+        "sources": len(books),
+        "flavor_pairings": db_counts.get("flavor_pairings", 0),
+        "flavor_affinities": db_counts.get("flavor_affinities", 0),
+        "chemistry_topics": db_counts.get("chemistry_topics", 0),
+        "culinary_sections": db_counts.get("culinary_sections", 0),
         "visual_records": len(visual_rows),
         "content_images": visual_stats.get("images", 0),
         "page_scans": visual_stats.get("page_scans", 0),
@@ -332,7 +397,7 @@ def main() -> int:
     manifest = {
         "schema_version": "1.0",
         "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "knowledge_base": "four-book-v1",
+        "knowledge_base": "ten-book-v2",
         "books": book_stats,
         "totals": totals,
         "database": db_counts,

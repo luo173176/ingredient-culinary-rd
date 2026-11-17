@@ -22,7 +22,7 @@
 ## 检索计划
 
 1. 名称归一化：查 `config/ingredient_lexicon.json`，得到 canonical + aliases。
-2. 按 canonical 检索四书；再按别名补检一次。
+2. 按 canonical 检索十书；再按别名补检一次。
 3. 必查维度：产地/品种、时令、品质、香气、味道、口感、烹饪、搭配、保存、安全。
 4. 本草属性只在命中《中药学》时写；没有就明确写不适用/无依据。
 5. 至少跨 2 本书；若只有 1 本有内容，说明其余书未覆盖。
@@ -52,7 +52,7 @@
 **来源冲突**
 - 《A》认为：……［E1］
 - 《B》认为：……［E2］
-- 处理：并列保留；现有四书不足以判定哪一种更具普遍性。
+- 处理：并列保留；现有十书不足以判定哪一种更具普遍性。
 ```
 
 ### 5. 给出“怎么用”的三条建议
@@ -114,3 +114,41 @@ python scripts/search.py "花椒 产地 品种 性味" --top 8
 python scripts/search.py "川椒 蜀椒" --top 6
 python scripts/search.py --herb 花椒
 ```
+
+## Phase 2 深度增强
+
+### 新增来源的分工
+
+| 维度 | 首选来源 |
+|---|---|
+| 原料分类、品质检验、保藏 | `CR-WXY-2003` |
+| 食材结构、加工、受热与烹饪原理 | `MCG-V1/V2/V3-2013` |
+| 蛋白质、脂质、淀粉、香气等机制 | `FC-BELITZ-2009` |
+| 搭配候选 | `FB-PAGE-2008` |
+| 原有产地、时令、感官、本草 | 第一阶段四书 |
+
+### 扩展字段
+
+可增加 `scientific_name`、`ingredient_category`、`chemical_composition`、`protein_profile`、`lipid_profile`、`carbohydrate_profile`、`aroma_compounds`、`thermal_behavior`、`processing_behavior`、`storage_properties`、`food_science_evidence` 等字段。
+
+规则：
+
+- 所有字段允许为空。
+- 没有来源就填 `null` / `gaps`，不凭常识补学名、品种或化学成分。
+- 传统本草字段与食品化学字段分开。
+- 2009 年 Food Chemistry 与 2003 年《烹饪原料学》必须标版本。
+
+### 检索示例
+
+```bash
+python scripts/search.py "小麦面粉 蛋白质 面筋" --source CR-WXY-2003
+python scripts/search.py "wheat gluten dough" --source FC-BELITZ-2009
+python scripts/search.py "面团 面筋 淀粉" --source MCG-V1-2013
+python scripts/search.py --pairing BASIL --top 15
+```
+
+### 质量检查补充
+
+- [ ] 是否把 Food Chemistry 的实验室条件误写成家用参数？
+- [ ] 是否把 Flavor Bible 的搭配词写成感官实验结论？
+- [ ] 是否把“待核”的科属/学名伪装成事实？

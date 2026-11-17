@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T18:12:27",
-  "knowledge_base": "four-book-v1",
+  "generated_at": "2026-11-17T18:31:47",
+  "knowledge_base": "ten-book-v2",
   "search_top": 100,
   "cases": [
     {
@@ -32,13 +32,13 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 396,
-                "score": 25.9973,
+                "score": 29.0112,
                 "citation": "《中药学》PDF 396（电子版无印刷页码）"
               },
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 234,
-                "score": 12.1919,
+                "score": 14.5736,
                 "citation": "《中国地道食材图录大全》p.230（PDF 234）"
               },
               {
@@ -51,25 +51,25 @@
           },
           {
             "query": "花椒 川椒 蜀椒",
-            "n": 47,
+            "n": 58,
             "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 228,
+                "score": 26.1052,
+                "citation": "《烹饪原料学》p.217（PDF 228）"
+              },
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 396,
-                "score": 19.3175,
+                "score": 20.7387,
                 "citation": "《中药学》PDF 396（电子版无印刷页码）"
               },
               {
-                "source_id": "MM-ZYX-2016",
-                "pdf_page": 718,
-                "score": 8.9127,
-                "citation": "《中药学》PDF 718（电子版无印刷页码）"
-              },
-              {
-                "source_id": "MM-ZYX-2016",
-                "pdf_page": 757,
-                "score": 8.5919,
-                "citation": "《中药学》PDF 757（电子版无印刷页码）"
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 226,
+                "score": 13.2898,
+                "citation": "《烹饪原料学》p.215（PDF 226）"
               }
             ]
           }
@@ -218,7 +218,7 @@
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 40,
-                "score": 22.3172,
+                "score": 24.6285,
                 "citation": "《中国地道食材图录大全》p.36（PDF 40）"
               }
             ]
@@ -230,7 +230,7 @@
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 43,
-                "score": 19.9555,
+                "score": 21.7154,
                 "citation": "《中国地道食材图录大全》p.39（PDF 43）"
               }
             ]
@@ -380,13 +380,13 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 396,
-                "score": 25.9973,
+                "score": 29.0112,
                 "citation": "《中药学》PDF 396（电子版无印刷页码）"
               },
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 234,
-                "score": 12.1919,
+                "score": 14.5736,
                 "citation": "《中国地道食材图录大全》p.230（PDF 234）"
               },
               {
@@ -404,19 +404,19 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 155,
-                "score": 13.341,
+                "score": 16.648,
                 "citation": "《中药学》PDF 155（电子版无印刷页码）"
               },
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 153,
-                "score": 12.8295,
+                "score": 15.9778,
                 "citation": "《中药学》PDF 153（电子版无印刷页码）"
               },
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 154,
-                "score": 12.5587,
+                "score": 15.5813,
                 "citation": "《中药学》PDF 154（电子版无印刷页码）"
               }
             ]
@@ -428,7 +428,7 @@
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 229,
-                "score": 15.4933,
+                "score": 18.2373,
                 "citation": "《中国地道食材图录大全》p.225（PDF 229）"
               }
             ]
@@ -600,19 +600,19 @@
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 29,
-                "score": 14.7764,
+                "score": 15.4302,
                 "citation": "《盐，脂，酸，热》PDF 29（电子版无印刷页码）"
               },
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 30,
-                "score": 13.4244,
+                "score": 14.0557,
                 "citation": "《盐，脂，酸，热》PDF 30（电子版无印刷页码）"
               },
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 33,
-                "score": 11.4946,
+                "score": 12.009,
                 "citation": "《盐，脂，酸，热》PDF 33（电子版无印刷页码）"
               }
             ]
@@ -624,7 +624,7 @@
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 31,
-                "score": 22.1335,
+                "score": 26.63,
                 "citation": "《盐，脂，酸，热》PDF 31（电子版无印刷页码）"
               }
             ]
@@ -636,26 +636,32 @@
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 37,
-                "score": 20.6023,
+                "score": 21.7634,
                 "citation": "《盐，脂，酸，热》PDF 37（电子版无印刷页码）"
               }
             ]
           },
           {
             "query": "肉类 蔬菜 谷物 1%",
-            "n": 2,
+            "n": 4,
             "top3": [
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 39,
-                "score": 7.9611,
+                "score": 9.0855,
                 "citation": "《盐，脂，酸，热》PDF 39（电子版无印刷页码）"
               },
               {
-                "source_id": "CN-DIDAO-2011",
-                "pdf_page": 4,
-                "score": 4.3431,
-                "citation": "《中国地道食材图录大全》PDF 4（电子版无印刷页码）"
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 55,
+                "score": 8.6855,
+                "citation": "《烹饪原料学》PDF 55（电子版无印刷页码）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 62,
+                "score": 7.8275,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》PDF 62（电子版无印刷页码）"
               }
             ]
           },
@@ -666,7 +672,7 @@
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 39,
-                "score": 11.4238,
+                "score": 13.4758,
                 "citation": "《盐，脂，酸，热》PDF 39（电子版无印刷页码）"
               }
             ]
@@ -883,19 +889,19 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 155,
-                "score": 13.341,
+                "score": 16.648,
                 "citation": "《中药学》PDF 155（电子版无印刷页码）"
               },
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 153,
-                "score": 12.8295,
+                "score": 15.9778,
                 "citation": "《中药学》PDF 153（电子版无印刷页码）"
               },
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 154,
-                "score": 12.5587,
+                "score": 15.5813,
                 "citation": "《中药学》PDF 154（电子版无印刷页码）"
               }
             ]
@@ -907,32 +913,32 @@
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 229,
-                "score": 15.4933,
+                "score": 18.2373,
                 "citation": "《中国地道食材图录大全》p.225（PDF 229）"
               }
             ]
           },
           {
             "query": "鲜姜 香味",
-            "n": 39,
+            "n": 49,
             "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 89,
+                "score": 24.4472,
+                "citation": "《烹饪原料学》p.78（PDF 89）"
+              },
               {
                 "source_id": "DK-INGREDIENTS",
                 "pdf_page": 349,
-                "score": 16.1436,
+                "score": 18.4767,
                 "citation": "《食材百科全书》PDF 349（电子版无印刷页码）"
               },
               {
                 "source_id": "DK-INGREDIENTS",
                 "pdf_page": 366,
-                "score": 15.1829,
+                "score": 17.6521,
                 "citation": "《食材百科全书》PDF 366（电子版无印刷页码）"
-              },
-              {
-                "source_id": "CN-DIDAO-2011",
-                "pdf_page": 196,
-                "score": 10.5994,
-                "citation": "《中国地道食材图录大全》p.192（PDF 196）"
               }
             ]
           }
@@ -1100,7 +1106,7 @@
         "queries": [
           {
             "query": "番茄 高产期",
-            "n": 2,
+            "n": 100,
             "top3": [
               {
                 "source_id": "DK-INGREDIENTS",
@@ -1113,53 +1119,59 @@
                 "pdf_page": 270,
                 "score": 7.44,
                 "citation": "《食材百科全书》PDF 270（电子版无印刷页码）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 133,
+                "score": 7.2935,
+                "citation": "《The Flavor Bible》p.118（PDF 133）"
               }
             ]
           },
           {
             "query": "番茄 室温",
-            "n": 8,
+            "n": 100,
             "top3": [
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 123,
-                "score": 9.2372,
+                "score": 10.7239,
                 "citation": "《盐，脂，酸，热》PDF 123（电子版无印刷页码）"
               },
               {
                 "source_id": "DK-INGREDIENTS",
                 "pdf_page": 270,
-                "score": 7.3864,
+                "score": 8.5427,
                 "citation": "《食材百科全书》PDF 270（电子版无印刷页码）"
               },
               {
                 "source_id": "FS-SFAH-2023",
-                "pdf_page": 123,
-                "score": 7.1826,
-                "citation": "《盐，脂，酸，热》PDF 123（电子版无印刷页码）"
+                "pdf_page": 207,
+                "score": 8.2023,
+                "citation": "《盐，脂，酸，热》PDF 207（电子版无印刷页码）"
               }
             ]
           },
           {
             "query": "番茄 鲜味",
-            "n": 7,
+            "n": 100,
             "top3": [
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 103,
-                "score": 9.6999,
+                "score": 10.5131,
                 "citation": "《盐，脂，酸，热》PDF 103（电子版无印刷页码）"
               },
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 102,
-                "score": 9.2923,
+                "score": 9.9513,
                 "citation": "《盐，脂，酸，热》PDF 102（电子版无印刷页码）"
               },
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 26,
-                "score": 8.4928,
+                "score": 9.1758,
                 "citation": "《盐，脂，酸，热》PDF 26（电子版无印刷页码）"
               }
             ]
@@ -1428,25 +1440,25 @@
         "queries": [
           {
             "query": "花椒 川椒 蜀椒",
-            "n": 47,
+            "n": 58,
             "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 228,
+                "score": 26.1052,
+                "citation": "《烹饪原料学》p.217（PDF 228）"
+              },
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 396,
-                "score": 19.3175,
+                "score": 20.7387,
                 "citation": "《中药学》PDF 396（电子版无印刷页码）"
               },
               {
-                "source_id": "MM-ZYX-2016",
-                "pdf_page": 718,
-                "score": 8.9127,
-                "citation": "《中药学》PDF 718（电子版无印刷页码）"
-              },
-              {
-                "source_id": "MM-ZYX-2016",
-                "pdf_page": 757,
-                "score": 8.5919,
-                "citation": "《中药学》PDF 757（电子版无印刷页码）"
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 226,
+                "score": 13.2898,
+                "citation": "《烹饪原料学》p.215（PDF 226）"
               }
             ]
           },
@@ -1457,13 +1469,13 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 396,
-                "score": 25.9973,
+                "score": 29.0112,
                 "citation": "《中药学》PDF 396（电子版无印刷页码）"
               },
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 234,
-                "score": 12.1919,
+                "score": 14.5736,
                 "citation": "《中国地道食材图录大全》p.230（PDF 234）"
               },
               {
@@ -1481,32 +1493,32 @@
               {
                 "source_id": "FS-SFAH-2023",
                 "pdf_page": 31,
-                "score": 22.1335,
+                "score": 26.63,
                 "citation": "《盐，脂，酸，热》PDF 31（电子版无印刷页码）"
               }
             ]
           },
           {
             "query": "鲷鱼",
-            "n": 14,
+            "n": 20,
             "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 174,
+                "score": 25.2164,
+                "citation": "《烹饪原料学》p.163（PDF 174）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 174,
+                "score": 18.8261,
+                "citation": "《烹饪原料学》p.163（PDF 174）"
+              },
               {
                 "source_id": "DK-INGREDIENTS",
                 "pdf_page": 29,
-                "score": 15.6006,
+                "score": 16.036,
                 "citation": "《食材百科全书》PDF 29（电子版无印刷页码）"
-              },
-              {
-                "source_id": "DK-INGREDIENTS",
-                "pdf_page": 30,
-                "score": 15.0918,
-                "citation": "《食材百科全书》p.25（PDF 30）"
-              },
-              {
-                "source_id": "DK-INGREDIENTS",
-                "pdf_page": 30,
-                "score": 8.8889,
-                "citation": "《食材百科全书》p.25（PDF 30）"
               }
             ]
           }
@@ -1697,7 +1709,7 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 381,
-                "score": 17.9009,
+                "score": 21.5853,
                 "citation": "《中药学》PDF 381（电子版无印刷页码）"
               }
             ]
@@ -1709,7 +1721,7 @@
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 382,
-                "score": 14.4094,
+                "score": 17.7695,
                 "citation": "《中药学》PDF 382（电子版无印刷页码）"
               },
               {
@@ -1859,7 +1871,7 @@
         "queries": [
           {
             "query": "番茄 高产期",
-            "n": 2,
+            "n": 100,
             "top3": [
               {
                 "source_id": "DK-INGREDIENTS",
@@ -1872,6 +1884,12 @@
                 "pdf_page": 270,
                 "score": 7.44,
                 "citation": "《食材百科全书》PDF 270（电子版无印刷页码）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 133,
+                "score": 7.2935,
+                "citation": "《The Flavor Bible》p.118（PDF 133）"
               }
             ]
           },
@@ -1880,46 +1898,46 @@
             "n": 100,
             "top3": [
               {
-                "source_id": "DK-INGREDIENTS",
-                "pdf_page": 227,
-                "score": 12.2938,
-                "citation": "《食材百科全书》PDF 227（电子版无印刷页码）"
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 75,
+                "score": 31.6616,
+                "citation": "《烹饪原料学》p.64（PDF 75）"
               },
               {
-                "source_id": "FS-SFAH-2023",
-                "pdf_page": 111,
-                "score": 11.2071,
-                "citation": "《盐，脂，酸，热》PDF 111（电子版无印刷页码）"
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 88,
+                "score": 17.4085,
+                "citation": "《食物与厨艺·蔬果香料谷物》PDF 88（电子版无印刷页码）"
               },
               {
-                "source_id": "DK-INGREDIENTS",
-                "pdf_page": 120,
-                "score": 10.6648,
-                "citation": "《食材百科全书》PDF 120（电子版无印刷页码）"
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 85,
+                "score": 17.078,
+                "citation": "《食物与厨艺·蔬果香料谷物》PDF 85（电子版无印刷页码）"
               }
             ]
           },
           {
             "query": "绿豆 青小豆",
-            "n": 4,
+            "n": 7,
             "top3": [
               {
                 "source_id": "MM-ZYX-2016",
                 "pdf_page": 28,
-                "score": 14.5742,
+                "score": 16.5223,
                 "citation": "《中药学》PDF 28（电子版无印刷页码）"
+              },
+              {
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 331,
+                "score": 14.7305,
+                "citation": "《食物与厨艺·蔬果香料谷物》p.329（PDF 331）"
               },
               {
                 "source_id": "CN-DIDAO-2011",
                 "pdf_page": 40,
-                "score": 13.5447,
+                "score": 14.6642,
                 "citation": "《中国地道食材图录大全》p.36（PDF 40）"
-              },
-              {
-                "source_id": "MM-ZYX-2016",
-                "pdf_page": 258,
-                "score": 6.88,
-                "citation": "《中药学》PDF 258（电子版无印刷页码）"
               }
             ]
           }
@@ -1962,7 +1980,7 @@
             "expect_source": "CN-DIDAO-2011",
             "expect_page": 40,
             "hit": true,
-            "n": 14
+            "n": 19
           }
         ],
         "alias_recall": 1.0,
@@ -2084,14 +2102,4247 @@
       "auto_passed": true,
       "hard_failures": [],
       "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E10.md"
+    },
+    {
+      "id": "E11",
+      "type": "food_chemistry",
+      "title": "蛋白质加热变化：肉为什么变硬、变干",
+      "question": "为什么肉类加热后会发生质地变化？请从蛋白质变性和持水性解释，并说明书籍条件。",
+      "expected_sources": [
+        "FC-BELITZ-2009"
+      ],
+      "expected_points": [
+        "蛋白质受热变性并聚集",
+        "肌纤维收缩挤出水分",
+        "持水性下降导致口感变干",
+        "具体温度与肉种、pH、盐浓度有关"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "protein denaturation",
+            "n": 25,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 654,
+                "score": 11.6304,
+                "citation": "《Food Chemistry》p.610（PDF 654）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 102,
+                "score": 10.107,
+                "citation": "《Food Chemistry》p.58（PDF 102）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 556,
+                "score": 10.0581,
+                "citation": "《Food Chemistry》p.512（PDF 556）"
+              }
+            ]
+          },
+          {
+            "query": "meat cooking temperature",
+            "n": 14,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 645,
+                "score": 12.2994,
+                "citation": "《Food Chemistry》p.601（PDF 645）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 652,
+                "score": 11.4706,
+                "citation": "《Food Chemistry》p.608（PDF 652）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1044,
+                "score": 11.0567,
+                "citation": "《Food Chemistry》p.1000（PDF 1044）"
+              }
+            ]
+          },
+          {
+            "query": "amino acids peptides proteins",
+            "n": 43,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 88,
+                "score": 20.3522,
+                "citation": "《Food Chemistry》p.44（PDF 88）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 60,
+                "score": 19.899,
+                "citation": "《Food Chemistry》p.16（PDF 60）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 62,
+                "score": 18.467,
+                "citation": "《Food Chemistry》p.18（PDF 62）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 654,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 88,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 654,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 88,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "蛋白质变性",
+          "肌纤维",
+          "持水性",
+          "加热"
+        ],
+        "matched": [
+          "蛋白质变性",
+          "肌纤维",
+          "持水性",
+          "加热"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 654,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 654,
+              "printed_page": 610,
+              "text_chars": 1727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 88,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 88,
+              "printed_page": 44,
+              "text_chars": 1839,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把蛋白质变性误写成水分全部蒸发",
+          "是否给出无来源的通用温度"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E11.md"
+    },
+    {
+      "id": "E12",
+      "type": "food_chemistry",
+      "title": "淀粉糊化：酱汁为什么会变稠",
+      "question": "淀粉加入含水体系并加热后为什么会增稠？请说明糊化、淀粉颗粒和温度条件。",
+      "expected_sources": [
+        "FC-BELITZ-2009",
+        "MCG-V1-2013"
+      ],
+      "expected_points": [
+        "淀粉颗粒吸水膨胀",
+        "结晶区熔化",
+        "直链淀粉与支链淀粉共同增稠",
+        "不同淀粉糊化温度不同"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "starch gelatinization",
+            "n": 18,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 363,
+                "score": 14.0633,
+                "citation": "《Food Chemistry》p.319（PDF 363）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 364,
+                "score": 13.7816,
+                "citation": "《Food Chemistry》p.320（PDF 364）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 371,
+                "score": 11.8326,
+                "citation": "《Food Chemistry》p.327（PDF 371）"
+              }
+            ]
+          },
+          {
+            "query": "sauce thickening starch",
+            "n": 3,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 371,
+                "score": 7.52,
+                "citation": "《Food Chemistry》p.327（PDF 371）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 368,
+                "score": 6.72,
+                "citation": "《Food Chemistry》p.324（PDF 368）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 345,
+                "score": 6.64,
+                "citation": "《Food Chemistry》p.301（PDF 345）"
+              }
+            ]
+          },
+          {
+            "query": "面糊 淀粉 增稠",
+            "n": 5,
+            "top3": [
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 129,
+                "score": 12.485,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.127（PDF 129）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 28,
+                "score": 11.6777,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.26（PDF 28）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 132,
+                "score": 6.96,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》PDF 132（电子版无印刷页码）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 363,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 364,
+            "hit": true
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 3,
+        "unique_pages": 3,
+        "expected_cited": 3,
+        "expected_total": 3,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 363,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 364,
+            "cited": true
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "淀粉糊化",
+          "糊化温度",
+          "淀粉颗粒",
+          "增稠"
+        ],
+        "matched": [
+          "淀粉糊化",
+          "糊化温度",
+          "淀粉颗粒",
+          "增稠"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 363,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 363,
+              "printed_page": 319,
+              "text_chars": 2327,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 364,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 364,
+              "printed_page": 320,
+              "text_chars": 2895,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "record": {
+              "source_id": "MCG-V1-2013",
+              "pdf_page": 129,
+              "printed_page": 127,
+              "text_chars": 793,
+              "method": "ocr",
+              "mean_score": 0.8637
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把糊化与溶解混淆",
+          "是否忽略糖盐酸对糊化的影响"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E12.md"
+    },
+    {
+      "id": "E13",
+      "type": "food_chemistry",
+      "title": "脂质氧化：油脂为什么哈败",
+      "question": "油脂加热或储存后为什么会产生哈败味？请说明脂质氧化、过氧化物和醛类。",
+      "expected_sources": [
+        "FC-BELITZ-2009"
+      ],
+      "expected_points": [
+        "不饱和脂肪酸易氧化",
+        "自动氧化生成过氧化物",
+        "过氧化物分解产生醛酮",
+        "光、热、金属离子促进氧化"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "lipid oxidation",
+            "n": 29,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 235,
+                "score": 9.9291,
+                "citation": "《Food Chemistry》p.191（PDF 235）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 236,
+                "score": 9.6829,
+                "citation": "《Food Chemistry》p.192（PDF 236）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 244,
+                "score": 9.6455,
+                "citation": "《Food Chemistry》p.200（PDF 244）"
+              }
+            ]
+          },
+          {
+            "query": "peroxidation unsaturated fatty acids",
+            "n": 12,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 208,
+                "score": 18.8386,
+                "citation": "《Food Chemistry》p.164（PDF 208）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 235,
+                "score": 18.5462,
+                "citation": "《Food Chemistry》p.191（PDF 235）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 236,
+                "score": 16.8725,
+                "citation": "《Food Chemistry》p.192（PDF 236）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 235,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 258,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 235,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 258,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "脂质氧化",
+          "过氧化",
+          "脂肪酸",
+          "醛"
+        ],
+        "matched": [
+          "脂质氧化",
+          "过氧化",
+          "脂肪酸",
+          "醛"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 235,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 235,
+              "printed_page": 191,
+              "text_chars": 3391,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 258,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 258,
+              "printed_page": 214,
+              "text_chars": 2825,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把氧化与水解混淆",
+          "是否编造烟点或保质期数字"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E13.md"
+    },
+    {
+      "id": "E14",
+      "type": "food_chemistry",
+      "title": "美拉德反应：褐变与香气从哪里来",
+      "question": "美拉德反应需要什么条件？为什么会产生褐色和香气？",
+      "expected_sources": [
+        "FC-BELITZ-2009"
+      ],
+      "expected_points": [
+        "还原糖与氨基化合物反应",
+        "初期形成 Amadori 产物",
+        "后期生成类黑精",
+        "温度、水分活度、pH 影响速率"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "Maillard reaction",
+            "n": 57,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 383,
+                "score": 11.8758,
+                "citation": "《Food Chemistry》p.339（PDF 383）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 333,
+                "score": 11.6674,
+                "citation": "《Food Chemistry》p.289（PDF 333）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 65,
+                "score": 11.237,
+                "citation": "《Food Chemistry》p.21（PDF 65）"
+              }
+            ]
+          },
+          {
+            "query": "initial phase Maillard",
+            "n": 2,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 315,
+                "score": 14.3901,
+                "citation": "《Food Chemistry》p.271（PDF 315）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1078,
+                "score": 10.88,
+                "citation": "《Food Chemistry》p.1034（PDF 1078）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 315,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 333,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 315,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 333,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "美拉德反应",
+          "氨基酸",
+          "还原糖",
+          "褐变"
+        ],
+        "matched": [
+          "美拉德反应",
+          "氨基酸",
+          "还原糖",
+          "褐变"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 315,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 315,
+              "printed_page": 271,
+              "text_chars": 3048,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 333,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 333,
+              "printed_page": 289,
+              "text_chars": 2351,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把美拉德与焦糖化混淆",
+          "是否把实验条件写成通用参数"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E14.md"
+    },
+    {
+      "id": "E15",
+      "type": "food_chemistry",
+      "title": "香气形成：为什么加热后更香",
+      "question": "为什么不同加热条件会改变香气？请从挥发性香气化合物和阈值解释。",
+      "expected_sources": [
+        "FC-BELITZ-2009"
+      ],
+      "expected_points": [
+        "香气由挥发性化合物共同构成",
+        "加热促进新香气生成",
+        "阈值决定感知强度",
+        "基质与释放影响闻到的香气"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "aroma compounds",
+            "n": 100,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 407,
+                "score": 10.5135,
+                "citation": "《Food Chemistry》p.363（PDF 407）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 422,
+                "score": 10.3478,
+                "citation": "《Food Chemistry》p.378（PDF 422）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 410,
+                "score": 9.8485,
+                "citation": "《Food Chemistry》p.366（PDF 410）"
+              }
+            ]
+          },
+          {
+            "query": "volatile compounds threshold",
+            "n": 35,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 247,
+                "score": 15.0448,
+                "citation": "《Food Chemistry》p.203（PDF 247）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 403,
+                "score": 14.0708,
+                "citation": "《Food Chemistry》p.359（PDF 403）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 385,
+                "score": 13.7374,
+                "citation": "《Food Chemistry》p.341（PDF 385）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 407,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 407,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "香气化合物",
+          "挥发性",
+          "风味",
+          "阈值"
+        ],
+        "matched": [
+          "香气化合物",
+          "挥发性",
+          "风味",
+          "阈值"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 384,
+              "printed_page": 340,
+              "text_chars": 3241,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 407,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 407,
+              "printed_page": 363,
+              "text_chars": 1649,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把香气等同于味道",
+          "是否忽略阈值与基质"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E15.md"
+    },
+    {
+      "id": "E16",
+      "type": "ingredient_research",
+      "title": "烹饪原料分类：植物性、动物性与水产",
+      "question": "烹饪原料学如何给原料分类？请说明植物性原料、动物性原料和水产品的基本范围。",
+      "expected_sources": [
+        "CR-WXY-2003"
+      ],
+      "expected_points": [
+        "按来源与性质分类",
+        "植物性原料包括粮食蔬菜果品",
+        "动物性原料包括畜禽蛋乳",
+        "水产品单独成类"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "烹饪原料 分类",
+            "n": 29,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 36,
+                "score": 12.7572,
+                "citation": "《烹饪原料学》p.25（PDF 36）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 73,
+                "score": 12.5083,
+                "citation": "《烹饪原料学》p.62（PDF 73）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 17,
+                "score": 12.3623,
+                "citation": "《烹饪原料学》PDF 17（电子版无印刷页码）"
+              }
+            ]
+          },
+          {
+            "query": "烹饪原料 蔬菜",
+            "n": 87,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 107,
+                "score": 10.7207,
+                "citation": "《烹饪原料学》p.96（PDF 107）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 44,
+                "score": 10.6097,
+                "citation": "《烹饪原料学》p.33（PDF 44）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 16,
+                "score": 10.3373,
+                "citation": "《烹饪原料学》PDF 16（电子版无印刷页码）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 44,
+            "hit": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 100,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 44,
+            "cited": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 100,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "烹饪原料",
+          "分类",
+          "植物性原料",
+          "动物性原料"
+        ],
+        "matched": [
+          "烹饪原料",
+          "分类",
+          "植物性原料",
+          "动物性原料"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 44,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 44,
+              "printed_page": 33,
+              "text_chars": 1032,
+              "method": "ocr",
+              "mean_score": 0.8748
+            }
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 100,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 100,
+              "printed_page": 89,
+              "text_chars": 1521,
+              "method": "ocr",
+              "mean_score": 0.8974
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把 2003 年分类当成现行规范",
+          "是否把水产品并入动物性原料而失去单独类别"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E16.md"
+    },
+    {
+      "id": "E17",
+      "type": "ingredient_research",
+      "title": "品种对比：同一种食材为什么风味不同",
+      "question": "以蔬菜或香草为例，说明品种差异如何影响香气、质地和烹饪选择。",
+      "expected_sources": [
+        "CR-WXY-2003",
+        "MCG-V2-2013"
+      ],
+      "expected_points": [
+        "品种决定香气物质组合",
+        "质地影响加热方式",
+        "品种差异不是优劣而是适用性",
+        "教材分类与烹饪科学可互补"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "herbs spices varieties",
+            "n": 1,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1011,
+                "score": 11.1128,
+                "citation": "《Food Chemistry》p.967（PDF 1011）"
+              }
+            ]
+          },
+          {
+            "query": "香草 香料 风味",
+            "n": 100,
+            "top3": [
+              {
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 180,
+                "score": 10.4487,
+                "citation": "《食物与厨艺·蔬果香料谷物》PDF 180（电子版无印刷页码）"
+              },
+              {
+                "source_id": "DK-INGREDIENTS",
+                "pdf_page": 165,
+                "score": 10.2904,
+                "citation": "《食材百科全书》p.160（PDF 165）"
+              },
+              {
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 202,
+                "score": 9.7005,
+                "citation": "《食物与厨艺·蔬果香料谷物》p.200（PDF 202）"
+              }
+            ]
+          },
+          {
+            "query": "烹饪原料 蔬菜 品种",
+            "n": 23,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 88,
+                "score": 12.1011,
+                "citation": "《烹饪原料学》p.77（PDF 88）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 85,
+                "score": 11.7921,
+                "citation": "《烹饪原料学》p.74（PDF 85）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 79,
+                "score": 11.2339,
+                "citation": "《烹饪原料学》p.68（PDF 79）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "MCG-V2-2013",
+            "pdf_page": 180,
+            "hit": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 100,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "MCG-V2-2013",
+            "pdf_page": 180,
+            "cited": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 100,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "品种",
+          "香气",
+          "质地",
+          "差异"
+        ],
+        "matched": [
+          "品种",
+          "香气",
+          "质地",
+          "差异"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "MCG-V2-2013",
+            "pdf_page": 180,
+            "record": {
+              "source_id": "MCG-V2-2013",
+              "pdf_page": 180,
+              "printed_page": null,
+              "text_chars": 89,
+              "method": "ocr",
+              "mean_score": 0.6288
+            }
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 100,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 100,
+              "printed_page": 89,
+              "text_chars": 1521,
+              "method": "ocr",
+              "mean_score": 0.8974
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把品种差异写成绝对优劣",
+          "是否混淆植物学分类与烹饪分类"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E17.md"
+    },
+    {
+      "id": "E18",
+      "type": "ingredient_research",
+      "title": "原料品质鉴别：新鲜度与腐败",
+      "question": "烹饪原料的品质检验包括哪些方面？如何判断新鲜度和腐败风险？",
+      "expected_sources": [
+        "CR-WXY-2003"
+      ],
+      "expected_points": [
+        "感官检验是基础",
+        "腐败与微生物和酶有关",
+        "不同原料有不同指标",
+        "检验不能替代实验室检测"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "烹饪原料 品质检验",
+            "n": 36,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 77,
+                "score": 19.5629,
+                "citation": "《烹饪原料学》p.66（PDF 77）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 107,
+                "score": 17.9144,
+                "citation": "《烹饪原料学》p.96（PDF 107）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 56,
+                "score": 17.2133,
+                "citation": "《烹饪原料学》PDF 56（电子版无印刷页码）"
+              }
+            ]
+          },
+          {
+            "query": "烹饪原料 腐败",
+            "n": 29,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 53,
+                "score": 13.9788,
+                "citation": "《烹饪原料学》p.42（PDF 53）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 21,
+                "score": 12.1976,
+                "citation": "《烹饪原料学》p.10（PDF 21）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 68,
+                "score": 11.7666,
+                "citation": "《烹饪原料学》p.57（PDF 68）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 49,
+            "hit": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 56,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 49,
+            "cited": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 56,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "品质检验",
+          "感官",
+          "新鲜度",
+          "腐败"
+        ],
+        "matched": [
+          "品质检验",
+          "感官",
+          "新鲜度",
+          "腐败"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 49,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 49,
+              "printed_page": 38,
+              "text_chars": 582,
+              "method": "ocr",
+              "mean_score": 0.8719
+            }
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 56,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 56,
+              "printed_page": null,
+              "text_chars": 1306,
+              "method": "ocr",
+              "mean_score": 0.8915
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": true,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把感官判断说成法定检验",
+          "是否给出无依据的微生物限量"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E18.md"
+    },
+    {
+      "id": "E19",
+      "type": "ingredient_research",
+      "title": "原料加工：干燥、腌制与半成品",
+      "question": "干燥和腌制如何改变烹饪原料？半成品原料在烹饪中有什么特点？",
+      "expected_sources": [
+        "CR-WXY-2003",
+        "MCG-V1-2013"
+      ],
+      "expected_points": [
+        "干燥降低水分活度",
+        "腌制改变渗透压与风味",
+        "半成品是预处理后的原料",
+        "加工会改变质地和复水性"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "烹饪原料 干货",
+            "n": 15,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 21,
+                "score": 14.7935,
+                "citation": "《烹饪原料学》p.10（PDF 21）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 196,
+                "score": 14.0768,
+                "citation": "《烹饪原料学》p.185（PDF 196）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 194,
+                "score": 13.8809,
+                "citation": "《烹饪原料学》p.183（PDF 194）"
+              }
+            ]
+          },
+          {
+            "query": "烹饪原料 半成品",
+            "n": 10,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 13,
+                "score": 26.3433,
+                "citation": "《烹饪原料学》PDF 13（电子版无印刷页码）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 210,
+                "score": 26.1806,
+                "citation": "《烹饪原料学》p.199（PDF 210）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 218,
+                "score": 25.2263,
+                "citation": "《烹饪原料学》p.207（PDF 218）"
+              }
+            ]
+          },
+          {
+            "query": "面糊 淀粉 增稠",
+            "n": 5,
+            "top3": [
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 129,
+                "score": 12.485,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.127（PDF 129）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 28,
+                "score": 11.6777,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.26（PDF 28）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 132,
+                "score": 6.96,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》PDF 132（电子版无印刷页码）"
+              }
+            ]
+          },
+          {
+            "query": "drying preservation",
+            "n": 10,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 641,
+                "score": 10.2857,
+                "citation": "《Food Chemistry》p.597（PDF 641）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 51,
+                "score": 9.8658,
+                "citation": "《Food Chemistry》p.7（PDF 51）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 677,
+                "score": 9.1597,
+                "citation": "《Food Chemistry》p.633（PDF 677）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 210,
+            "hit": true
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 210,
+            "cited": true
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "加工",
+          "干燥",
+          "腌制",
+          "保藏"
+        ],
+        "matched": [
+          "加工",
+          "干燥",
+          "腌制",
+          "保藏"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 210,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 210,
+              "printed_page": 199,
+              "text_chars": 581,
+              "method": "ocr",
+              "mean_score": 0.8681
+            }
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "record": {
+              "source_id": "MCG-V1-2013",
+              "pdf_page": 129,
+              "printed_page": 127,
+              "text_chars": 793,
+              "method": "ocr",
+              "mean_score": 0.8637
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": true,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把传统保藏方法说成绝对安全",
+          "是否忽略复水与加热"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E19.md"
+    },
+    {
+      "id": "E20",
+      "type": "ingredient_research",
+      "title": "保存原理：水分活度、冷藏与微生物",
+      "question": "为什么降低水分活度或冷藏能延长食品保存期？请说明原理和边界。",
+      "expected_sources": [
+        "CR-WXY-2003",
+        "FC-BELITZ-2009"
+      ],
+      "expected_points": [
+        "水分活度描述可用水",
+        "盐糖降低水分活度",
+        "冷藏降低反应速率",
+        "冷藏不能杀菌"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "water activity",
+            "n": 79,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 48,
+                "score": 10.4722,
+                "citation": "《Food Chemistry》p.4（PDF 48）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 49,
+                "score": 10.3302,
+                "citation": "《Food Chemistry》p.5（PDF 49）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 51,
+                "score": 8.5414,
+                "citation": "《Food Chemistry》p.7（PDF 51）"
+              }
+            ]
+          },
+          {
+            "query": "烹饪原料 保藏",
+            "n": 38,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 77,
+                "score": 15.5369,
+                "citation": "《烹饪原料学》p.66（PDF 77）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 59,
+                "score": 13.8235,
+                "citation": "《烹饪原料学》p.48（PDF 59）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 68,
+                "score": 13.1676,
+                "citation": "《烹饪原料学》p.57（PDF 68）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 48,
+            "hit": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 56,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 48,
+            "cited": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 56,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "水分活度",
+          "保藏",
+          "微生物",
+          "冷藏"
+        ],
+        "matched": [
+          "水分活度",
+          "保藏",
+          "微生物",
+          "冷藏"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 48,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 48,
+              "printed_page": 4,
+              "text_chars": 1192,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 56,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 56,
+              "printed_page": null,
+              "text_chars": 1306,
+              "method": "ocr",
+              "mean_score": 0.8915
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": true,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把冷藏说成杀菌",
+          "是否编造水分活度阈值"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E20.md"
+    },
+    {
+      "id": "E21",
+      "type": "flavor_pairing",
+      "title": "经典搭配：罗勒与番茄",
+      "question": "The Flavor Bible 如何记录 BASIL 与 TOMATOES、GARLIC、OLIVE OIL 的搭配？请给出证据等级。",
+      "expected_sources": [
+        "FB-PAGE-2008"
+      ],
+      "expected_points": [
+        "书中 BASIL 条目列出多种搭配",
+        "TOMATOES 出现在续页条目",
+        "GARLIC 与 OLIVE OIL 为明确列出",
+        "属于书籍明确搭配而非科学实验结论"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "basil tomatoes",
+            "n": 69,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 74,
+                "score": 11.5798,
+                "citation": "《The Flavor Bible》p.59（PDF 74）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 168,
+                "score": 11.4718,
+                "citation": "《The Flavor Bible》p.1（PDF 168）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 365,
+                "score": 10.8912,
+                "citation": "《The Flavor Bible》p.348（PDF 365）"
+              }
+            ]
+          },
+          {
+            "query": "basil garlic olive oil",
+            "n": 45,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 101,
+                "score": 18.9135,
+                "citation": "《The Flavor Bible》p.86（PDF 101）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 134,
+                "score": 18.3785,
+                "citation": "《The Flavor Bible》p.119（PDF 134）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 365,
+                "score": 17.9884,
+                "citation": "《The Flavor Bible》p.348（PDF 365）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 74,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 74,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "BASIL",
+          "TOMATOES",
+          "GARLIC",
+          "OLIVE OIL"
+        ],
+        "matched": [
+          "BASIL",
+          "TOMATOES",
+          "GARLIC",
+          "OLIVE OIL"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 73,
+              "printed_page": 58,
+              "text_chars": 2727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 74,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 74,
+              "printed_page": 59,
+              "text_chars": 2245,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把书籍搭配写成科学证明",
+          "是否把推导关系标成原文"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E21.md"
+    },
+    {
+      "id": "E22",
+      "type": "flavor_pairing",
+      "title": "食材关联：鸡肉与龙蒿",
+      "question": "CHICKEN 条目如何记录与 TARRAGON、GARLIC 的搭配？请说明主食材与辅助食材关系。",
+      "expected_sources": [
+        "FB-PAGE-2008"
+      ],
+      "expected_points": [
+        "CHICKEN 是主食材",
+        "TARRAGON 与 GARLIC 是辅助香气",
+        "书中按字母条目组织",
+        "搭配强度需区分明确列出与推导"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "chicken tarragon",
+            "n": 77,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 85,
+                "score": 10.9893,
+                "citation": "《The Flavor Bible》p.70（PDF 85）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 360,
+                "score": 10.7823,
+                "citation": "《The Flavor Bible》p.343（PDF 360）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 133,
+                "score": 10.7591,
+                "citation": "《The Flavor Bible》p.118（PDF 133）"
+              }
+            ]
+          },
+          {
+            "query": "chicken garlic",
+            "n": 100,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 133,
+                "score": 9.8111,
+                "citation": "《The Flavor Bible》p.118（PDF 133）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 359,
+                "score": 9.5897,
+                "citation": "《The Flavor Bible》PDF 359（电子版无印刷页码）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 210,
+                "score": 9.5661,
+                "citation": "《The Flavor Bible》p.195（PDF 210）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 85,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 85,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "CHICKEN",
+          "TARRAGON",
+          "GARLIC",
+          "搭配"
+        ],
+        "matched": [
+          "CHICKEN",
+          "TARRAGON",
+          "GARLIC",
+          "搭配"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 130,
+              "printed_page": 115,
+              "text_chars": 2356,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 85,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 85,
+              "printed_page": 70,
+              "text_chars": 1795,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把搭配关系解释为营养协同",
+          "是否把 AI 推测写成书中原文"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E22.md"
+    },
+    {
+      "id": "E23",
+      "type": "flavor_pairing",
+      "title": "香气互补：香蕉、焦糖与香草",
+      "question": "BANANAS 条目如何记录与 CARAMEL、VANILLA 的搭配？为什么这类组合在香气上成立？",
+      "expected_sources": [
+        "FB-PAGE-2008"
+      ],
+      "expected_points": [
+        "BANANAS 条目列出 CARAMEL 与 VANILLA",
+        "焦糖提供甜香与褐变香",
+        "香草提供圆润甜香",
+        "属于经验搭配而非实验证明"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "bananas caramel",
+            "n": 25,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 97,
+                "score": 12.4731,
+                "citation": "《The Flavor Bible》PDF 97（电子版无印刷页码）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 259,
+                "score": 12.3028,
+                "citation": "《The Flavor Bible》p.244（PDF 259）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 187,
+                "score": 12.3018,
+                "citation": "《The Flavor Bible》p.172（PDF 187）"
+              }
+            ]
+          },
+          {
+            "query": "bananas vanilla",
+            "n": 20,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 226,
+                "score": 14.1506,
+                "citation": "《The Flavor Bible》p.211（PDF 226）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 309,
+                "score": 12.9171,
+                "citation": "《The Flavor Bible》p.294（PDF 309）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 328,
+                "score": 12.686,
+                "citation": "《The Flavor Bible》p.313（PDF 328）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 71,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 72,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 71,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 72,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "BANANAS",
+          "CARAMEL",
+          "VANILLA",
+          "香气"
+        ],
+        "matched": [
+          "BANANAS",
+          "CARAMEL",
+          "VANILLA",
+          "香气"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 71,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 71,
+              "printed_page": 56,
+              "text_chars": 2161,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 72,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 72,
+              "printed_page": 57,
+              "text_chars": 2480,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把经验搭配写成实验结论",
+          "是否忽略成熟度与比例"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E23.md"
+    },
+    {
+      "id": "E24",
+      "type": "flavor_pairing",
+      "title": "创新搭配：罗勒与水果的假设设计",
+      "question": "如果要把 BASIL 与水果做创新搭配，如何区分书中证据、合理推断和 AI 假设？请给一个可检验方案。",
+      "expected_sources": [
+        "FB-PAGE-2008",
+        "FC-BELITZ-2009"
+      ],
+      "expected_points": [
+        "书中已有 BASIL 与部分水果的搭配",
+        "跨来源推理可解释香气互补",
+        "AI 新组合必须标为假设",
+        "需要对照感官实验"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "basil fruit",
+            "n": 50,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 73,
+                "score": 10.3955,
+                "citation": "《The Flavor Bible》p.58（PDF 73）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 73,
+                "score": 10.0043,
+                "citation": "《The Flavor Bible》p.58（PDF 73）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 204,
+                "score": 9.8249,
+                "citation": "《The Flavor Bible》p.189（PDF 204）"
+              }
+            ]
+          },
+          {
+            "query": "aroma compounds basil",
+            "n": 3,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1029,
+                "score": 9.8789,
+                "citation": "《Food Chemistry》p.985（PDF 1029）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1021,
+                "score": 6.64,
+                "citation": "《Food Chemistry》p.977（PDF 1021）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1022,
+                "score": 6.56,
+                "citation": "《Food Chemistry》p.978（PDF 1022）"
+              }
+            ]
+          },
+          {
+            "query": "aroma compounds flavor",
+            "n": 40,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 410,
+                "score": 12.1515,
+                "citation": "《Food Chemistry》p.366（PDF 410）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 444,
+                "score": 10.9833,
+                "citation": "《Food Chemistry》p.400（PDF 444）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 384,
+                "score": 10.7415,
+                "citation": "《Food Chemistry》p.340（PDF 384）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "创新",
+          "假设",
+          "BASIL",
+          "香气"
+        ],
+        "matched": [
+          "创新",
+          "假设",
+          "BASIL",
+          "香气"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 73,
+              "printed_page": 58,
+              "text_chars": 2727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 384,
+              "printed_page": 340,
+              "text_chars": 3241,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把 AI 假设写成书中搭配",
+          "是否声称未做的实验已经成功"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E24.md"
+    },
+    {
+      "id": "E25",
+      "type": "flavor_pairing",
+      "title": "搭配证据溯源：三种证据等级",
+      "question": "请解释 The Flavor Bible 搭配索引中的 explicit_pairing_listing、derived_from_affinity_combination 和 ai_hypothesis 有什么区别，并各举一例。",
+      "expected_sources": [
+        "FB-PAGE-2008"
+      ],
+      "expected_points": [
+        "明确列出是书中原文",
+        "组合推导是跨条目关系",
+        "AI 假设不是书中内容",
+        "输出必须带来源页码"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "basil garlic",
+            "n": 100,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 374,
+                "score": 10.658,
+                "citation": "《The Flavor Bible》p.357（PDF 374）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 101,
+                "score": 10.5617,
+                "citation": "《The Flavor Bible》p.86（PDF 101）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 74,
+                "score": 10.5596,
+                "citation": "《The Flavor Bible》p.59（PDF 74）"
+              }
+            ]
+          },
+          {
+            "query": "flavor affinities basil",
+            "n": 62,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 80,
+                "score": 14.4436,
+                "citation": "《The Flavor Bible》p.65（PDF 80）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 181,
+                "score": 13.0632,
+                "citation": "《The Flavor Bible》p.166（PDF 181）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 250,
+                "score": 12.2704,
+                "citation": "《The Flavor Bible》p.235（PDF 250）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 74,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 2,
+        "unique_pages": 2,
+        "expected_cited": 2,
+        "expected_total": 2,
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 74,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "explicit_pairing_listing",
+          "derived_from_affinity_combination",
+          "ai_hypothesis",
+          "证据等级"
+        ],
+        "matched": [
+          "explicit_pairing_listing",
+          "derived_from_affinity_combination",
+          "ai_hypothesis",
+          "证据等级"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 73,
+              "printed_page": 58,
+              "text_chars": 2727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 74,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 74,
+              "printed_page": 59,
+              "text_chars": 2245,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把组合推导说成书中逐字原文",
+          "是否缺少页码"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E25.md"
+    },
+    {
+      "id": "E26",
+      "type": "comprehensive_rd",
+      "title": "多书联合：鸡肉褐变与龙蒿搭配",
+      "question": "设计一道烤鸡，解释褐变、蛋白质变化和香草搭配。请同时使用 Food Chemistry、食物与厨艺和 The Flavor Bible。",
+      "expected_sources": [
+        "FB-PAGE-2008",
+        "FC-BELITZ-2009",
+        "MCG-V3-2013"
+      ],
+      "expected_points": [
+        "美拉德反应产生褐变和香气",
+        "鸡肉蛋白质受热收缩",
+        "龙蒿与鸡肉为书中搭配",
+        "温度时间需以实际设备调整"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "Maillard chicken",
+            "n": 2,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1038,
+                "score": 7.9881,
+                "citation": "《Food Chemistry》p.994（PDF 1038）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 641,
+                "score": 6.9261,
+                "citation": "《Food Chemistry》p.597（PDF 641）"
+              }
+            ]
+          },
+          {
+            "query": "initial phase Maillard",
+            "n": 2,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 315,
+                "score": 14.3901,
+                "citation": "《Food Chemistry》p.271（PDF 315）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 1078,
+                "score": 10.88,
+                "citation": "《Food Chemistry》p.1034（PDF 1078）"
+              }
+            ]
+          },
+          {
+            "query": "TARRAGON CHICKEN",
+            "n": 77,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 92,
+                "score": 9.9346,
+                "citation": "《The Flavor Bible》p.77（PDF 92）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 85,
+                "score": 9.656,
+                "citation": "《The Flavor Bible》p.70（PDF 85）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 130,
+                "score": 9.6461,
+                "citation": "《The Flavor Bible》p.115（PDF 130）"
+              }
+            ]
+          },
+          {
+            "query": "roast chicken",
+            "n": 39,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 370,
+                "score": 10.9355,
+                "citation": "《The Flavor Bible》p.353（PDF 370）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 244,
+                "score": 10.8239,
+                "citation": "《The Flavor Bible》p.229（PDF 244）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 130,
+                "score": 10.492,
+                "citation": "《The Flavor Bible》p.115（PDF 130）"
+              }
+            ]
+          },
+          {
+            "query": "肉类 加热 蛋白质",
+            "n": 30,
+            "top3": [
+              {
+                "source_id": "CN-DIDAO-2011",
+                "pdf_page": 112,
+                "score": 12.6776,
+                "citation": "《中国地道食材图录大全》p.108（PDF 112）"
+              },
+              {
+                "source_id": "DK-INGREDIENTS",
+                "pdf_page": 109,
+                "score": 12.6675,
+                "citation": "《食材百科全书》p.104（PDF 109）"
+              },
+              {
+                "source_id": "MCG-V3-2013",
+                "pdf_page": 348,
+                "score": 12.6586,
+                "citation": "《食物与厨艺·奶蛋肉鱼》p.346（PDF 348）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 315,
+            "hit": true
+          },
+          {
+            "source_id": "MCG-V3-2013",
+            "pdf_page": 348,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 358,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 4,
+        "unique_pages": 4,
+        "expected_cited": 4,
+        "expected_total": 4,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 315,
+            "cited": true
+          },
+          {
+            "source_id": "MCG-V3-2013",
+            "pdf_page": 348,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 358,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "美拉德反应",
+          "鸡肉",
+          "龙蒿",
+          "褐变"
+        ],
+        "matched": [
+          "美拉德反应",
+          "鸡肉",
+          "龙蒿",
+          "褐变"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 315,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 315,
+              "printed_page": 271,
+              "text_chars": 3048,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "MCG-V3-2013",
+            "pdf_page": 348,
+            "record": {
+              "source_id": "MCG-V3-2013",
+              "pdf_page": 348,
+              "printed_page": 346,
+              "text_chars": 594,
+              "method": "ocr",
+              "mean_score": 0.7868
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 130,
+              "printed_page": 115,
+              "text_chars": 2356,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 358,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 358,
+              "printed_page": 342,
+              "text_chars": 1745,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": true,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把设计参数写成已验证结果",
+          "是否给出未煮熟的鸡肉"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E26.md"
+    },
+    {
+      "id": "E27",
+      "type": "comprehensive_rd",
+      "title": "菜谱研发：可执行烤鸡腿配方",
+      "question": "给出一份可执行的烤鸡腿配方，包含用量、预处理、温度、时间、调味逻辑和风险提示。",
+      "expected_sources": [
+        "FB-PAGE-2008",
+        "FC-BELITZ-2009",
+        "MCG-V3-2013"
+      ],
+      "expected_points": [
+        "盐腌与表面干燥",
+        "蛋白质受热与持水性",
+        "香草搭配",
+        "中心温度和静置"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "roast chicken",
+            "n": 39,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 370,
+                "score": 10.9355,
+                "citation": "《The Flavor Bible》p.353（PDF 370）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 244,
+                "score": 10.8239,
+                "citation": "《The Flavor Bible》p.229（PDF 244）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 130,
+                "score": 10.492,
+                "citation": "《The Flavor Bible》p.115（PDF 130）"
+              }
+            ]
+          },
+          {
+            "query": "protein denaturation",
+            "n": 25,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 654,
+                "score": 11.6304,
+                "citation": "《Food Chemistry》p.610（PDF 654）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 102,
+                "score": 10.107,
+                "citation": "《Food Chemistry》p.58（PDF 102）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 556,
+                "score": 10.0581,
+                "citation": "《Food Chemistry》p.512（PDF 556）"
+              }
+            ]
+          },
+          {
+            "query": "TARRAGON CHICKEN",
+            "n": 77,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 92,
+                "score": 9.9346,
+                "citation": "《The Flavor Bible》p.77（PDF 92）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 85,
+                "score": 9.656,
+                "citation": "《The Flavor Bible》p.70（PDF 85）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 130,
+                "score": 9.6461,
+                "citation": "《The Flavor Bible》p.115（PDF 130）"
+              }
+            ]
+          },
+          {
+            "query": "肉类 加热 蛋白质",
+            "n": 30,
+            "top3": [
+              {
+                "source_id": "CN-DIDAO-2011",
+                "pdf_page": 112,
+                "score": 12.6776,
+                "citation": "《中国地道食材图录大全》p.108（PDF 112）"
+              },
+              {
+                "source_id": "DK-INGREDIENTS",
+                "pdf_page": 109,
+                "score": 12.6675,
+                "citation": "《食材百科全书》p.104（PDF 109）"
+              },
+              {
+                "source_id": "MCG-V3-2013",
+                "pdf_page": 348,
+                "score": 12.6586,
+                "citation": "《食物与厨艺·奶蛋肉鱼》p.346（PDF 348）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "MCG-V3-2013",
+            "pdf_page": 348,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 654,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 358,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 4,
+        "unique_pages": 4,
+        "expected_cited": 4,
+        "expected_total": 4,
+        "expected_pages": [
+          {
+            "source_id": "MCG-V3-2013",
+            "pdf_page": 348,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 654,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 358,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "鸡腿",
+          "盐",
+          "温度",
+          "时间"
+        ],
+        "matched": [
+          "鸡腿",
+          "盐",
+          "温度",
+          "时间"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "MCG-V3-2013",
+            "pdf_page": 348,
+            "record": {
+              "source_id": "MCG-V3-2013",
+              "pdf_page": 348,
+              "printed_page": 346,
+              "text_chars": 594,
+              "method": "ocr",
+              "mean_score": 0.7868
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 654,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 654,
+              "printed_page": 610,
+              "text_chars": 1727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 130,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 130,
+              "printed_page": 115,
+              "text_chars": 2356,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 358,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 358,
+              "printed_page": 342,
+              "text_chars": 1745,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": true,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "配方是否可执行",
+          "是否把未测试配方写成已验证"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E27.md"
+    },
+    {
+      "id": "E28",
+      "type": "comprehensive_rd",
+      "title": "菜谱优化：酱汁太稀怎么办",
+      "question": "一道以面粉或淀粉增稠的酱汁太稀，如何用盐脂酸热和淀粉糊化原理优化？",
+      "expected_sources": [
+        "FB-PAGE-2008",
+        "FC-BELITZ-2009",
+        "MCG-V1-2013"
+      ],
+      "expected_points": [
+        "先判断是淀粉未糊化还是水量过多",
+        "补淀粉需先分散避免结块",
+        "盐脂酸热影响平衡",
+        "不要用大量盐掩盖稀薄"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "sauce thickening starch",
+            "n": 3,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 371,
+                "score": 7.52,
+                "citation": "《Food Chemistry》p.327（PDF 371）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 368,
+                "score": 6.72,
+                "citation": "《Food Chemistry》p.324（PDF 368）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 345,
+                "score": 6.64,
+                "citation": "《Food Chemistry》p.301（PDF 345）"
+              }
+            ]
+          },
+          {
+            "query": "starch gelatinization",
+            "n": 18,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 363,
+                "score": 14.0633,
+                "citation": "《Food Chemistry》p.319（PDF 363）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 364,
+                "score": 13.7816,
+                "citation": "《Food Chemistry》p.320（PDF 364）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 371,
+                "score": 11.8326,
+                "citation": "《Food Chemistry》p.327（PDF 371）"
+              }
+            ]
+          },
+          {
+            "query": "酱料 浓稠度",
+            "n": 22,
+            "top3": [
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 89,
+                "score": 17.8545,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.87（PDF 89）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 90,
+                "score": 14.0142,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.88（PDF 90）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 104,
+                "score": 13.8341,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》PDF 104（电子版无印刷页码）"
+              }
+            ]
+          },
+          {
+            "query": "basil sauce",
+            "n": 80,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 74,
+                "score": 10.5907,
+                "citation": "《The Flavor Bible》p.59（PDF 74）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 375,
+                "score": 10.4105,
+                "citation": "《The Flavor Bible》p.358（PDF 375）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 73,
+                "score": 10.3711,
+                "citation": "《The Flavor Bible》p.58（PDF 73）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 89,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 363,
+            "hit": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 3,
+        "unique_pages": 3,
+        "expected_cited": 3,
+        "expected_total": 3,
+        "expected_pages": [
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 89,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 363,
+            "cited": true
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "淀粉",
+          "糊化",
+          "乳化",
+          "盐"
+        ],
+        "matched": [
+          "淀粉",
+          "糊化",
+          "乳化",
+          "盐"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 89,
+            "record": {
+              "source_id": "MCG-V1-2013",
+              "pdf_page": 89,
+              "printed_page": 87,
+              "text_chars": 1071,
+              "method": "ocr",
+              "mean_score": 0.8633
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 363,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 363,
+              "printed_page": 319,
+              "text_chars": 2327,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 73,
+              "printed_page": 58,
+              "text_chars": 2727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否用大量盐掩盖稀薄",
+          "是否把淀粉直接投入热液导致结块"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E28.md"
+    },
+    {
+      "id": "E29",
+      "type": "comprehensive_rd",
+      "title": "创新菜品：罗勒水果冷汤的概念设计",
+      "question": "设计一款罗勒水果冷汤，说明书中依据、跨来源推理和创新假设，并给出实验变量。",
+      "expected_sources": [
+        "FB-PAGE-2008",
+        "FC-BELITZ-2009",
+        "MCG-V2-2013"
+      ],
+      "expected_points": [
+        "罗勒与部分水果有书中搭配",
+        "水果成熟度影响香气和酸度",
+        "冷汤温度影响香气释放",
+        "必须做对照感官实验"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "basil fruit",
+            "n": 50,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 73,
+                "score": 10.3955,
+                "citation": "《The Flavor Bible》p.58（PDF 73）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 73,
+                "score": 10.0043,
+                "citation": "《The Flavor Bible》p.58（PDF 73）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 204,
+                "score": 9.8249,
+                "citation": "《The Flavor Bible》p.189（PDF 204）"
+              }
+            ]
+          },
+          {
+            "query": "fruit aroma",
+            "n": 100,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 884,
+                "score": 9.4109,
+                "citation": "《Food Chemistry》p.840（PDF 884）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 62,
+                "score": 8.9542,
+                "citation": "《The Flavor Bible》p.47（PDF 62）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 885,
+                "score": 8.6331,
+                "citation": "《Food Chemistry》p.841（PDF 885）"
+              }
+            ]
+          },
+          {
+            "query": "aroma compounds flavor",
+            "n": 40,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 410,
+                "score": 12.1515,
+                "citation": "《Food Chemistry》p.366（PDF 410）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 444,
+                "score": 10.9833,
+                "citation": "《Food Chemistry》p.400（PDF 444）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 384,
+                "score": 10.7415,
+                "citation": "《Food Chemistry》p.340（PDF 384）"
+              }
+            ]
+          },
+          {
+            "query": "果实 成熟 香气",
+            "n": 48,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 229,
+                "score": 10.2579,
+                "citation": "《烹饪原料学》p.218（PDF 229）"
+              },
+              {
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 155,
+                "score": 9.5545,
+                "citation": "《食物与厨艺·蔬果香料谷物》p.153（PDF 155）"
+              },
+              {
+                "source_id": "MCG-V2-2013",
+                "pdf_page": 228,
+                "score": 9.206,
+                "citation": "《食物与厨艺·蔬果香料谷物》p.226（PDF 228）"
+              }
+            ]
+          },
+          {
+            "query": "cold soup",
+            "n": 20,
+            "top3": [
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 352,
+                "score": 12.4191,
+                "citation": "《The Flavor Bible》p.337（PDF 352）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 376,
+                "score": 11.9354,
+                "citation": "《The Flavor Bible》PDF 376（电子版无印刷页码）"
+              },
+              {
+                "source_id": "FB-PAGE-2008",
+                "pdf_page": 388,
+                "score": 11.9097,
+                "citation": "《The Flavor Bible》p.371（PDF 388）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "hit": true
+          },
+          {
+            "source_id": "MCG-V2-2013",
+            "pdf_page": 155,
+            "hit": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 3,
+        "unique_pages": 3,
+        "expected_cited": 3,
+        "expected_total": 3,
+        "expected_pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "cited": true
+          },
+          {
+            "source_id": "MCG-V2-2013",
+            "pdf_page": 155,
+            "cited": true
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "创新",
+          "假设",
+          "BASIL",
+          "水果"
+        ],
+        "matched": [
+          "创新",
+          "假设",
+          "BASIL",
+          "水果"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FB-PAGE-2008",
+            "pdf_page": 73,
+            "record": {
+              "source_id": "FB-PAGE-2008",
+              "pdf_page": 73,
+              "printed_page": 58,
+              "text_chars": 2727,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "MCG-V2-2013",
+            "pdf_page": 155,
+            "record": {
+              "source_id": "MCG-V2-2013",
+              "pdf_page": 155,
+              "printed_page": 153,
+              "text_chars": 1051,
+              "method": "ocr",
+              "mean_score": 0.7898
+            }
+          },
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 384,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 384,
+              "printed_page": 340,
+              "text_chars": 3241,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把创新假设写成书中原文",
+          "是否声称未做的实验成功"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E29.md"
+    },
+    {
+      "id": "E30",
+      "type": "comprehensive_rd",
+      "title": "专题研究报告：水分与淀粉在烹饪中的角色",
+      "question": "写一份小型研究报告提纲：水分活度、淀粉糊化和原料品质如何共同影响一道面食菜肴。",
+      "expected_sources": [
+        "CR-WXY-2003",
+        "FC-BELITZ-2009",
+        "MCG-V1-2013"
+      ],
+      "expected_points": [
+        "研究问题要可检验",
+        "水分活度影响保存与质地",
+        "淀粉糊化影响口感",
+        "需要对照与感官评价"
+      ],
+      "retrieval": {
+        "score": 20.0,
+        "max": 20,
+        "queries": [
+          {
+            "query": "water activity",
+            "n": 79,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 48,
+                "score": 10.4722,
+                "citation": "《Food Chemistry》p.4（PDF 48）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 49,
+                "score": 10.3302,
+                "citation": "《Food Chemistry》p.5（PDF 49）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 51,
+                "score": 8.5414,
+                "citation": "《Food Chemistry》p.7（PDF 51）"
+              }
+            ]
+          },
+          {
+            "query": "面糊 淀粉 增稠",
+            "n": 5,
+            "top3": [
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 129,
+                "score": 12.485,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.127（PDF 129）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 28,
+                "score": 11.6777,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》p.26（PDF 28）"
+              },
+              {
+                "source_id": "MCG-V1-2013",
+                "pdf_page": 132,
+                "score": 6.96,
+                "citation": "《食物与厨艺·面食酱料甜点饮料》PDF 132（电子版无印刷页码）"
+              }
+            ]
+          },
+          {
+            "query": "品质检验 保藏",
+            "n": 27,
+            "top3": [
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 77,
+                "score": 21.0726,
+                "citation": "《烹饪原料学》p.66（PDF 77）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 68,
+                "score": 15.8521,
+                "citation": "《烹饪原料学》p.57（PDF 68）"
+              },
+              {
+                "source_id": "CR-WXY-2003",
+                "pdf_page": 106,
+                "score": 15.7864,
+                "citation": "《烹饪原料学》PDF 106（电子版无印刷页码）"
+              }
+            ]
+          },
+          {
+            "query": "starch gelatinization",
+            "n": 18,
+            "top3": [
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 363,
+                "score": 14.0633,
+                "citation": "《Food Chemistry》p.319（PDF 363）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 364,
+                "score": 13.7816,
+                "citation": "《Food Chemistry》p.320（PDF 364）"
+              },
+              {
+                "source_id": "FC-BELITZ-2009",
+                "pdf_page": 371,
+                "score": 11.8326,
+                "citation": "《Food Chemistry》p.327（PDF 371）"
+              }
+            ]
+          }
+        ],
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 48,
+            "hit": true
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "hit": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 77,
+            "hit": true
+          }
+        ],
+        "page_recall": 1.0,
+        "alias_checks": [],
+        "alias_recall": 1.0,
+        "recall": 1.0
+      },
+      "citations": {
+        "validator_exit": 0,
+        "validator_ok": true,
+        "count": 3,
+        "unique_pages": 3,
+        "expected_cited": 3,
+        "expected_total": 3,
+        "expected_pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 48,
+            "cited": true
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "cited": true
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 77,
+            "cited": true
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "score": 20.0
+      },
+      "evidence": {
+        "required": [
+          "研究",
+          "假设",
+          "对照",
+          "感官"
+        ],
+        "matched": [
+          "研究",
+          "假设",
+          "对照",
+          "感官"
+        ],
+        "missing": [],
+        "coverage": 1.0,
+        "score": 15.0
+      },
+      "page_accuracy": {
+        "pages": [
+          {
+            "source_id": "FC-BELITZ-2009",
+            "pdf_page": 48,
+            "record": {
+              "source_id": "FC-BELITZ-2009",
+              "pdf_page": 48,
+              "printed_page": 4,
+              "text_chars": 1192,
+              "method": "text_layer",
+              "mean_score": null
+            }
+          },
+          {
+            "source_id": "MCG-V1-2013",
+            "pdf_page": 129,
+            "record": {
+              "source_id": "MCG-V1-2013",
+              "pdf_page": 129,
+              "printed_page": 127,
+              "text_chars": 793,
+              "method": "ocr",
+              "mean_score": 0.8637
+            }
+          },
+          {
+            "source_id": "CR-WXY-2003",
+            "pdf_page": 77,
+            "record": {
+              "source_id": "CR-WXY-2003",
+              "pdf_page": 77,
+              "printed_page": 66,
+              "text_chars": 1144,
+              "method": "ocr",
+              "mean_score": 0.886
+            }
+          }
+        ],
+        "cited_fraction": 1.0,
+        "score": 10.0,
+        "failures": []
+      },
+      "gap": {
+        "expected": false,
+        "ok": true,
+        "score": 10.0
+      },
+      "safety": {
+        "required": false,
+        "ok": true,
+        "reasons": [],
+        "score": 15.0
+      },
+      "professional_correctness": {
+        "score": null,
+        "max": 10,
+        "status": "manual_pending",
+        "checks": [
+          "是否把研究提纲写成已完成实验",
+          "是否缺少对照和记录"
+        ],
+        "note": "自动脚本不替代专业判断；需按 checks 由人工/厨师复核。"
+      },
+      "auto_score": 90.0,
+      "auto_max": 90,
+      "auto_passed": true,
+      "hard_failures": [],
+      "answer_file": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\evals\\results\\answers\\E30.md"
     }
   ],
   "summary": {
-    "cases": 10,
-    "auto_passed": 10,
+    "cases": 30,
+    "auto_passed": 30,
     "auto_pass_rate": 1.0,
-    "auto_score": 900.0,
-    "auto_max": 900,
+    "auto_score": 2700.0,
+    "auto_max": 2700,
     "auto_score_rate": 1.0,
     "citation_hard_errors": 0,
     "manual_review_required": [

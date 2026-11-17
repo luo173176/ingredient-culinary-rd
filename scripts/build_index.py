@@ -47,6 +47,11 @@ DROP TABLE IF EXISTS pages;
 DROP TABLE IF EXISTS sources;
 DROP TABLE IF EXISTS herbs;
 DROP TABLE IF EXISTS aliases;
+DROP TABLE IF EXISTS flavor_pairings;
+DROP TABLE IF EXISTS flavor_affinities;
+DROP TABLE IF EXISTS chemistry_topics;
+DROP TABLE IF EXISTS culinary_sections;
+DROP TABLE IF EXISTS conflict_candidates;
 DROP TABLE IF EXISTS meta;
 
 CREATE TABLE sources (
@@ -59,6 +64,11 @@ CREATE TABLE sources (
   edition TEXT,
   isbn TEXT,
   kind TEXT,
+  domain TEXT,
+  language TEXT,
+  series TEXT,
+  volume TEXT,
+  phase INTEGER,
   pdf_path TEXT,
   sha256 TEXT,
   page_count INTEGER,
@@ -84,6 +94,9 @@ CREATE TABLE chunks (
   rowid INTEGER PRIMARY KEY,
   chunk_id TEXT UNIQUE,
   source_id TEXT,
+  domain TEXT,
+  series TEXT,
+  volume TEXT,
   book_title TEXT,
   short_title TEXT,
   chapter TEXT,
@@ -139,6 +152,80 @@ CREATE TABLE aliases (
 );
 
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
+
+CREATE TABLE flavor_pairings (
+  pairing_id TEXT PRIMARY KEY,
+  ingredient_a TEXT NOT NULL,
+  ingredient_b TEXT NOT NULL,
+  relationship TEXT,
+  evidence_level TEXT,
+  source_id TEXT NOT NULL,
+  printed_page INTEGER,
+  pdf_page INTEGER NOT NULL,
+  original_context TEXT,
+  book_evidence TEXT,
+  strong_marker TEXT,
+  confidence TEXT,
+  keywords TEXT
+);
+
+CREATE TABLE flavor_affinities (
+  affinity_id TEXT PRIMARY KEY,
+  entry TEXT NOT NULL,
+  ingredients_json TEXT NOT NULL,
+  source_id TEXT NOT NULL,
+  printed_page INTEGER,
+  pdf_page INTEGER NOT NULL,
+  original_context TEXT,
+  confidence TEXT
+);
+
+CREATE TABLE chemistry_topics (
+  topic_id TEXT PRIMARY KEY,
+  chapter TEXT,
+  section TEXT,
+  topic TEXT NOT NULL,
+  source_id TEXT NOT NULL,
+  printed_page INTEGER,
+  pdf_page INTEGER NOT NULL,
+  evidence_quote TEXT,
+  keywords TEXT,
+  confidence TEXT
+);
+
+CREATE TABLE culinary_sections (
+  section_id TEXT PRIMARY KEY,
+  chapter TEXT,
+  section TEXT,
+  source_id TEXT NOT NULL,
+  printed_page INTEGER,
+  pdf_page INTEGER NOT NULL,
+  evidence_quote TEXT,
+  confidence TEXT
+);
+
+CREATE TABLE conflict_candidates (
+  id TEXT PRIMARY KEY,
+  ingredient TEXT,
+  topic TEXT,
+  source_a TEXT,
+  page_a INTEGER,
+  value_a TEXT,
+  source_b TEXT,
+  page_b INTEGER,
+  value_b TEXT,
+  status TEXT,
+  note TEXT
+);
+
+CREATE INDEX idx_chunks_source ON chunks(source_id);
+CREATE INDEX idx_chunks_page ON chunks(source_id, pdf_page);
+CREATE INDEX idx_chunks_chapter ON chunks(chapter);
+CREATE INDEX idx_pair_a ON flavor_pairings(ingredient_a);
+CREATE INDEX idx_pair_b ON flavor_pairings(ingredient_b);
+CREATE INDEX idx_pair_source ON flavor_pairings(source_id);
+CREATE INDEX idx_chem_chapter ON chemistry_topics(chapter);
+CREATE INDEX idx_chem_topic ON chemistry_topics(topic);
 """
 
 
@@ -160,10 +247,14 @@ def main() -> None:
     for b in books:
         sid = b["source_id"]
         chunk_file = CHUNKS_DIR / f"{sid}.jsonl"
-        if not chunk_file.exists():
-            print(f"skip {sid}: no chunks")
-            continue
-        chunks = [json.loads(line) for line in open(chunk_file, encoding="utf-8")]
+        # A source must still appear in the catalogue even when its chunks
+        # have not been built yet (e.g. OCR in progress).  Previously the
+        # book silently vanished from `sources`.
+        chunks = (
+            [json.loads(line) for line in open(chunk_file, encoding="utf-8")]
+            if chunk_file.exists()
+            else []
+        )
         page_file = PAGES_DIR / f"{sid}.ocr.jsonl"
         if not page_file.exists():
             page_file = PAGES_DIR / f"{sid}.jsonl"
@@ -174,7 +265,9 @@ def main() -> None:
         except FileNotFoundError:
             digest = ""
         con.execute(
-            "INSERT INTO sources VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO sources (source_id,short_title,title,author,publisher,year,edition,isbn,kind,"
+            "domain,language,series,volume,phase,pdf_path,sha256,page_count,pages_extracted,chunks,imported_at) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 sid,
                 b["short_title"],
@@ -185,6 +278,11 @@ def main() -> None:
                 b.get("edition"),
                 b.get("isbn"),
                 b["kind"],
+                b.get("domain"),
+                b.get("language"),
+                b.get("series"),
+                b.get("volume"),
+                b.get("phase"),
                 b["file"],
                 digest,
                 len(pages),
@@ -213,12 +311,15 @@ def main() -> None:
             )
         for c in chunks:
             cur = con.execute(
-                "INSERT INTO chunks (chunk_id,source_id,book_title,short_title,chapter,section,printed_page,pdf_page,"
+                "INSERT INTO chunks (chunk_id,source_id,domain,series,volume,book_title,short_title,chapter,section,printed_page,pdf_page,"
                 "page_kind,content_type,content,keywords,related_ingredients,confidence,extraction_method,"
-                "ocr_mean_score,warnings,char_len,citation) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "ocr_mean_score,warnings,char_len,citation) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     c["chunk_id"],
                     c["source_id"],
+                    b.get("domain"),
+                    b.get("series"),
+                    b.get("volume"),
                     c["book_title"],
                     c["short_title"],
                     c.get("chapter"),
@@ -299,6 +400,76 @@ def main() -> None:
                 "INSERT INTO aliases VALUES (?,?,?,?,?)",
                 (a, e["canonical"], e.get("alias_kind"), None, None),
             )
+
+    # Phase 2 structured indexes.  Each loader is optional so the Phase 1
+    # rebuild path still works before the new extractors have been run.
+    def load_jsonl(name: str) -> list[dict[str, Any]]:
+        path = DATA / name
+        if not path.exists():
+            return []
+        return [json.loads(line) for line in open(path, encoding="utf-8") if line.strip()]
+
+    pairings = load_jsonl("flavor_pairings.jsonl")
+    for r in pairings:
+        con.execute(
+            "INSERT OR REPLACE INTO flavor_pairings VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            (
+                r["pairing_id"], r["ingredient_a"], r["ingredient_b"], r["relationship"],
+                r["evidence_level"], r["source_id"], r.get("printed_page"), r["pdf_page"],
+                r.get("original_context"), r.get("book_evidence"), r.get("strong_marker"),
+                r.get("confidence"), json.dumps(r.get("keywords") or [], ensure_ascii=False),
+            ),
+        )
+    affinities = load_jsonl("flavor_affinities.jsonl")
+    for r in affinities:
+        con.execute(
+            "INSERT OR REPLACE INTO flavor_affinities VALUES (?,?,?,?,?,?,?,?)",
+            (
+                r["affinity_id"], r["entry"], json.dumps(r["ingredients"], ensure_ascii=False),
+                r["source_id"], r.get("printed_page"), r["pdf_page"],
+                r.get("original_context"), r.get("confidence"),
+            ),
+        )
+    topics = load_jsonl("chemistry_topics.jsonl")
+    for r in topics:
+        con.execute(
+            "INSERT OR REPLACE INTO chemistry_topics VALUES (?,?,?,?,?,?,?,?,?,?)",
+            (
+                r["topic_id"], r.get("chapter"), r.get("section"), r["topic"], r["source_id"],
+                r.get("printed_page"), r["pdf_page"], r.get("evidence_quote"),
+                json.dumps(r.get("keywords") or [], ensure_ascii=False), r.get("confidence"),
+            ),
+        )
+    sections = load_jsonl("culinary_sections.jsonl")
+    for r in sections:
+        con.execute(
+            "INSERT OR REPLACE INTO culinary_sections VALUES (?,?,?,?,?,?,?,?)",
+            (
+                r["section_id"], r.get("chapter"), r.get("section"), r["source_id"],
+                r.get("printed_page") if r.get("printed_page") is not None else r.get("first_printed_page"),
+                r.get("pdf_page") if r.get("pdf_page") is not None else r.get("first_pdf_page"),
+                r.get("evidence_quote"), r.get("confidence"),
+            ),
+        )
+    conflicts = load_jsonl("conflict_candidates.jsonl")
+    for r in conflicts:
+        con.execute(
+            "INSERT OR REPLACE INTO conflict_candidates VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+            (
+                r["id"], r.get("ingredient"), r.get("topic"),
+                r.get("source_a"), r.get("page_a"), r.get("value_a"),
+                r.get("source_b"), r.get("page_b"), r.get("value_b"),
+                r.get("status"), r.get("note"),
+            ),
+        )
+    if pairings:
+        print(f"flavor_pairings: {len(pairings)}")
+    if affinities:
+        print(f"flavor_affinities: {len(affinities)}")
+    if topics:
+        print(f"chemistry_topics: {len(topics)}")
+    if sections:
+        print(f"culinary_sections: {len(sections)}")
     con.execute("INSERT INTO meta VALUES ('chunks', ?)", (str(total_chunks),))
     con.execute("INSERT INTO meta VALUES ('built_at', ?)", (time.strftime("%Y-%m-%dT%H:%M:%S"),))
     con.commit()

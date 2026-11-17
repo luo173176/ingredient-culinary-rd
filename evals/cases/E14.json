@@ -1,0 +1,39 @@
+{
+  "id": "E14",
+  "type": "food_chemistry",
+  "title": "美拉德反应：褐变与香气从哪里来",
+  "question": "美拉德反应需要什么条件？为什么会产生褐色和香气？",
+  "expected_pages": [
+    {
+      "source_id": "FC-BELITZ-2009",
+      "pdf_page": 315
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "pdf_page": 333
+    }
+  ],
+  "required_keywords": [
+    "美拉德反应",
+    "氨基酸",
+    "还原糖",
+    "褐变"
+  ],
+  "expected_points": [
+    "还原糖与氨基化合物反应",
+    "初期形成 Amadori 产物",
+    "后期生成类黑精",
+    "温度、水分活度、pH 影响速率"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把美拉德与焦糖化混淆",
+    "是否把实验条件写成通用参数"
+  ],
+  "reference_answer": "## 结论\n美拉德反应是还原糖与氨基酸、肽或蛋白质等氨基化合物之间的非酶褐变反应，既能产生褐色类黑精，也能产生大量香气化合物。\n\n## 证据\n- 《Food Chemistry》p.271（PDF 315）：该页进入 Maillard Reaction 的初期阶段，说明葡萄糖与氨基化合物的反应路径。\n- 《Food Chemistry》p.289（PDF 333）：该页讨论糖苷与美拉德反应相关产物，说明反应受结构、溶剂与条件影响。\n\n## 解释\n[原文摘要] 初期阶段生成 Amadori 重排产物；继续反应会形成二羰基化合物、Strecker 醛、吡嗪、呋喃等香气物质，最终聚合为类黑精。反应速率受温度、水分活度、pH、糖和氨基酸种类影响。\n\n## 条件与边界\nFood Chemistry 2009 的实验数据有明确条件，不能把某一实验温度直接推广为所有烤箱或锅具的通用参数。高温、低水分活度通常有利，但过度加热也会产生焦苦和不良产物。\n\n[知识库缺口] 针对某道菜的最佳褐变温度曲线，当前十书知识库暂无充分依据。",
+  "search_queries": [
+    "Maillard reaction",
+    "initial phase Maillard"
+  ]
+}

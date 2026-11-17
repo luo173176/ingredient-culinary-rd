@@ -1,4 +1,4 @@
-"""Search the four-book knowledge base with citations.
+"""Search the ten-book knowledge base with citations.
 
 Examples:
     python scripts/search.py "花椒 温中止痛" --top 5
@@ -42,6 +42,13 @@ def load_alias_data() -> tuple[dict[str, str], dict[str, list[str]]]:
 
 
 ALIASES, ALIAS_GROUPS = load_alias_data()
+TERM_CONFIG = load_json(CONFIG / "professional_terms.json", {"terms": []})
+PRO_TERM_REWRITES = [
+    (str(item.get("zh", "")).strip(), str(en).strip())
+    for item in TERM_CONFIG.get("terms", [])
+    for en in item.get("en", [])
+    if str(item.get("zh", "")).strip() and str(en).strip()
+]
 
 
 def tokenize(q: str) -> list[str]:
@@ -75,6 +82,19 @@ def expand_query(q: str) -> tuple[list[str], list[str]]:
         if c and c not in canon:
             canon.append(c)
     return list(dict.fromkeys(toks)), canon
+
+
+def professional_query_rewrites(q: str) -> list[str]:
+    """Translate selected Chinese professional terms into English search hints.
+
+    The glossary is a retrieval aid only.  It does not add facts to an answer;
+    every retrieved passage still has to be checked against its source page.
+    """
+    hits: list[str] = []
+    for zh, en in PRO_TERM_REWRITES:
+        if zh in q and en not in hits:
+            hits.append(en)
+    return hits
 
 
 def fts_query(groups: list[str] | list[list[str]], mode: str) -> str:
@@ -127,6 +147,11 @@ def _substring_fallback(
     source: str | None,
     content_type: str | None,
     page_kind: str | None,
+    series: str | None = None,
+    volume: str | None = None,
+    domain: str | None = None,
+    chapter: str | None = None,
+    phase: int | None = None,
 ) -> list[dict[str, Any]]:
     """Recover chunks when jieba emits a different token boundary than the index.
 
@@ -137,15 +162,32 @@ def _substring_fallback(
     where = []
     params: list[Any] = []
     if source:
-        where.append("source_id = ?")
+        where.append("c.source_id = ?")
         params.append(source)
     if content_type:
-        where.append("content_type = ?")
+        where.append("c.content_type = ?")
         params.append(content_type)
     if page_kind:
-        where.append("page_kind = ?")
+        where.append("c.page_kind = ?")
         params.append(page_kind)
-    sql = "SELECT * FROM chunks" + (" WHERE " + " AND ".join(where) if where else "")
+    if series:
+        where.append("c.series = ?")
+        params.append(series)
+    if volume:
+        where.append("c.volume = ?")
+        params.append(volume)
+    if domain:
+        where.append("c.domain = ?")
+        params.append(domain)
+    if chapter:
+        where.append("c.chapter LIKE ?")
+        params.append(f"%{chapter}%")
+    if phase is not None:
+        where.append("s.phase = ?")
+        params.append(phase)
+    sql = "SELECT c.* FROM chunks c LEFT JOIN sources s ON s.source_id=c.source_id" + (
+        " WHERE " + " AND ".join(where) if where else ""
+    )
     out: list[dict[str, Any]] = []
     for raw in con.execute(sql, params):
         row = dict(raw)
@@ -167,6 +209,12 @@ def search(
     mode: str = "keyword",
     content_type: str | None = None,
     page_kind: str | None = None,
+    series: str | None = None,
+    volume: str | None = None,
+    domain: str | None = None,
+    chapter: str | None = None,
+    phase: int | None = None,
+    _expand_terms: bool = True,
 ) -> list[dict[str, Any]]:
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
@@ -186,9 +234,25 @@ def search(
     if page_kind:
         where.append("c.page_kind = ?")
         params.append(page_kind)
+    if series:
+        where.append("c.series = ?")
+        params.append(series)
+    if volume:
+        where.append("c.volume = ?")
+        params.append(volume)
+    if domain:
+        where.append("c.domain = ?")
+        params.append(domain)
+    if chapter:
+        where.append("c.chapter LIKE ?")
+        params.append(f"%{chapter}%")
+    if phase is not None:
+        where.append("s.phase = ?")
+        params.append(phase)
     sql = f"""
         SELECT c.*, bm25(chunks_fts, 1.0, 0.35, 0.55) AS bm
         FROM chunks_fts f JOIN chunks c ON c.rowid = f.rowid
+        LEFT JOIN sources s ON s.source_id = c.source_id
         WHERE {' AND '.join(where)}
         ORDER BY bm
         LIMIT 1000
@@ -219,12 +283,47 @@ def search(
     # Token-boundary fallback.  Keep the FTS results and add literal matches.
     if len(rows) < 20 and groups:
         seen = {r.get("chunk_id") for r in rows}
-        for r in _substring_fallback(con, groups, terms, source, content_type, page_kind):
+        for r in _substring_fallback(
+            con, groups, terms, source, content_type, page_kind,
+            series, volume, domain, chapter, phase,
+        ):
             if r.get("chunk_id") not in seen:
                 rows.append(r)
                 seen.add(r.get("chunk_id"))
         rows.sort(key=lambda x: x["score"], reverse=True)
     con.close()
+
+    # English-language sources such as Food Chemistry need a small, explicit
+    # Chinese-to-English retrieval bridge.  Run those rewrites as additional
+    # queries and merge them instead of weakening the original Chinese query.
+    if _expand_terms:
+        rewrites = professional_query_rewrites(query)
+        if rewrites:
+            merged = {
+                (r.get("source_id"), int(r.get("pdf_page") or 0), r.get("chunk_id")): r
+                for r in rows
+            }
+            for rewrite in rewrites:
+                for extra in search(
+                    rewrite,
+                    top=max(top, 12),
+                    source=source,
+                    mode="keyword",
+                    content_type=content_type,
+                    page_kind=page_kind,
+                    series=series,
+                    volume=volume,
+                    domain=domain,
+                    chapter=chapter,
+                    phase=phase,
+                    _expand_terms=False,
+                ):
+                    extra = dict(extra)
+                    extra["score"] = round(float(extra.get("score", 0.0)) * 0.9, 4)
+                    key = (extra.get("source_id"), int(extra.get("pdf_page") or 0), extra.get("chunk_id"))
+                    if key not in merged or extra["score"] > merged[key]["score"]:
+                        merged[key] = extra
+            rows = sorted(merged.values(), key=lambda x: x["score"], reverse=True)
     return rows[:top]
 
 
@@ -247,6 +346,62 @@ def herb(name: str) -> dict[str, Any] | None:
     return dict(r) if r else None
 
 
+def pairings_for(name: str, top: int = 50) -> list[dict[str, Any]]:
+    """Return Flavor Bible evidence rows that mention an ingredient."""
+    con = sqlite3.connect(DB)
+    con.row_factory = sqlite3.Row
+    q = f"%{name.strip()}%"
+    rows = con.execute(
+        "SELECT * FROM flavor_pairings "
+        "WHERE ingredient_a LIKE ? OR ingredient_b LIKE ? "
+        "ORDER BY (ingredient_a LIKE ?) DESC, confidence DESC, pdf_page LIMIT ?",
+        (q, q, q, top),
+    ).fetchall()
+    con.close()
+    return [dict(r) for r in rows]
+
+
+def pairing_between(a: str, b: str) -> list[dict[str, Any]]:
+    """Return direct or affinity evidence for a pair, in either order."""
+    con = sqlite3.connect(DB)
+    con.row_factory = sqlite3.Row
+    qa, qb = f"%{a.strip()}%", f"%{b.strip()}%"
+    rows = con.execute(
+        "SELECT * FROM flavor_pairings WHERE "
+        "(ingredient_a LIKE ? AND ingredient_b LIKE ?) OR "
+        "(ingredient_a LIKE ? AND ingredient_b LIKE ?) "
+        "ORDER BY confidence DESC, pdf_page",
+        (qa, qb, qb, qa),
+    ).fetchall()
+    con.close()
+    return [dict(r) for r in rows]
+
+
+def chemistry_topics(query: str, top: int = 20) -> list[dict[str, Any]]:
+    """Search the Food Chemistry topic index by topic/chapter/section text."""
+    con = sqlite3.connect(DB)
+    con.row_factory = sqlite3.Row
+    q = f"%{query.strip()}%"
+    rows = con.execute(
+        "SELECT * FROM chemistry_topics WHERE topic LIKE ? OR chapter LIKE ? OR section LIKE ? "
+        "OR evidence_quote LIKE ? ORDER BY pdf_page LIMIT ?",
+        (q, q, q, q, top),
+    ).fetchall()
+    con.close()
+    return [dict(r) for r in rows]
+
+
+def list_sources() -> list[dict[str, Any]]:
+    con = sqlite3.connect(DB)
+    con.row_factory = sqlite3.Row
+    rows = con.execute(
+        "SELECT source_id,short_title,title,domain,series,volume,phase,page_count,pages_extracted,chunks "
+        "FROM sources ORDER BY phase, source_id"
+    ).fetchall()
+    con.close()
+    return [dict(r) for r in rows]
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("query", nargs="?")
@@ -255,11 +410,55 @@ def main() -> None:
     ap.add_argument("--mode", choices=["keyword", "semantic"], default="keyword")
     ap.add_argument("--content-type")
     ap.add_argument("--page-kind")
+    ap.add_argument("--series")
+    ap.add_argument("--volume")
+    ap.add_argument("--domain")
+    ap.add_argument("--chapter")
+    ap.add_argument("--phase", type=int)
     ap.add_argument("--page", help="SOURCE_ID:PDF_PAGE")
     ap.add_argument("--herb")
+    ap.add_argument("--pairing", help="list Flavor Bible evidence for one ingredient")
+    ap.add_argument("--pair", nargs=2, metavar=("A", "B"), help="look up a specific pair")
+    ap.add_argument("--chemistry", help="search Food Chemistry topic index")
+    ap.add_argument("--sources", action="store_true", help="list all sources")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
 
+    if args.sources:
+        rows = list_sources()
+        print(json.dumps(rows, ensure_ascii=False, indent=2) if args.json else "\n".join(
+            f"{r['source_id']:16} p{r['phase']} {r['short_title']} [{r['domain']}] "
+            f"pages={r['pages_extracted']} chunks={r['chunks']}" for r in rows
+        ))
+        return
+    if args.pairing:
+        rows = pairings_for(args.pairing, top=args.top)
+        if args.json:
+            print(json.dumps(rows, ensure_ascii=False, indent=2))
+        else:
+            for r in rows:
+                print(f"{r['ingredient_a']} + {r['ingredient_b']} · {r['evidence_level']} · "
+                      f"《The Flavor Bible》PDF {r['pdf_page']} · {r['confidence']}")
+                print("    " + (r.get("original_context") or "")[:220])
+        return
+    if args.pair:
+        rows = pairing_between(args.pair[0], args.pair[1])
+        if args.json:
+            print(json.dumps(rows, ensure_ascii=False, indent=2))
+        else:
+            for r in rows:
+                print(f"{r['ingredient_a']} + {r['ingredient_b']} · {r['evidence_level']} · "
+                      f"PDF {r['pdf_page']}")
+                print("    " + (r.get("original_context") or "")[:260])
+            if not rows:
+                print("NO_DIRECT_PAIRING_EVIDENCE")
+        return
+    if args.chemistry:
+        rows = chemistry_topics(args.chemistry, top=args.top)
+        print(json.dumps(rows, ensure_ascii=False, indent=2) if args.json else "\n".join(
+            f"[{r['topic_id']}] {r['chapter']} / {r['section']} · PDF {r['pdf_page']}" for r in rows
+        ))
+        return
     if args.page:
         sid, page = args.page.split(":")
         rec = get_page(sid, int(page))
@@ -283,6 +482,11 @@ def main() -> None:
         mode=args.mode,
         content_type=args.content_type,
         page_kind=args.page_kind,
+        series=args.series,
+        volume=args.volume,
+        domain=args.domain,
+        chapter=args.chapter,
+        phase=args.phase,
     )
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))

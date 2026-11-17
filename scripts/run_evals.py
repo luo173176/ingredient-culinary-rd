@@ -1,4 +1,4 @@
-"""Run the professional evaluation set against the four-book knowledge base.
+"""Run the professional evaluation set against the ten-book knowledge base.
 
 This runner checks the machine-verifiable part of the rubric:
 
@@ -41,7 +41,10 @@ ANSWERS_DIR = RESULTS_DIR / "answers"
 VALIDATOR = ROOT / "scripts" / "validate_output.py"
 
 GAP_HINT = "暂无充分依据"
-SAFETY_HINTS = ("传统", "不是现代医学", "非现代医学", "传统理论")
+SAFETY_HINTS = (
+    "传统", "不是现代医学", "非现代医学", "传统理论",
+    "食品安全", "不是医疗建议", "高风险人群", "致病菌", "彻底加热",
+)
 BANNED = (
     "治愈",
     "根治",
@@ -464,7 +467,7 @@ def main() -> int:
     failures = [f"{c['id']}: {x}" for c in results for x in c["hard_failures"]]
     result = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "knowledge_base": "four-book-v1",
+        "knowledge_base": "ten-book-v2",
         "search_top": args.top,
         "cases": results,
         "summary": {

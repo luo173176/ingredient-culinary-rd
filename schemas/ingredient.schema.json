@@ -149,10 +149,162 @@
       "minItems": 1,
       "items": {"$ref": "#/$defs/evidence"}
     },
+    "scientific_name": {"type": ["string", "null"]},
+    "ingredient_category": {
+      "type": ["array", "null"],
+      "items": {"type": "string"}
+    },
+    "botanical_or_animal_origin": {
+      "type": ["object", "null"],
+      "properties": {
+        "origin": {"type": ["string", "null"]},
+        "family": {"type": ["string", "null"]},
+        "part_used": {"type": ["string", "null"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "physical_properties": {
+      "type": ["object", "null"],
+      "properties": {
+        "descriptors": {"type": "array", "items": {"type": "string"}},
+        "measurements": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "chemical_composition": {
+      "type": ["object", "null"],
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "components": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "protein_profile": {
+      "type": ["object", "null"],
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "key_proteins": {"type": "array", "items": {"type": "string"}},
+        "functional_notes": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "lipid_profile": {
+      "type": ["object", "null"],
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "fatty_acids": {"type": "array", "items": {"type": "string"}},
+        "functional_notes": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "carbohydrate_profile": {
+      "type": ["object", "null"],
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "components": {"type": "array", "items": {"type": "string"}},
+        "functional_notes": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "aroma_compounds": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "properties": {
+          "compound": {"type": "string"},
+          "descriptor": {"type": ["string", "null"]},
+          "context": {"type": ["string", "null"]},
+          "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+        }
+      }
+    },
+    "flavor_characteristics": {
+      "type": ["object", "null"],
+      "properties": {
+        "taste": {"type": "array", "items": {"type": "string"}},
+        "aroma": {"type": "array", "items": {"type": "string"}},
+        "mouthfeel": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "texture_properties": {
+      "type": ["object", "null"],
+      "properties": {
+        "descriptors": {"type": "array", "items": {"type": "string"}},
+        "changes_on_heating": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "thermal_behavior": {
+      "type": ["object", "null"],
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "temperatures": {"type": "array", "items": {"type": "string"}},
+        "mechanisms": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "processing_behavior": {
+      "type": ["object", "null"],
+      "properties": {
+        "methods": {"type": "array", "items": {"type": "string"}},
+        "changes": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "storage_properties": {
+      "type": ["object", "null"],
+      "properties": {
+        "conditions": {"type": "array", "items": {"type": "string"}},
+        "quality_changes": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "culinary_applications": {
+      "type": ["array", "null"],
+      "items": {"type": "string"}
+    },
+    "food_science_evidence": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "required": ["claim", "evidence"],
+        "properties": {
+          "claim": {"type": "string"},
+          "claim_type": {"enum": ["original", "cross_source_inference", "hypothesis", "gap"]},
+          "conditions": {"type": ["string", "null"]},
+          "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+        }
+      }
+    },
+    "traditional_materia_medica": {
+      "type": ["object", "null"],
+      "description": "仅保存传统本草内容；必须与食品化学字段分开。",
+      "properties": {
+        "applicable": {"type": "boolean"},
+        "nature_flavor_meridians": {"type": ["string", "null"]},
+        "functions": {"type": "array", "items": {"type": "string"}},
+        "theory_basis": {"type": ["string", "null"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "safety_information": {
+      "type": ["object", "null"],
+      "properties": {
+        "allergens": {"type": "array", "items": {"type": "string"}},
+        "hazards": {"type": "array", "items": {"type": "string"}},
+        "at_risk_groups": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      }
+    },
+    "source_references": {
+      "type": ["array", "null"],
+      "items": {"$ref": "#/$defs/evidence"}
+    },
     "gaps": {
       "type": "array",
       "items": {"type": "string"},
-      "description": "四书未覆盖或不确定的字段"
+      "description": "十书未覆盖或不确定的字段"
     }
   },
   "$defs": {
@@ -160,7 +312,7 @@
       "type": "object",
       "required": ["source_id", "book_title", "pdf_page", "printed_page", "chapter", "section", "quote", "extraction_method", "confidence"],
       "properties": {
-        "source_id": {"enum": ["MM-ZYX-2016", "CN-DIDAO-2011", "FS-SFAH-2023", "DK-INGREDIENTS"]},
+        "source_id": {"enum": ["MM-ZYX-2016", "CN-DIDAO-2011", "FS-SFAH-2023", "DK-INGREDIENTS", "MCG-V1-2013", "MCG-V2-2013", "MCG-V3-2013", "FC-BELITZ-2009", "FB-PAGE-2008", "CR-WXY-2003"]},
         "book_title": {"type": "string"},
         "pdf_page": {"type": "integer", "minimum": 1},
         "printed_page": {"type": ["integer", "null"], "minimum": 1},

@@ -1,5 +1,15 @@
 # 图像与表格候选清单
 
+当前统计（十书，2026-11-17）：
+
+- 视觉记录：6,811
+- 内容图片：2,913
+- 整页扫描：2,392
+- 表格候选：1,506
+
+分书明细见 `data/images/stats.json` 与 `references/knowledge-index/coverage.md`。
+整页扫描记录数可能超过 PDF 页数，因为一页可包含多个全页图像 xref。
+
 `manifest.jsonl` 保存：
 
 - 图片或整页扫描的 `source_id`、PDF 页、可观察到的印刷页；

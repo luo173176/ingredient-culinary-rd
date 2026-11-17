@@ -1,0 +1,193 @@
+{
+  "id": "wheat-flour",
+  "basic": {
+    "canonical_name_zh": "小麦面粉",
+    "scientific_name": null,
+    "english_name": "wheat flour",
+    "one_line_definition": "小麦面粉的第二阶段结构化食材卡；仅收录本书知识库可追溯内容。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "谷物",
+      "面粉"
+    ],
+    "culinary_role": []
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "本卡不建立传统本草属性；传统理论必须与现代食品科学证据分开。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [],
+    "preparation": [],
+    "heat_notes": null
+  },
+  "flavor_pairings": [],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [
+      "麸质"
+    ],
+    "contraindications": [],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 717,
+      "printed_page": 673,
+      "chapter": null,
+      "section": null,
+      "quote": "1.5 Special Role of Wheat–Gluten Table 15.3. World production of cereals 1948–2006 (106 t) Formation Year Amount Year Amount After addition of water a viscoelastic cohesive 1948 683 1988 1742 dough can be kneaded only from wheat flour. 1956",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MCG-V1-2013",
+      "book_title": "食物与厨艺：面食·酱料·甜点·饮料",
+      "pdf_page": 129,
+      "printed_page": 127,
+      "chapter": null,
+      "section": null,
+      "quote": "127调味酱料1黏合液、奶油面糊、面粉裹肉要淀粉均勾调人酱料,方法有三种第一种是把淀粉加人一些冷水拌匀,如此一-来,淀粉粒在未达糊化温度前就能吸水、彼此分离。把淀粉与水和匀,就可以直接加入酱料。第二种做法也是让淀粉或而粉颗粒分离,不过不是用水,而是用脂肪,奶油面糊(beurremanie)就是把面粉和人等重奶油揉成的面糊。若酱料起锅前必须提高稠度,这时就可以取一块面糊加人高温汁液,此时奶油会融化、逐渐释出油腻淀粉粒子并融人酱料,由于表面有一层防水油脂,淀粉粒子膨胀和糊化的速度",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "scientific_name": null,
+  "ingredient_category": [
+    "谷物",
+    "面粉"
+  ],
+  "botanical_or_animal_origin": null,
+  "physical_properties": null,
+  "chemical_composition": null,
+  "protein_profile": null,
+  "lipid_profile": null,
+  "carbohydrate_profile": null,
+  "aroma_compounds": null,
+  "flavor_characteristics": null,
+  "texture_properties": null,
+  "thermal_behavior": null,
+  "processing_behavior": null,
+  "storage_properties": null,
+  "culinary_applications": [],
+  "food_science_evidence": [
+    {
+      "claim": "该食材在本书知识库中有可追溯的页面记录；具体机制与数值需回到引用页核对。",
+      "claim_type": "original",
+      "conditions": null,
+      "evidence": [
+        {
+          "source_id": "FC-BELITZ-2009",
+          "book_title": "Food Chemistry",
+          "pdf_page": 717,
+          "printed_page": 673,
+          "chapter": null,
+          "section": null,
+          "quote": "1.5 Special Role of Wheat–Gluten Table 15.3. World production of cereals 1948–2006 (106 t) Formation Year Amount Year Amount After addition of water a viscoelastic cohesive 1948 683 1988 1742 dough can be kneaded only from wheat flour. 1956",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "traditional_materia_medica": {
+    "applicable": false,
+    "nature_flavor_meridians": null,
+    "functions": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "safety_information": {
+    "allergens": [
+      "麸质"
+    ],
+    "hazards": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ],
+    "evidence": []
+  },
+  "source_references": [
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 717,
+      "printed_page": 673,
+      "chapter": null,
+      "section": null,
+      "quote": "1.5 Special Role of Wheat–Gluten Table 15.3. World production of cereals 1948–2006 (106 t) Formation Year Amount Year Amount After addition of water a viscoelastic cohesive 1948 683 1988 1742 dough can be kneaded only from wheat flour. 1956",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MCG-V1-2013",
+      "book_title": "食物与厨艺：面食·酱料·甜点·饮料",
+      "pdf_page": 129,
+      "printed_page": 127,
+      "chapter": null,
+      "section": null,
+      "quote": "127调味酱料1黏合液、奶油面糊、面粉裹肉要淀粉均勾调人酱料,方法有三种第一种是把淀粉加人一些冷水拌匀,如此一-来,淀粉粒在未达糊化温度前就能吸水、彼此分离。把淀粉与水和匀,就可以直接加入酱料。第二种做法也是让淀粉或而粉颗粒分离,不过不是用水,而是用脂肪,奶油面糊(beurremanie)就是把面粉和人等重奶油揉成的面糊。若酱料起锅前必须提高稠度,这时就可以取一块面糊加人高温汁液,此时奶油会融化、逐渐释出油腻淀粉粒子并融人酱料,由于表面有一层防水油脂,淀粉粒子膨胀和糊化的速度",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "蛋白质含量分档、灰分、吸水率、面团流变学数据未在本卡建立。"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "E25",
+  "type": "flavor_pairing",
+  "title": "搭配证据溯源：三种证据等级",
+  "question": "请解释 The Flavor Bible 搭配索引中的 explicit_pairing_listing、derived_from_affinity_combination 和 ai_hypothesis 有什么区别，并各举一例。",
+  "expected_pages": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 73
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 74
+    }
+  ],
+  "required_keywords": [
+    "explicit_pairing_listing",
+    "derived_from_affinity_combination",
+    "ai_hypothesis",
+    "证据等级"
+  ],
+  "expected_points": [
+    "明确列出是书中原文",
+    "组合推导是跨条目关系",
+    "AI 假设不是书中内容",
+    "输出必须带来源页码"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把组合推导说成书中逐字原文",
+    "是否缺少页码"
+  ],
+  "reference_answer": "## 三种证据等级\n- explicit_pairing_listing：书中食材条目直接列出的搭配词。例如 BASIL 条目列出 GARLIC，见 《The Flavor Bible》p.58（PDF 73）。\n- derived_from_affinity_combination：书中 Flavor Affinities 用加号连接多个食材，索引把组合拆成两两关系。例如 BASIL + GARLIC + OLIVE OIL + SALT 的组合，见 《The Flavor Bible》p.59（PDF 74）。这种拆分是索引推导，不是书中逐字写出的两两配对。\n- ai_hypothesis：书中没有列出、由 AI 为了研发提出的组合。必须明确写假设、给出验证方法，不能附会成书中原文。\n\n## 输出要求\n每条搭配至少带书名、PDF 页码和印刷页码（能识别时）；不能只写食材名。若只找到相关章节、没有准确定位页码，应明确说明。\n\n## 边界\nThe Flavor Bible 是创意参考，不是科学实验数据库。搭配关系不能被解释为营养协同、药理协同或安全性保证。\n\n[知识库缺口] 三种证据等级对应的感官实验数据，当前十书知识库暂无充分依据。",
+  "search_queries": [
+    "basil garlic",
+    "flavor affinities basil"
+  ]
+}

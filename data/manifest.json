@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T18:12:19",
-  "knowledge_base": "four-book-v1",
+  "generated_at": "2026-11-17T18:31:33",
+  "knowledge_base": "ten-book-v2",
   "books": [
     {
       "source_id": "MM-ZYX-2016",
@@ -34,33 +34,97 @@
       "near_empty_pages": 26,
       "low_confidence_pages": 28,
       "printed_page_observed": 76
+    },
+    {
+      "source_id": "MCG-V1-2013",
+      "title": "食物与厨艺：面食·酱料·甜点·饮料",
+      "pages": 326,
+      "near_empty_pages": 4,
+      "low_confidence_pages": 7,
+      "printed_page_observed": 233
+    },
+    {
+      "source_id": "MCG-V2-2013",
+      "title": "食物与厨艺：蔬·果·香料·谷物",
+      "pages": 363,
+      "near_empty_pages": 2,
+      "low_confidence_pages": 30,
+      "printed_page_observed": 243
+    },
+    {
+      "source_id": "MCG-V3-2013",
+      "title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pages": 367,
+      "near_empty_pages": 7,
+      "low_confidence_pages": 28,
+      "printed_page_observed": 254
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "title": "Food Chemistry",
+      "pages": 1114,
+      "near_empty_pages": 2,
+      "low_confidence_pages": 0,
+      "printed_page_observed": 1070
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "title": "The Flavor Bible",
+      "pages": 391,
+      "near_empty_pages": 15,
+      "low_confidence_pages": 0,
+      "printed_page_observed": 319
+    },
+    {
+      "source_id": "CR-WXY-2003",
+      "title": "烹饪原料学",
+      "pages": 244,
+      "near_empty_pages": 0,
+      "low_confidence_pages": 2,
+      "printed_page_observed": 215
     }
   ],
   "totals": {
-    "pages": 1975,
-    "chunks": 2589,
+    "pages": 4780,
+    "chunks": 6656,
     "herbs": 558,
     "main_herbs": 434,
     "attached_herbs": 124,
-    "ingredient_cards": 12,
-    "visual_records": 1152,
-    "content_images": 353,
-    "page_scans": 769,
-    "table_candidates": 30
+    "ingredient_cards": 18,
+    "phase1_ingredient_cards": 12,
+    "phase2_ingredient_cards": 6,
+    "phase1_pages": 1975,
+    "phase2_pages": 2805,
+    "phase1_chunks": 2589,
+    "phase2_chunks": 4067,
+    "sources": 10,
+    "flavor_pairings": 13758,
+    "flavor_affinities": 292,
+    "chemistry_topics": 2319,
+    "culinary_sections": 154,
+    "visual_records": 6811,
+    "content_images": 2913,
+    "page_scans": 2392,
+    "table_candidates": 1506
   },
   "database": {
-    "pages": 1975,
-    "chunks": 2589,
-    "chunks_fts": 2589,
+    "pages": 4780,
+    "chunks": 6656,
+    "chunks_fts": 6656,
     "herbs": 558,
     "aliases": 813,
-    "sources": 4
+    "sources": 10,
+    "flavor_pairings": 13758,
+    "flavor_affinities": 292,
+    "chemistry_topics": 2319,
+    "culinary_sections": 154,
+    "conflict_candidates": 2
   },
   "visuals": {
-    "records": 1152,
-    "images": 353,
-    "page_scans": 769,
-    "table_candidates": 30,
+    "records": 6811,
+    "images": 2913,
+    "page_scans": 2392,
+    "table_candidates": 1506,
     "books": [
       {
         "source_id": "MM-ZYX-2016",
@@ -85,12 +149,48 @@
         "images": 0,
         "page_scans": 530,
         "table_candidates": 0
+      },
+      {
+        "source_id": "MCG-V1-2013",
+        "images": 0,
+        "page_scans": 652,
+        "table_candidates": 0
+      },
+      {
+        "source_id": "MCG-V2-2013",
+        "images": 161,
+        "page_scans": 363,
+        "table_candidates": 0
+      },
+      {
+        "source_id": "MCG-V3-2013",
+        "images": 112,
+        "page_scans": 365,
+        "table_candidates": 0
+      },
+      {
+        "source_id": "FC-BELITZ-2009",
+        "images": 1448,
+        "page_scans": 0,
+        "table_candidates": 1100
+      },
+      {
+        "source_id": "FB-PAGE-2008",
+        "images": 839,
+        "page_scans": 0,
+        "table_candidates": 376
+      },
+      {
+        "source_id": "CR-WXY-2003",
+        "images": 0,
+        "page_scans": 243,
+        "table_candidates": 0
       }
     ],
     "caveat": "caption_candidate 是邻近文字候选，不是经人工确认的图注；table_candidate 是文本/线框启发式，不是经人工确认的表格结构。"
   },
   "checks": {
-    "total": 81,
+    "total": 171,
     "failed": 0,
     "failures": []
   }

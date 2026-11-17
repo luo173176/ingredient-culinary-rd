@@ -18,8 +18,11 @@
     "isbn": {"type": ["string", "null"]},
     "file": {"type": "string"},
     "kind": {"enum": ["digital", "scanned"]},
-    "domain": {"enum": ["materia-medica", "chinese-ingredients", "flavor-science", "global-ingredients"]},
+    "domain": {"enum": ["materia-medica", "chinese-ingredients", "flavor-science", "global-ingredients", "food-science", "food-chemistry", "flavor-pairing", "culinary-ingredients"]},
     "language": {"type": "string"},
+    "series": {"type": ["string", "null"]},
+    "volume": {"type": ["string", "null"]},
+    "phase": {"type": ["integer", "null"], "minimum": 1},
     "citation_label": {"type": "string"},
     "sha256": {"type": ["string", "null"]},
     "page_count": {"type": ["integer", "null"]}

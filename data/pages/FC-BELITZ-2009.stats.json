@@ -1,0 +1,15 @@
+{
+  "source_id": "FC-BELITZ-2009",
+  "title": "Food Chemistry",
+  "pages": 1114,
+  "pages_with_text": 1112,
+  "near_empty_pages": [
+    1,
+    2
+  ],
+  "chars": 3010340,
+  "printed_page_detected": 1070,
+  "toc_entries": 0,
+  "elapsed_s": 76.6,
+  "output": "data\\pages\\FC-BELITZ-2009.jsonl"
+}

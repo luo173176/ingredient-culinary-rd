@@ -1,0 +1,14 @@
+{
+  "source_id": "FC-BELITZ-2009",
+  "chunks": 1112,
+  "chars": 2879393,
+  "by_content_type": {
+    "text": 1100,
+    "heading": 12
+  },
+  "pages_with_chunks": 1112,
+  "high_confidence": 1112,
+  "medium_confidence": 0,
+  "low_confidence": 0,
+  "output": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\data\\chunks\\FC-BELITZ-2009.jsonl"
+}

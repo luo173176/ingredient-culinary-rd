@@ -1,0 +1,14 @@
+{
+  "source_id": "MCG-V1-2013",
+  "chunks": 396,
+  "chars": 284324,
+  "by_content_type": {
+    "text": 390,
+    "recipe": 6
+  },
+  "pages_with_chunks": 322,
+  "high_confidence": 0,
+  "medium_confidence": 361,
+  "low_confidence": 35,
+  "output": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\data\\chunks\\MCG-V1-2013.jsonl"
+}

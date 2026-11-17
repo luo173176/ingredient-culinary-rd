@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "role": "query_normalization_only",
+  "disclaimer": "本文件只把中文专业检索词扩展为英文检索词，用于命中英文书籍。它不是食材事实、机制、剂量或安全结论的依据；回答仍须回到原文页码核对。",
+  "terms": [
+    {
+      "zh": "蛋白质变性",
+      "en": ["protein denaturation", "protein denaturation aggregation"]
+    },
+    {
+      "zh": "蛋白质凝固",
+      "en": ["protein coagulation", "protein gelation"]
+    },
+    {
+      "zh": "持水性",
+      "en": ["water holding capacity", "water-holding capacity"]
+    },
+    {
+      "zh": "淀粉糊化",
+      "en": ["starch gelatinization", "gelatinization of starch"]
+    },
+    {
+      "zh": "淀粉老化",
+      "en": ["starch retrogradation", "retrogradation"]
+    },
+    {
+      "zh": "脂质氧化",
+      "en": ["lipid oxidation", "lipid peroxidation", "autoxidation"]
+    },
+    {
+      "zh": "美拉德反应",
+      "en": ["Maillard reaction", "Maillard browning"]
+    },
+    {
+      "zh": "焦糖化",
+      "en": ["caramelization", "caramelisation"]
+    },
+    {
+      "zh": "香气形成",
+      "en": ["aroma formation", "formation of aroma compounds"]
+    },
+    {
+      "zh": "香气化合物",
+      "en": ["aroma compounds", "volatile aroma compounds"]
+    },
+    {
+      "zh": "水分活度",
+      "en": ["water activity"]
+    },
+    {
+      "zh": "乳化",
+      "en": ["emulsification", "emulsion"]
+    },
+    {
+      "zh": "酶促反应",
+      "en": ["enzymatic reaction", "enzyme reaction"]
+    },
+    {
+      "zh": "维生素",
+      "en": ["vitamin", "vitamins"]
+    },
+    {
+      "zh": "矿物质",
+      "en": ["mineral", "minerals"]
+    },
+    {
+      "zh": "色素",
+      "en": ["pigment", "pigments"]
+    },
+    {
+      "zh": "褐变",
+      "en": ["browning"]
+    },
+    {
+      "zh": "冷藏",
+      "en": ["refrigeration", "chilled storage"]
+    },
+    {
+      "zh": "冷冻",
+      "en": ["freezing", "frozen storage"]
+    },
+    {
+      "zh": "干燥",
+      "en": ["drying", "dehydration"]
+    },
+    {
+      "zh": "腌制",
+      "en": ["curing", "salting"]
+    },
+    {
+      "zh": "发酵",
+      "en": ["fermentation"]
+    },
+    {
+      "zh": "烟熏",
+      "en": ["smoking"]
+    },
+    {
+      "zh": "鸡肉",
+      "en": ["chicken"]
+    },
+    {
+      "zh": "鸡蛋",
+      "en": ["egg", "eggs"]
+    },
+    {
+      "zh": "牛奶",
+      "en": ["milk"]
+    },
+    {
+      "zh": "小麦面粉",
+      "en": ["wheat flour"]
+    },
+    {
+      "zh": "罗勒",
+      "en": ["basil"]
+    },
+    {
+      "zh": "番茄",
+      "en": ["tomato", "tomatoes"]
+    },
+    {
+      "zh": "鲑鱼",
+      "en": ["salmon"]
+    }
+  ]
+}

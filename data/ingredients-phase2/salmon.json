@@ -1,0 +1,193 @@
+{
+  "id": "salmon",
+  "basic": {
+    "canonical_name_zh": "鲑鱼",
+    "scientific_name": null,
+    "english_name": "salmon",
+    "one_line_definition": "鲑鱼的第二阶段结构化食材卡；仅收录本书知识库可追溯内容。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "鱼类",
+      "水产品"
+    ],
+    "culinary_role": []
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "本卡不建立传统本草属性；传统理论必须与现代食品科学证据分开。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [],
+    "preparation": [],
+    "heat_notes": null
+  },
+  "flavor_pairings": [],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [
+      "鱼"
+    ],
+    "contraindications": [],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 233,
+      "printed_page": 231,
+      "chapter": null,
+      "section": null,
+      "quote": "海鲜partone第四章231海鲜来自地球另一个世界:广问无琅的水底世界。干燥陆地占地表面积不到1/3,与海床从海平面向下陷人11多下米的海洋相比,陆地只能算是一片薄如纸片的栖境。海洋浩瀚且古老,是孕育所有生物的“原始”,启发人类对万物生灭,形变与重生理论的无尽想象。 海鲜生物生活在寒冷,黑暗、密实且缺之空气之处,却是人类所取食自古以来,人类取鱼、贝,虾,壁滋养自身。也仰懒鱼、,贝虾,蟹壮大繁行:地球海岸沿线堆满着大量的牡蛎与始贝壳,是无数雍宴的见证,最远可回溯至30万年前。",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 661,
+      "printed_page": 617,
+      "chapter": null,
+      "section": null,
+      "quote": "13 Fish, Whales, Crustaceans, Mollusks 13.1 Fish Table 13.2. Catch of fish by German fishery in 2007 Name Metric ton 13.1.1 Foreword Herring 24,515 Fish and fish products fulfill an important role in Mackerel 11,043 human nutrition as a sou",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "scientific_name": null,
+  "ingredient_category": [
+    "鱼类",
+    "水产品"
+  ],
+  "botanical_or_animal_origin": null,
+  "physical_properties": null,
+  "chemical_composition": null,
+  "protein_profile": null,
+  "lipid_profile": null,
+  "carbohydrate_profile": null,
+  "aroma_compounds": null,
+  "flavor_characteristics": null,
+  "texture_properties": null,
+  "thermal_behavior": null,
+  "processing_behavior": null,
+  "storage_properties": null,
+  "culinary_applications": [],
+  "food_science_evidence": [
+    {
+      "claim": "该食材在本书知识库中有可追溯的页面记录；具体机制与数值需回到引用页核对。",
+      "claim_type": "original",
+      "conditions": null,
+      "evidence": [
+        {
+          "source_id": "MCG-V3-2013",
+          "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+          "pdf_page": 233,
+          "printed_page": 231,
+          "chapter": null,
+          "section": null,
+          "quote": "海鲜partone第四章231海鲜来自地球另一个世界:广问无琅的水底世界。干燥陆地占地表面积不到1/3,与海床从海平面向下陷人11多下米的海洋相比,陆地只能算是一片薄如纸片的栖境。海洋浩瀚且古老,是孕育所有生物的“原始”,启发人类对万物生灭,形变与重生理论的无尽想象。 海鲜生物生活在寒冷,黑暗、密实且缺之空气之处,却是人类所取食自古以来,人类取鱼、贝,虾,壁滋养自身。也仰懒鱼、,贝虾,蟹壮大繁行:地球海岸沿线堆满着大量的牡蛎与始贝壳,是无数雍宴的见证,最远可回溯至30万年前。",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "traditional_materia_medica": {
+    "applicable": false,
+    "nature_flavor_meridians": null,
+    "functions": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "safety_information": {
+    "allergens": [
+      "鱼"
+    ],
+    "hazards": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ],
+    "evidence": []
+  },
+  "source_references": [
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 233,
+      "printed_page": 231,
+      "chapter": null,
+      "section": null,
+      "quote": "海鲜partone第四章231海鲜来自地球另一个世界:广问无琅的水底世界。干燥陆地占地表面积不到1/3,与海床从海平面向下陷人11多下米的海洋相比,陆地只能算是一片薄如纸片的栖境。海洋浩瀚且古老,是孕育所有生物的“原始”,启发人类对万物生灭,形变与重生理论的无尽想象。 海鲜生物生活在寒冷,黑暗、密实且缺之空气之处,却是人类所取食自古以来,人类取鱼、贝,虾,壁滋养自身。也仰懒鱼、,贝虾,蟹壮大繁行:地球海岸沿线堆满着大量的牡蛎与始贝壳,是无数雍宴的见证,最远可回溯至30万年前。",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 661,
+      "printed_page": 617,
+      "chapter": null,
+      "section": null,
+      "quote": "13 Fish, Whales, Crustaceans, Mollusks 13.1 Fish Table 13.2. Catch of fish by German fishery in 2007 Name Metric ton 13.1.1 Foreword Herring 24,515 Fish and fish products fulfill an important role in Mackerel 11,043 human nutrition as a sou",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "品种、养殖与野生差异、脂质组成、寄生虫风险控制参数未在本卡建立。"
+  ]
+}

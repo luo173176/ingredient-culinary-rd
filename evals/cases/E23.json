@@ -1,0 +1,39 @@
+{
+  "id": "E23",
+  "type": "flavor_pairing",
+  "title": "香气互补：香蕉、焦糖与香草",
+  "question": "BANANAS 条目如何记录与 CARAMEL、VANILLA 的搭配？为什么这类组合在香气上成立？",
+  "expected_pages": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 71
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 72
+    }
+  ],
+  "required_keywords": [
+    "BANANAS",
+    "CARAMEL",
+    "VANILLA",
+    "香气"
+  ],
+  "expected_points": [
+    "BANANAS 条目列出 CARAMEL 与 VANILLA",
+    "焦糖提供甜香与褐变香",
+    "香草提供圆润甜香",
+    "属于经验搭配而非实验证明"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把经验搭配写成实验结论",
+    "是否忽略成熟度与比例"
+  ],
+  "reference_answer": "## 结论\nThe Flavor Bible 把 BANANAS 与 CARAMEL、VANILLA 作为搭配词记录；从香气角度看，这是甜香、酯香与香草醛类香气之间的互补，但书本身不提供感官实验证明。\n\n## 证据\n- 《The Flavor Bible》p.56（PDF 71）：BANANAS 条目列出 CARAMEL、VANILLA 等搭配词。\n- 《The Flavor Bible》p.57（PDF 72）：该页延续香蕉条目的搭配与菜品上下文。\n\n## 解释\n[原文摘要] 香蕉的香气以酯类为主，焦糖提供甜香和轻微苦香，香草提供圆润的甜香。三者组合在嗅觉上容易形成甜点方向的整体感，但具体比例仍需试做。\n\n## 证据等级\n这是书籍明确列出的搭配，不等于经过感官Panel验证的固定配方。AI 若提出香蕉加酱油或辣椒，应标为创新假设并设计对照实验。\n\n[知识库缺口] 香蕉品种、成熟度和焦糖化程度对香气的影响，当前十书知识库暂无充分依据。",
+  "search_queries": [
+    "bananas caramel",
+    "bananas vanilla"
+  ]
+}

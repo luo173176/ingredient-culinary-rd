@@ -1,0 +1,39 @@
+{
+  "id": "E21",
+  "type": "flavor_pairing",
+  "title": "经典搭配：罗勒与番茄",
+  "question": "The Flavor Bible 如何记录 BASIL 与 TOMATOES、GARLIC、OLIVE OIL 的搭配？请给出证据等级。",
+  "expected_pages": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 73
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 74
+    }
+  ],
+  "required_keywords": [
+    "BASIL",
+    "TOMATOES",
+    "GARLIC",
+    "OLIVE OIL"
+  ],
+  "expected_points": [
+    "书中 BASIL 条目列出多种搭配",
+    "TOMATOES 出现在续页条目",
+    "GARLIC 与 OLIVE OIL 为明确列出",
+    "属于书籍明确搭配而非科学实验结论"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把书籍搭配写成科学证明",
+    "是否把推导关系标成原文"
+  ],
+  "reference_answer": "## 结论\nThe Flavor Bible 把 BASIL 与 TOMATOES、GARLIC、OLIVE OIL 作为同一食材条目的搭配词列出；这是书籍编辑经验，不是经过感官实验验证的相容性数据库。\n\n## 证据\n- 《The Flavor Bible》p.58（PDF 73）：BASIL 条目列出 GARLIC、OLIVE OIL 等搭配词。\n- 《The Flavor Bible》p.59（PDF 74）：BASIL 条目续页出现 TOMATOES and tomato sauces，并列出 Flavor Affinities 组合。\n\n## 证据等级\n- explicit_pairing_listing：书中条目直接列出的单词或短语。\n- derived_from_affinity_combination：由 plus 连接的 Flavor Affinities 组合推导出的两两关系。\n- ai_hypothesis：本书没有列出、由 AI 提出的实验性组合，不能标成书中原文。\n\n## 使用边界\n这本书的组织方式是厨师经验与创意参考。它不提供营养协同或药理协同的证据，也不能把搭配词直接解释为健康功效。\n\n[知识库缺口] 罗勒与番茄搭配的感官阈值、产地差异和消费者偏好数据，当前十书知识库暂无充分依据。",
+  "search_queries": [
+    "basil tomatoes",
+    "basil garlic olive oil"
+  ]
+}

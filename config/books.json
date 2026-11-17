@@ -1,10 +1,24 @@
 {
-  "schema_version": "1.0",
-  "knowledge_base": "四书知识库（第一阶段）",
+  "schema_version": "2.0",
+  "knowledge_base": "十书知识库（第二阶段）",
   "policy": {
     "allowed_sources_only": true,
     "external_sources_allowed": false,
-    "note": "第一阶段事实依据仅限下列四本书。任何超出四书的知识必须标注为“知识库暂无依据”，不得补写。"
+    "phase1_books": [
+      "MM-ZYX-2016",
+      "CN-DIDAO-2011",
+      "FS-SFAH-2023",
+      "DK-INGREDIENTS"
+    ],
+    "phase2_books": [
+      "MCG-V1-2013",
+      "MCG-V2-2013",
+      "MCG-V3-2013",
+      "FC-BELITZ-2009",
+      "FB-PAGE-2008",
+      "CR-WXY-2003"
+    ],
+    "note": "第二阶段事实依据仅限下列十本书。新增资料不得覆盖第一阶段来源、页码与引用；超出十书的知识必须标注知识库暂无依据。Food Chemistry 为2009年版，不能当作现行食品安全标准。"
   },
   "books": [
     {
@@ -21,7 +35,10 @@
       "kind": "digital",
       "domain": "materia-medica",
       "language": "zh",
-      "citation_label": "《中药学》（钟赣生主编，第4版）"
+      "citation_label": "《中药学》（钟赣生主编，第4版）",
+      "phase": 1,
+      "series": null,
+      "volume": null
     },
     {
       "source_id": "CN-DIDAO-2011",
@@ -37,7 +54,10 @@
       "kind": "scanned",
       "domain": "chinese-ingredients",
       "language": "zh",
-      "citation_label": "《中国地道食材图录大全》（李清，武汉出版社2011）"
+      "citation_label": "《中国地道食材图录大全》（李清，武汉出版社2011）",
+      "phase": 1,
+      "series": null,
+      "volume": null
     },
     {
       "source_id": "FS-SFAH-2023",
@@ -54,7 +74,10 @@
       "kind": "digital",
       "domain": "flavor-science",
       "language": "zh",
-      "citation_label": "《盐，脂，酸，热：制造美味的新科学》（萨明·诺斯拉特，中信出版社2023）"
+      "citation_label": "《盐，脂，酸，热：制造美味的新科学》（萨明·诺斯拉特，中信出版社2023）",
+      "phase": 1,
+      "series": null,
+      "volume": null
     },
     {
       "source_id": "DK-INGREDIENTS",
@@ -71,7 +94,134 @@
       "kind": "scanned",
       "domain": "global-ingredients",
       "language": "zh",
-      "citation_label": "《食材百科全书》（英国DK出版社，丛龙岩译，中国轻工业出版社）"
+      "citation_label": "《食材百科全书》（英国DK出版社，丛龙岩译，中国轻工业出版社）",
+      "phase": 1,
+      "series": null,
+      "volume": null
+    },
+    {
+      "source_id": "MCG-V1-2013",
+      "short_title": "食物与厨艺·面食酱料甜点饮料",
+      "title": "食物与厨艺：面食·酱料·甜点·饮料",
+      "subtitle": "On Food and Cooking 中文版第一册",
+      "author": "哈洛德·马基（Harold McGee）",
+      "translator": "蔡承志",
+      "publisher": "北京美术摄影出版社",
+      "year": "2013",
+      "edition": "2013年8月第1版",
+      "isbn": "978-7-80501-554-5",
+      "file": "../01 食物与厨艺 面食·酱料·甜点·饮料.pdf",
+      "kind": "scanned",
+      "domain": "food-science",
+      "language": "zh",
+      "series": "食物与厨艺",
+      "volume": "1",
+      "citation_label": "《食物与厨艺：面食·酱料·甜点·饮料》（哈洛德·马基，2013）",
+      "phase": 2,
+      "page_number_suffix": true
+    },
+    {
+      "source_id": "MCG-V2-2013",
+      "short_title": "食物与厨艺·蔬果香料谷物",
+      "title": "食物与厨艺：蔬·果·香料·谷物",
+      "subtitle": "On Food and Cooking 中文版第二册",
+      "author": "哈洛德·马基（Harold McGee）",
+      "translator": "蔡承志",
+      "publisher": "北京美术摄影出版社",
+      "year": "2013",
+      "edition": "2013年8月第1版",
+      "isbn": "978-7-80501-553-8",
+      "file": "../02 食物与厨艺 蔬·果·香料·谷物.pdf",
+      "kind": "scanned",
+      "domain": "food-science",
+      "language": "zh",
+      "series": "食物与厨艺",
+      "volume": "2",
+      "citation_label": "《食物与厨艺：蔬·果·香料·谷物》（哈洛德·马基，2013）",
+      "phase": 2,
+      "page_number_suffix": true
+    },
+    {
+      "source_id": "MCG-V3-2013",
+      "short_title": "食物与厨艺·奶蛋肉鱼",
+      "title": "食物与厨艺：奶·蛋·肉·鱼",
+      "subtitle": "On Food and Cooking 中文版第三册",
+      "author": "哈洛德·马基（Harold McGee）",
+      "translator": "邱文宝、林慧珍",
+      "publisher": "北京美术摄影出版社",
+      "year": "2013",
+      "edition": "2013年8月第1版",
+      "isbn": "978-7-80501-555-2",
+      "file": "../03 食物与厨艺 奶·蛋·肉·鱼.pdf",
+      "kind": "scanned",
+      "domain": "food-science",
+      "language": "zh",
+      "series": "食物与厨艺",
+      "volume": "3",
+      "citation_label": "《食物与厨艺：奶·蛋·肉·鱼》（哈洛德·马基，2013）",
+      "phase": 2,
+      "page_number_suffix": true
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "short_title": "Food Chemistry",
+      "title": "Food Chemistry",
+      "subtitle": "4th revised and extended edition",
+      "author": "H.-D. Belitz, W. Grosch, P. Schieberle",
+      "translator": null,
+      "publisher": "Springer-Verlag Berlin Heidelberg",
+      "year": "2009",
+      "edition": "4th revised and extended ed.",
+      "isbn": "978-3-540-69933-0",
+      "file": "../Food Chemistry (Belitz 4th ed 2009).pdf",
+      "kind": "digital",
+      "domain": "food-chemistry",
+      "language": "en",
+      "citation_label": "Food Chemistry (Belitz, Grosch & Schieberle, 4th ed., 2009)",
+      "phase": 2,
+      "series": null,
+      "volume": null
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "short_title": "The Flavor Bible",
+      "title": "The Flavor Bible",
+      "subtitle": "The Essential Guide to Culinary Creativity",
+      "author": "Karen Page, Andrew Dornenburg",
+      "translator": null,
+      "publisher": "Little, Brown and Company",
+      "year": "2008",
+      "edition": "First edition",
+      "isbn": null,
+      "file": "../The Flavor Bible (Karen Page, Andrew Dornenburg 2008).pdf",
+      "kind": "digital",
+      "domain": "flavor-pairing",
+      "language": "en",
+      "citation_label": "The Flavor Bible (Page & Dornenburg, 2008)",
+      "phase": 2,
+      "series": null,
+      "volume": null,
+      "page_number_suffix": true
+    },
+    {
+      "source_id": "CR-WXY-2003",
+      "short_title": "烹饪原料学",
+      "title": "烹饪原料学",
+      "subtitle": "新世纪高职高专教改项目成果教材",
+      "author": "王向阳（主编）、许睦农（副主编）",
+      "translator": null,
+      "publisher": "高等教育出版社",
+      "year": "2003",
+      "edition": "2003年7月第1版",
+      "isbn": "7-04-012474-2",
+      "file": "../烹饪原料学 王向阳 2003.pdf",
+      "kind": "scanned",
+      "domain": "culinary-ingredients",
+      "language": "zh",
+      "citation_label": "《烹饪原料学》（王向阳主编，高等教育出版社2003）",
+      "phase": 2,
+      "series": null,
+      "volume": null
     }
   ]
 }

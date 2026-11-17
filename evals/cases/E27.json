@@ -1,0 +1,49 @@
+{
+  "id": "E27",
+  "type": "comprehensive_rd",
+  "title": "菜谱研发：可执行烤鸡腿配方",
+  "question": "给出一份可执行的烤鸡腿配方，包含用量、预处理、温度、时间、调味逻辑和风险提示。",
+  "expected_pages": [
+    {
+      "source_id": "MCG-V3-2013",
+      "pdf_page": 348
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "pdf_page": 654
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 130
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 358
+    }
+  ],
+  "required_keywords": [
+    "鸡腿",
+    "盐",
+    "温度",
+    "时间"
+  ],
+  "expected_points": [
+    "盐腌与表面干燥",
+    "蛋白质受热与持水性",
+    "香草搭配",
+    "中心温度和静置"
+  ],
+  "gap_expected": false,
+  "safety_required": true,
+  "manual_checks": [
+    "配方是否可执行",
+    "是否把未测试配方写成已验证"
+  ],
+  "reference_answer": "## 菜品定位\n家常烤鸡腿，目标是皮脆、肉嫩、咸度适中，龙蒿香气清晰。\n\n## 食材与用量\n- 鸡腿 2 只（约 400 g）\n- 细盐 5 g（约肉重的 1.2%）\n- 橄榄油 10 mL\n- 龙蒿 2 枝\n- 黑胡椒 0.5 g\n\n## 预处理\n鸡腿擦干，盐均匀抹在表面和皮下，冷藏腌 2 小时；烤前回温 20 分钟，再次擦干表面。\n\n## 操作流程\n1. 烤箱预热 200°C。\n2. 鸡腿皮朝上放在烤架上，刷橄榄油，撒黑胡椒和一半龙蒿。\n3. 烤 20 分钟后检查表面上色；若上色过快，降温至 180°C。\n4. 继续烤至中心达到安全温度，取出静置 5 分钟，撒剩余龙蒿。\n\n## 原理\n- 《食物与厨艺·奶蛋肉鱼》p.346（PDF 348）：肉类加热时肌肉蛋白质变性收缩，过度加热会失去持水性。\n- 《Food Chemistry》p.610（PDF 654）：肌肉蛋白质是肉类结构和持水性的基础。\n- 《The Flavor Bible》p.115（PDF 130）：CHICKEN 条目列出 fines herbes（含龙蒿）等香草方向。\n- 《The Flavor Bible》p.342（PDF 358）：TARRAGON 条目直接列出 CHICKEN。\n\n## 可调参数\n盐度 1.0%–1.5%；烤箱实际温度用温度计校准；鸡腿越大，时间越长。中心温度必须达到安全范围。\n\n## 风险\n生鸡肉及其汁液可能携带致病菌，接触后要清洗工具和手；未熟鸡肉不得食用。\n\n[知识库缺口] 该配方未做厨房重复试验，不能标注为 kitchen_tested。",
+  "search_queries": [
+    "roast chicken",
+    "protein denaturation",
+    "TARRAGON CHICKEN",
+    "肉类 加热 蛋白质"
+  ]
+}

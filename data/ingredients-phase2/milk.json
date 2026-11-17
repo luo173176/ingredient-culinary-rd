@@ -1,0 +1,191 @@
+{
+  "id": "milk",
+  "basic": {
+    "canonical_name_zh": "乳",
+    "scientific_name": null,
+    "english_name": "milk",
+    "one_line_definition": "乳的第二阶段结构化食材卡；仅收录本书知识库可追溯内容。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "乳与乳制品"
+    ],
+    "culinary_role": []
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "本卡不建立传统本草属性；传统理论必须与现代食品科学证据分开。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [],
+    "preparation": [],
+    "heat_notes": null
+  },
+  "flavor_pairings": [],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [
+      "乳"
+    ],
+    "contraindications": [],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 25,
+      "printed_page": 23,
+      "chapter": null,
+      "section": null,
+      "quote": "乳与乳制品Dartone第一章023以人类在生命初始时所吃的食物作为第一章的主题,是再适合不过了。人类是哺乳动物。也就是“吃奶的生物”,就限所有哺乳动物一样,第一口吃下的食物就是乳。乳是母亲从自己丰高多样,复杂有趣的饮食中所提炼出来的精华,一口便可以春下。人类祖先最早在从事乳业时,就以乳牛,母羊和山羊作为乳品供应来源,这此生物将牧草及榨卓奇迹股的转变为一桶桶人类的营养火源,这种液体富含各种可能性。只需销微加工,就能制成各式各样可口的鲜奶油,香喷喷的难怪乳品可以展现出许多文化的",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 547,
+      "printed_page": 503,
+      "chapter": null,
+      "section": null,
+      "quote": "10.1 Milk 503 Table 10.8. Amino acid sequences of bovine milk proteins αs1-Casein B-8P R P K H P I K H Q G L P Q E V L N E N L L R F F V A P F P Q V F G K E K V N Q L Sa Sa S K D I G E T E D Q A M E D I K E M Sa Sa Sa Sa Sa E A E I E E I V ",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "scientific_name": null,
+  "ingredient_category": [
+    "乳与乳制品"
+  ],
+  "botanical_or_animal_origin": null,
+  "physical_properties": null,
+  "chemical_composition": null,
+  "protein_profile": null,
+  "lipid_profile": null,
+  "carbohydrate_profile": null,
+  "aroma_compounds": null,
+  "flavor_characteristics": null,
+  "texture_properties": null,
+  "thermal_behavior": null,
+  "processing_behavior": null,
+  "storage_properties": null,
+  "culinary_applications": [],
+  "food_science_evidence": [
+    {
+      "claim": "该食材在本书知识库中有可追溯的页面记录；具体机制与数值需回到引用页核对。",
+      "claim_type": "original",
+      "conditions": null,
+      "evidence": [
+        {
+          "source_id": "MCG-V3-2013",
+          "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+          "pdf_page": 25,
+          "printed_page": 23,
+          "chapter": null,
+          "section": null,
+          "quote": "乳与乳制品Dartone第一章023以人类在生命初始时所吃的食物作为第一章的主题,是再适合不过了。人类是哺乳动物。也就是“吃奶的生物”,就限所有哺乳动物一样,第一口吃下的食物就是乳。乳是母亲从自己丰高多样,复杂有趣的饮食中所提炼出来的精华,一口便可以春下。人类祖先最早在从事乳业时,就以乳牛,母羊和山羊作为乳品供应来源,这此生物将牧草及榨卓奇迹股的转变为一桶桶人类的营养火源,这种液体富含各种可能性。只需销微加工,就能制成各式各样可口的鲜奶油,香喷喷的难怪乳品可以展现出许多文化的",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "traditional_materia_medica": {
+    "applicable": false,
+    "nature_flavor_meridians": null,
+    "functions": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "safety_information": {
+    "allergens": [
+      "乳"
+    ],
+    "hazards": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ],
+    "evidence": []
+  },
+  "source_references": [
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 25,
+      "printed_page": 23,
+      "chapter": null,
+      "section": null,
+      "quote": "乳与乳制品Dartone第一章023以人类在生命初始时所吃的食物作为第一章的主题,是再适合不过了。人类是哺乳动物。也就是“吃奶的生物”,就限所有哺乳动物一样,第一口吃下的食物就是乳。乳是母亲从自己丰高多样,复杂有趣的饮食中所提炼出来的精华,一口便可以春下。人类祖先最早在从事乳业时,就以乳牛,母羊和山羊作为乳品供应来源,这此生物将牧草及榨卓奇迹股的转变为一桶桶人类的营养火源,这种液体富含各种可能性。只需销微加工,就能制成各式各样可口的鲜奶油,香喷喷的难怪乳品可以展现出许多文化的",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 547,
+      "printed_page": 503,
+      "chapter": null,
+      "section": null,
+      "quote": "10.1 Milk 503 Table 10.8. Amino acid sequences of bovine milk proteins αs1-Casein B-8P R P K H P I K H Q G L P Q E V L N E N L L R F F V A P F P Q V F G K E K V N Q L Sa Sa S K D I G E T E D Q A M E D I K E M Sa Sa Sa Sa Sa E A E I E E I V ",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "乳蛋白分型、脂肪球结构、热处理对风味的影响未在本卡建立。"
+  ]
+}

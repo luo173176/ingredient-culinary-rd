@@ -1,0 +1,46 @@
+{
+  "id": "E29",
+  "type": "comprehensive_rd",
+  "title": "创新菜品：罗勒水果冷汤的概念设计",
+  "question": "设计一款罗勒水果冷汤，说明书中依据、跨来源推理和创新假设，并给出实验变量。",
+  "expected_pages": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 73
+    },
+    {
+      "source_id": "MCG-V2-2013",
+      "pdf_page": 155
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "pdf_page": 384
+    }
+  ],
+  "required_keywords": [
+    "创新",
+    "假设",
+    "BASIL",
+    "水果"
+  ],
+  "expected_points": [
+    "罗勒与部分水果有书中搭配",
+    "水果成熟度影响香气和酸度",
+    "冷汤温度影响香气释放",
+    "必须做对照感官实验"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把创新假设写成书中原文",
+    "是否声称未做的实验成功"
+  ],
+  "reference_answer": "## 菜品概念\n一款以罗勒、成熟水果和少量酸味为骨架的冷汤，目标是清新、低甜、香气立体。\n\n## 书中依据\n- 《The Flavor Bible》p.58（PDF 73）：BASIL 条目列出 peaches、nectarines、raspberries 等水果搭配。\n- 《食物与厨艺·蔬果香料谷物》p.153（PDF 155）：果实章节讨论成熟过程中的风味与质地变化。\n- 《Food Chemistry》p.340（PDF 384）：香气章节说明香气由多种挥发性化合物共同构成，受基质和温度影响。\n\n## 分层\n- [原文] 罗勒与桃、油桃、覆盆子在书中有搭配记录。\n- [跨来源推理] 水果成熟度提高后，酯类和糖分变化可能增强甜香；冷汤温度较低可能压低挥发性香气的释放。\n- [创新假设] 罗勒加某一未列出的水果组合，属于 AI 假设，需实验验证。\n\n## 实验设计\n变量：水果成熟度（未熟/成熟）、罗勒加入方式（打碎/最后撕入）、 serving 温度（8°C/14°C）。对照：无罗勒。指标：香气强度、甜酸平衡、苦涩、整体喜好，盲评 5 分制，至少 6 人。\n\n## 边界\n没有真实实验数据前，不得声称该冷汤已经验证或达到最佳配方。\n\n[知识库缺口] 该组合的消费者接受度和香气阈值，当前十书知识库暂无充分依据。",
+  "search_queries": [
+    "basil fruit",
+    "fruit aroma",
+    "aroma compounds flavor",
+    "果实 成熟 香气",
+    "cold soup"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "E22",
+  "type": "flavor_pairing",
+  "title": "食材关联：鸡肉与龙蒿",
+  "question": "CHICKEN 条目如何记录与 TARRAGON、GARLIC 的搭配？请说明主食材与辅助食材关系。",
+  "expected_pages": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 130
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "pdf_page": 85
+    }
+  ],
+  "required_keywords": [
+    "CHICKEN",
+    "TARRAGON",
+    "GARLIC",
+    "搭配"
+  ],
+  "expected_points": [
+    "CHICKEN 是主食材",
+    "TARRAGON 与 GARLIC 是辅助香气",
+    "书中按字母条目组织",
+    "搭配强度需区分明确列出与推导"
+  ],
+  "gap_expected": false,
+  "safety_required": false,
+  "manual_checks": [
+    "是否把搭配关系解释为营养协同",
+    "是否把 AI 推测写成书中原文"
+  ],
+  "reference_answer": "## 结论\n在 The Flavor Bible 中，CHICKEN 是主食材条目，TARRAGON 与 GARLIC 是常见的辅助香气；这种关系是书籍的搭配记录，不是营养或药理关系。\n\n## 证据\n- 《The Flavor Bible》p.115（PDF 130）：CHICKEN 条目列出多种香草、香料和调味搭配。\n- 《The Flavor Bible》p.70（PDF 85）：该页包含与鸡肉、龙蒿相关的搭配上下文。\n\n## 解释\n[原文摘要] 书中以字母序食材条目组织内容，主食材下列出可搭配的香草、香料、蔬菜、酱汁和菜品。辅助食材的作用通常是补充香气、酸度、脂肪或口感，而不是改变主食材的营养性质。\n\n## 证据等级\n只有书中条目直接列出的词，才标为 explicit_pairing_listing；由多个条目交叉得到的判断标为跨来源推理；AI 新提出的组合必须标为创新假设。\n\n[知识库缺口] 鸡肉与龙蒿在不同烹饪温度下的香气保留率，当前十书知识库暂无充分依据。",
+  "search_queries": [
+    "chicken tarragon",
+    "chicken garlic"
+  ]
+}

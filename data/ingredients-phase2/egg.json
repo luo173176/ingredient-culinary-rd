@@ -1,0 +1,191 @@
+{
+  "id": "egg",
+  "basic": {
+    "canonical_name_zh": "蛋",
+    "scientific_name": null,
+    "english_name": "egg",
+    "one_line_definition": "蛋的第二阶段结构化食材卡；仅收录本书知识库可追溯内容。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "蛋类"
+    ],
+    "culinary_role": []
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "本卡不建立传统本草属性；传统理论必须与现代食品科学证据分开。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [],
+    "preparation": [],
+    "heat_notes": null
+  },
+  "flavor_pairings": [],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [
+      "蛋"
+    ],
+    "contraindications": [],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 99,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": ",转变成活牛生,会呼吸且精力旺盛的生物。蛋已成为一种象征,诉说着动物,人类,神抵,地球,其至整个宇宙避一般的起源。埃及的死广之书,印度的型俱吹陀”。希腊的奥菲神秘安式以及全世界客地的创世神话,都是从无生如果说蛋在今日会引发人什么感受。那应该就是得小心翼翼提防它持破,这一点让人不胜其扰。鸡蛋现在已经成为工业化产品,人们对鸡蛋的熟恶几乎到了说而不见的程度,唯一的例外是1970-1980无论熟恶或恐惧,都不成该忽略蛋的多样而说。蛋的内容物是最原始的,尚未成形的生命物质,固此它们变化",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 593,
+      "printed_page": 549,
+      "chapter": null,
+      "section": null,
+      "quote": "e 11.4. Proteins of egg white Percent Denaturation Molecular Isoelectric of the total temperature weight point proteina (◦C) Protein (kdal) (pH) Comments 84.5 44.5 4.5 Ovalbumin 54 Conalbumin (Ovotransferrin) 12 61.5 76 6.1 binds metal ions",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "scientific_name": null,
+  "ingredient_category": [
+    "蛋类"
+  ],
+  "botanical_or_animal_origin": null,
+  "physical_properties": null,
+  "chemical_composition": null,
+  "protein_profile": null,
+  "lipid_profile": null,
+  "carbohydrate_profile": null,
+  "aroma_compounds": null,
+  "flavor_characteristics": null,
+  "texture_properties": null,
+  "thermal_behavior": null,
+  "processing_behavior": null,
+  "storage_properties": null,
+  "culinary_applications": [],
+  "food_science_evidence": [
+    {
+      "claim": "该食材在本书知识库中有可追溯的页面记录；具体机制与数值需回到引用页核对。",
+      "claim_type": "original",
+      "conditions": null,
+      "evidence": [
+        {
+          "source_id": "MCG-V3-2013",
+          "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+          "pdf_page": 99,
+          "printed_page": null,
+          "chapter": null,
+          "section": null,
+          "quote": ",转变成活牛生,会呼吸且精力旺盛的生物。蛋已成为一种象征,诉说着动物,人类,神抵,地球,其至整个宇宙避一般的起源。埃及的死广之书,印度的型俱吹陀”。希腊的奥菲神秘安式以及全世界客地的创世神话,都是从无生如果说蛋在今日会引发人什么感受。那应该就是得小心翼翼提防它持破,这一点让人不胜其扰。鸡蛋现在已经成为工业化产品,人们对鸡蛋的熟恶几乎到了说而不见的程度,唯一的例外是1970-1980无论熟恶或恐惧,都不成该忽略蛋的多样而说。蛋的内容物是最原始的,尚未成形的生命物质,固此它们变化",
+          "extraction_method": "ocr",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "traditional_materia_medica": {
+    "applicable": false,
+    "nature_flavor_meridians": null,
+    "functions": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "safety_information": {
+    "allergens": [
+      "蛋"
+    ],
+    "hazards": [],
+    "at_risk_groups": [
+      "过敏人群"
+    ],
+    "evidence": []
+  },
+  "source_references": [
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 99,
+      "printed_page": null,
+      "chapter": null,
+      "section": null,
+      "quote": ",转变成活牛生,会呼吸且精力旺盛的生物。蛋已成为一种象征,诉说着动物,人类,神抵,地球,其至整个宇宙避一般的起源。埃及的死广之书,印度的型俱吹陀”。希腊的奥菲神秘安式以及全世界客地的创世神话,都是从无生如果说蛋在今日会引发人什么感受。那应该就是得小心翼翼提防它持破,这一点让人不胜其扰。鸡蛋现在已经成为工业化产品,人们对鸡蛋的熟恶几乎到了说而不见的程度,唯一的例外是1970-1980无论熟恶或恐惧,都不成该忽略蛋的多样而说。蛋的内容物是最原始的,尚未成形的生命物质,固此它们变化",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "book_title": "Food Chemistry",
+      "pdf_page": 593,
+      "printed_page": 549,
+      "chapter": null,
+      "section": null,
+      "quote": "e 11.4. Proteins of egg white Percent Denaturation Molecular Isoelectric of the total temperature weight point proteina (◦C) Protein (kdal) (pH) Comments 84.5 44.5 4.5 Ovalbumin 54 Conalbumin (Ovotransferrin) 12 61.5 76 6.1 binds metal ions",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "蛋清与蛋黄蛋白定量、凝固温度曲线、起泡性数据未在本卡建立。"
+  ]
+}

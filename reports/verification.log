@@ -115,3 +115,53 @@
 
 ..............................                                           [100%]
 30 passed in 6.09s
+
+=== Phase 2 final verification (2026-11-17T18:10:00+08:00) ===
+=== validate_kb.py ===
+checks: 171
+failed: 0
+pages: 4780
+chunks: 6656
+sources: 10
+herbs: 558
+ingredient_cards: 18
+flavor_pairings: 13758
+chemistry_topics: 2319
+visual_records: 6811
+knowledge_base: ten-book-v2
+===
+=== run_evals.py --strict ===
+{"cases":30,"auto_passed":30,"auto_pass_rate":"100%","auto_score":"2700.0/2700","citation_errors":0,"hard_failures":0}
+note: reference_answer templates, not live model generations; professional_correctness 10/case remains manual_pending.
+===
+=== pytest ===
+57 passed in 8.36s
+===
+
+=== Phase 2 post-fix verification (2026-11-17T18:20:00+08:00) ===
+=== validate_kb.py ===
+checks: 171
+failed: 0
+pages: 4780
+chunks: 6656
+sources: 10
+herbs: 558
+ingredient_cards: 18
+flavor_pairings: 13758
+chemistry_topics: 2319
+visual_records: 6811
+knowledge_base: ten-book-v2
+===
+=== run_evals.py --strict ===
+{"cases":30,"auto_passed":30,"auto_pass_rate":"100%","auto_score":"2700.0/2700","citation_errors":0,"hard_failures":0}
+note: reference_answer templates, not live model generations; professional_correctness 10/case remains manual_pending.
+===
+=== pytest ===
+58 passed in 8.40s
+note: added regression test for TARRAGON -> CHICKEN (PDF 358) and removed unverified ROSEMARY claim.
+===
+=== final rerun (2026-11-17T18:24:00+08:00) ===
+validate_kb: 171 checks / 0 failed
+run_evals: 30/30, 2700/2700, citation_errors 0, hard_failures 0
+pytest: 58 passed in 8.35s
+=== end ===

@@ -32,6 +32,12 @@ PAGE_FILES = {
     "CN-DIDAO-2011": PAGES_DIR / "CN-DIDAO-2011.ocr.jsonl",
     "FS-SFAH-2023": PAGES_DIR / "FS-SFAH-2023.jsonl",
     "DK-INGREDIENTS": PAGES_DIR / "DK-INGREDIENTS.ocr.jsonl",
+    "MCG-V1-2013": PAGES_DIR / "MCG-V1-2013.ocr.jsonl",
+    "MCG-V2-2013": PAGES_DIR / "MCG-V2-2013.ocr.jsonl",
+    "MCG-V3-2013": PAGES_DIR / "MCG-V3-2013.ocr.jsonl",
+    "FC-BELITZ-2009": PAGES_DIR / "FC-BELITZ-2009.jsonl",
+    "FB-PAGE-2008": PAGES_DIR / "FB-PAGE-2008.jsonl",
+    "CR-WXY-2003": PAGES_DIR / "CR-WXY-2003.ocr.jsonl",
 }
 
 

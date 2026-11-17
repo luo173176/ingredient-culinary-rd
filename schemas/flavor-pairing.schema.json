@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/flavor-pairing.schema.json",
+  "title": "Flavor Pairing Evidence Record",
+  "description": "The Flavor Bible 中可回溯的搭配记录。书籍明确列出、组合条目推导和 AI 创新假设必须分开。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pairing_id", "ingredient_a", "ingredient_b", "relationship",
+    "evidence_level", "source_id", "pdf_page", "printed_page",
+    "original_context", "book_evidence", "confidence"
+  ],
+  "properties": {
+    "pairing_id": {"type": "string"},
+    "ingredient_a": {"type": "string", "minLength": 1},
+    "ingredient_b": {"type": "string", "minLength": 1},
+    "relationship": {
+      "enum": ["flavor_pairing", "flavor_affinity_member", "same_entry"]
+    },
+    "evidence_level": {
+      "enum": [
+        "explicit_pairing_listing",
+        "explicit_affinity_combination",
+        "derived_from_affinity_combination",
+        "ai_hypothesis"
+      ]
+    },
+    "source_id": {"const": "FB-PAGE-2008"},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "printed_page": {"type": ["integer", "null"], "minimum": 1},
+    "original_context": {"type": "string", "minLength": 1},
+    "book_evidence": {"type": "string", "minLength": 1},
+    "strong_marker": {
+      "enum": ["none", "capitalized_or_bold_candidate", "asterisk_classic_candidate"]
+    },
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "ocr_notes": {"type": ["string", "null"]},
+    "keywords": {"type": "array", "items": {"type": "string"}}
+  }
+}

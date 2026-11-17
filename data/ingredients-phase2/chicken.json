@@ -1,0 +1,184 @@
+{
+  "id": "chicken",
+  "basic": {
+    "canonical_name_zh": "鸡",
+    "scientific_name": null,
+    "english_name": "chicken",
+    "one_line_definition": "鸡的第二阶段结构化食材卡；仅收录本书知识库可追溯内容。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "禽肉"
+    ],
+    "culinary_role": []
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "本卡不建立传统本草属性；传统理论必须与现代食品科学证据分开。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [],
+    "preparation": [],
+    "heat_notes": null
+  },
+  "flavor_pairings": [],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "book_title": "The Flavor Bible",
+      "pdf_page": 130,
+      "printed_page": 115,
+      "chapter": null,
+      "section": null,
+      "quote": "uce cardamom STOCK, CHICKEN daikon stuffing (e.g., for poultry) CARROTS dates sugar: brown, white cashews (e.g., Indian cuisine, dill sweet potatoes etc.) dumplings thyme cauliflower endive vanilla cayenne escarole wine, esp. sweet Marsala ",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 348,
+      "printed_page": 346,
+      "chapter": null,
+      "section": null,
+      "quote": "346氨基酸对蛋白质行为的影响童形成强固结的部痘,蛋白质的结构1蛋白质螺欣内类啦用的重要因系,也能分解成质蛋自质会折叠(像是备苏,某此海藻以及盐渍与发酵制品等),国此具有另外一种层饮的风味。舍硫氨基酸在加热介解后则能产生蛋味点肉香味。 氨基酸的第三个重要特征是它们有多样的化学性质,因此不同的基酸会让蛋白质产牛不同的结构与行为。有些氨基酸的部分结构与水相似,能与许多其他分子(包括水分了)形成氢镜。有毕氢基酸则具有类似脂肪的短族链或碳环,能与其他相似分子形成范德华键结,还有一些氨",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "scientific_name": null,
+  "ingredient_category": [
+    "禽肉"
+  ],
+  "botanical_or_animal_origin": null,
+  "physical_properties": null,
+  "chemical_composition": null,
+  "protein_profile": null,
+  "lipid_profile": null,
+  "carbohydrate_profile": null,
+  "aroma_compounds": null,
+  "flavor_characteristics": null,
+  "texture_properties": null,
+  "thermal_behavior": null,
+  "processing_behavior": null,
+  "storage_properties": null,
+  "culinary_applications": [],
+  "food_science_evidence": [
+    {
+      "claim": "该食材在本书知识库中有可追溯的页面记录；具体机制与数值需回到引用页核对。",
+      "claim_type": "original",
+      "conditions": null,
+      "evidence": [
+        {
+          "source_id": "FB-PAGE-2008",
+          "book_title": "The Flavor Bible",
+          "pdf_page": 130,
+          "printed_page": 115,
+          "chapter": null,
+          "section": null,
+          "quote": "uce cardamom STOCK, CHICKEN daikon stuffing (e.g., for poultry) CARROTS dates sugar: brown, white cashews (e.g., Indian cuisine, dill sweet potatoes etc.) dumplings thyme cauliflower endive vanilla cayenne escarole wine, esp. sweet Marsala ",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "traditional_materia_medica": {
+    "applicable": false,
+    "nature_flavor_meridians": null,
+    "functions": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "safety_information": {
+    "allergens": [],
+    "hazards": [],
+    "at_risk_groups": [],
+    "evidence": []
+  },
+  "source_references": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "book_title": "The Flavor Bible",
+      "pdf_page": 130,
+      "printed_page": 115,
+      "chapter": null,
+      "section": null,
+      "quote": "uce cardamom STOCK, CHICKEN daikon stuffing (e.g., for poultry) CARROTS dates sugar: brown, white cashews (e.g., Indian cuisine, dill sweet potatoes etc.) dumplings thyme cauliflower endive vanilla cayenne escarole wine, esp. sweet Marsala ",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MCG-V3-2013",
+      "book_title": "食物与厨艺：奶·蛋·肉·鱼",
+      "pdf_page": 348,
+      "printed_page": 346,
+      "chapter": null,
+      "section": null,
+      "quote": "346氨基酸对蛋白质行为的影响童形成强固结的部痘,蛋白质的结构1蛋白质螺欣内类啦用的重要因系,也能分解成质蛋自质会折叠(像是备苏,某此海藻以及盐渍与发酵制品等),国此具有另外一种层饮的风味。舍硫氨基酸在加热介解后则能产生蛋味点肉香味。 氨基酸的第三个重要特征是它们有多样的化学性质,因此不同的基酸会让蛋白质产牛不同的结构与行为。有些氨基酸的部分结构与水相似,能与许多其他分子(包括水分了)形成氢镜。有毕氢基酸则具有类似脂肪的短族链或碳环,能与其他相似分子形成范德华键结,还有一些氨",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "品种、饲养方式、部位差异、中心温度与持水性定量未在本卡建立。",
+    "The Flavor Bible 三栏文本层中的 CHICKEN 搭配候选需回页人工复核；未把版面邻近词写成确定搭配。"
+  ]
+}

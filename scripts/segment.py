@@ -100,9 +100,61 @@ def chapter_for(book_id: str, pdf_page: int, page: dict[str, Any]) -> tuple[str 
     return chapter, section
 
 
-def clean_page_text(page: dict[str, Any]) -> str:
+CN_CHAPTER_RE = re.compile(r"^\s*第([一二三四五六七八九十百]+)章\s*[:：]?\s*(.{0,60})$")
+CN_SECTION_RE = re.compile(r"^\s*第([一二三四五六七八九十百]+)节\s*[:：]?\s*(.{0,60})$")
+
+
+def detect_cn_heading(text: str, kind: str = "chapter") -> str | None:
+    """Detect a Chinese chapter/section heading near the top of a page.
+
+    OCR pages often place the running header first, so the first six non-empty
+    lines are checked rather than only the first line.
+    """
+    lines = [ln.strip() for ln in (text or "").split("\n") if ln.strip()]
+    regex = CN_CHAPTER_RE if kind == "chapter" else CN_SECTION_RE
+    for i, line in enumerate(lines[:6]):
+        m = regex.match(line)
+        if not m:
+            continue
+        title = m.group(2).strip(" ：:·—-")
+        # A bare "第一章" line is followed by the chapter title on the next
+        # line in several books.
+        if not title and i + 1 < len(lines):
+            title = lines[i + 1].strip()[:60]
+        label = "第" + m.group(1) + ("章" if kind == "chapter" else "节")
+        return f"{label} {title}".strip()
+    return None
+
+
+def fb_column_text(page: dict[str, Any]) -> str:
+    """Rebuild The Flavor Bible page text in column order.
+
+    The PDF text layer is emitted in reading order across three columns, so a
+    naive y-sort interleaves BASIL with its neighbours.  Grouping by column
+    keeps the entry heading, its pairing list and the chef quotes in a usable
+    order for retrieval.
+    """
+    width = float((page.get("image_size") or [0, 0])[0] or 0)
+    lines = page.get("lines") or []
+    if not width or not lines:
+        return page.get("text") or ""
+    out: list[tuple[int, float, float, str]] = []
+    for line in lines:
+        x0, y0, x1, _ = [float(v) for v in line["bbox"]]
+        centre = (x0 + x1) / 2 / width
+        col = 0 if centre < 0.36 else (1 if centre < 0.68 else 2)
+        out.append((col, y0, x0, (line.get("text") or "").strip()))
+    out.sort(key=lambda r: (r[0], r[1], r[2]))
+    return "\n".join(r[3] for r in out if r[3])
+
+
+def clean_page_text(page: dict[str, Any], source_id: str | None = None) -> str:
+    if source_id == "FB-PAGE-2008" and page.get("lines"):
+        raw_text = fb_column_text(page)
+    else:
+        raw_text = page.get("text") or ""
     lines = []
-    for line in (page.get("text") or "").split("\n"):
+    for line in raw_text.split("\n"):
         s = line.strip()
         if not s:
             continue
@@ -191,12 +243,30 @@ def build(book: dict[str, Any], lexicon: dict[str, Any]) -> dict[str, Any]:
     start = cm.get("content_start", 1)
     end = cm.get("content_end", 10**9)
     chunks: list[dict[str, Any]] = []
+    running_chapter: str | None = None
+    running_section: str | None = None
     for page in rows:
-        text = clean_page_text(page)
+        text = clean_page_text(page, book["source_id"])
         if len(text) < 25:
             continue
-        text = merge_ocr_lines(text)
+        if book["source_id"] != "FB-PAGE-2008":
+            text = merge_ocr_lines(text)
         chapter, section = chapter_for(book["source_id"], page["pdf_page"], page)
+        # Only trust headings detected on pages inside the mapped body range.
+        # Front-matter tables of contents also contain "第一章 ..." and would
+        # otherwise poison the running chapter for the rest of the book.
+        if book.get("language") == "zh" and start <= page["pdf_page"] <= end:
+            detected_chapter = detect_cn_heading(text, "chapter")
+            detected_section = detect_cn_heading(text, "section")
+            if detected_chapter:
+                running_chapter = detected_chapter
+                running_section = None
+            if detected_section:
+                running_section = detected_section
+            if chapter is None and running_chapter:
+                chapter = running_chapter
+            if section is None and running_section:
+                section = running_section
         if chapter is None and page.get("chapter"):
             chapter = page.get("chapter")
         if section is None and page.get("section"):
@@ -221,6 +291,10 @@ def build(book: dict[str, Any], lexicon: dict[str, Any]) -> dict[str, Any]:
                 {
                     "chunk_id": f"{book['source_id']}:p{page['pdf_page']}:c{i}",
                     "source_id": book["source_id"],
+                    "domain": book.get("domain"),
+                    "series": book.get("series"),
+                    "volume": book.get("volume"),
+                    "phase": book.get("phase"),
                     "book_title": book["title"],
                     "short_title": book["short_title"],
                     "chapter": chapter,

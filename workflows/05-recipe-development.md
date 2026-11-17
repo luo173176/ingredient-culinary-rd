@@ -140,3 +140,50 @@ designed_only / not_tested
 - 不设计生食淡水水产、生腌、未灭菌乳制品等高风险做法，除非明确标注风险并给替代。
 - 不写“低温慢煮”却没有温度/时间控制。
 - 不把药材当调料大量使用。
+
+## Phase 2 研发增强
+
+### 书籍依据的角色
+
+- **Food Chemistry**：给机制和条件，不给“最佳家用温度”。
+- **《食物与厨艺》**：解释食材结构、受热、酱料、乳蛋肉鱼与烹饪方法，必须写清卷册。
+- **《The Flavor Bible》**：给搭配候选；区分直接条目、组合推导和 AI 假设。
+- **《烹饪原料学》**：分类、品质、保藏、加工，2003 年版不是现行标准。
+- **第一阶段四书**：产地、时令、感官、盐脂酸热和本草边界。
+
+### 设计参数与书籍证据分开
+
+表中至少分开三列：
+
+| 设计项 | 书籍依据 | AI 设计参数/假设 |
+|---|---|---|
+| 盐度 | 书中是否给百分比/原则 | 本菜试验值 |
+| 温度 | 书中机制或范围 | 设备设定值 |
+| 时间 | 书中原则 | 按厚度/设备调整 |
+| 搭配 | 直接条目/推导 | 新组合假设 |
+
+### 检索示例
+
+```bash
+python scripts/search.py "肉类 蛋白质 加热 持水" --source MCG-V3-2013
+python scripts/search.py "Maillard reaction" --source FC-BELITZ-2009
+python scripts/search.py "TARRAGON CHICKEN" --source FB-PAGE-2008
+python scripts/search.py "原料 品质 保藏" --source CR-WXY-2003
+python scripts/search.py "盐 渗透 扩散" --source FS-SFAH-2023
+```
+
+### 强制状态
+
+```text
+validation_status: designed_only
+kitchen_tested: false
+```
+
+没有真实试做记录，不得写“已验证”“最佳”“稳定复现”。
+
+### 质量检查补充
+
+- [ ] 是否说明了每项工艺参数的依据来源？
+- [ ] 是否把 AI 参数伪装成书里的固定配方？
+- [ ] 是否给出中心温度/食品安全依据？十书没有就标缺口。
+- [ ] 是否保留过敏原和交叉污染提示？

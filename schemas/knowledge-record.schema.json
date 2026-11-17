@@ -11,6 +11,10 @@
   "properties": {
     "source_id": {"type": "string"},
     "book_title": {"type": "string"},
+    "series": {"type": ["string", "null"]},
+    "volume": {"type": ["string", "null"]},
+    "domain": {"type": ["string", "null"]},
+    "phase": {"type": ["integer", "null"], "minimum": 1},
     "chapter": {"type": ["string", "null"]},
     "section": {"type": ["string", "null"]},
     "printed_page": {"type": ["integer", "null"], "minimum": 1},

@@ -81,3 +81,40 @@
 ## 安全边界
 
 减盐/减糖/减油涉及特殊人群时，提示不能替代医嘱；不承诺健康疗效。
+
+## Phase 2 优化增强
+
+### 诊断必须多源
+
+| 现象 | 可能原因 | 首选证据 |
+|---|---|---|
+| 太稀 | 淀粉未糊化、水多、乳化破坏 | Food Chemistry + 卷一酱料章 |
+| 太干/柴 | 蛋白质过度收缩、失水 | 卷三肉类章 + Food Chemistry 肉类蛋白 |
+| 太腻 | 脂水比例、乳化、酸度不足 | 盐脂酸热 + 食品化学脂质 |
+| 不香 | 香气挥发、褐变不足、脂质承载不足 | 食品化学香气/美拉德 + Flavor Bible |
+| 风味单薄 | 主味/支撑味/尾味结构不足 | Flavor Bible 搭配 + 盐脂酸热 |
+| 原料品质不稳 | 品种、成熟度、保藏 | 食材书 + 烹饪原料学 |
+
+### 优化顺序
+
+1. 先判断原料品质与状态。
+2. 再判断结构/工艺（切配、温度、时间、传热）。
+3. 再判断盐脂酸热平衡。
+4. 最后才增加新食材或新搭配。
+
+### 检索示例
+
+```bash
+python scripts/search.py "starch gelatinization sauce" --source FC-BELITZ-2009
+python scripts/search.py "酱料 浓稠度 淀粉" --source MCG-V1-2013
+python scripts/search.py "肉类 加热 持水" --source MCG-V3-2013
+python scripts/search.py --pairing CHICKEN --top 20
+python scripts/search.py "原料 品质检验 保藏" --source CR-WXY-2003
+```
+
+### 质量检查补充
+
+- [ ] 是否先改工艺，再改配方？
+- [ ] 是否把“补一点酸/脂/鲜”写成有依据的动作？
+- [ ] 是否区分书籍机制、跨来源推理和本轮试做参数？
+- [ ] 是否给出对照与盲评表，而不是承诺改善？

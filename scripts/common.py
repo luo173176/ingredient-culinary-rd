@@ -158,7 +158,11 @@ def page_label(rec: dict[str, Any]) -> str:
     return f"PDF {rec['pdf_page']}"
 
 
-def parse_printed_page(lines: list[dict[str, Any]], page_height: float) -> tuple[int | None, str | None]:
+def parse_printed_page(
+    lines: list[dict[str, Any]],
+    page_height: float,
+    allow_suffix: bool = False,
+) -> tuple[int | None, str | None]:
     """Detect a visible printed page number at the top or bottom margin.
 
     Only directly observed numbers are accepted. Years (19xx/20xx) are rejected.
@@ -166,11 +170,12 @@ def parse_printed_page(lines: list[dict[str, Any]], page_height: float) -> tuple
     candidates: list[tuple[int, int, str]] = []  # priority, value, raw
     for line in lines:
         text = (line.get("text") or "").strip()
-        if not text or len(text) > 40:
+        if not text or len(text) > (90 if allow_suffix else 40):
             continue
         y0, y1 = line["bbox"][1], line["bbox"][3]
-        in_top = y1 <= page_height * 0.075
-        in_bottom = y0 >= page_height * 0.925
+        margin = 0.09 if allow_suffix else 0.075
+        in_top = y1 <= page_height * margin
+        in_bottom = y0 >= page_height * (1 - margin)
         if not (in_top or in_bottom):
             continue
         raw = text.replace(" ", "")
@@ -187,12 +192,27 @@ def parse_printed_page(lines: list[dict[str, Any]], page_height: float) -> tuple
                 if m:
                     value = int(m.group(1))
         if value is None:
-            continue
+            if allow_suffix:
+                # Running footers such as "Flavor Matchmaking: The Charts 235"
+                # or "048食物与厨艺" carry the page number at one edge.  OCR
+                # frequently drops the space, so do not require whitespace.
+                m = re.match(r"^(\d{1,4})[^\d].{1,80}$", text)
+                if m:
+                    value = int(m.group(1))
+                else:
+                    m = re.match(r"^.{2,80}?[^\d](\d{1,4})$", text)
+                    if m:
+                        value = int(m.group(1))
+            if value is None:
+                continue
         if 1900 <= value <= 2100:
             continue
         if value == 0:
             continue
         priority = 0 if in_bottom else 1
+        # A bare margin number is stronger evidence than a footer suffix.
+        if allow_suffix and value is not None and not re.fullmatch(r"[·•\-—]?\d{1,4}[·•\-—]?", raw):
+            priority = 2
         candidates.append((priority, value, text))
     if not candidates:
         return None, None

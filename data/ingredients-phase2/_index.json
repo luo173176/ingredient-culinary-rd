@@ -1,0 +1,36 @@
+{
+  "phase": 2,
+  "cards": [
+    {
+      "id": "basil",
+      "name": "罗勒",
+      "status": "partial"
+    },
+    {
+      "id": "chicken",
+      "name": "鸡",
+      "status": "partial"
+    },
+    {
+      "id": "wheat-flour",
+      "name": "小麦面粉",
+      "status": "partial"
+    },
+    {
+      "id": "egg",
+      "name": "蛋",
+      "status": "partial"
+    },
+    {
+      "id": "milk",
+      "name": "乳",
+      "status": "partial"
+    },
+    {
+      "id": "salmon",
+      "name": "鲑鱼",
+      "status": "partial"
+    }
+  ],
+  "note": "六张第二阶段结构化食材卡，均为 partial；空字段代表知识库缺口，不是已研究结论。"
+}

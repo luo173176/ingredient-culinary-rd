@@ -1,0 +1,28 @@
+{
+  "source_id": "FB-PAGE-2008",
+  "title": "The Flavor Bible",
+  "pages": 391,
+  "pages_with_text": 376,
+  "near_empty_pages": [
+    1,
+    3,
+    8,
+    9,
+    10,
+    13,
+    16,
+    20,
+    31,
+    32,
+    38,
+    109,
+    131,
+    254,
+    294
+  ],
+  "chars": 835331,
+  "printed_page_detected": 319,
+  "toc_entries": 392,
+  "elapsed_s": 17.4,
+  "output": "data\\pages\\FB-PAGE-2008.jsonl"
+}

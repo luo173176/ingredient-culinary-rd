@@ -1,0 +1,218 @@
+{
+  "id": "basil",
+  "basic": {
+    "canonical_name_zh": "罗勒",
+    "scientific_name": null,
+    "english_name": "basil",
+    "one_line_definition": "罗勒的第二阶段结构化食材卡；仅收录本书知识库可追溯内容。",
+    "research_status": "partial"
+  },
+  "names": {
+    "aliases": [],
+    "alias_evidence": []
+  },
+  "category": {
+    "taxonomy": [
+      "香草"
+    ],
+    "culinary_role": []
+  },
+  "origin_variety": {
+    "origins": [],
+    "varieties": [],
+    "notes": null
+  },
+  "seasonality": {
+    "peak_season": null,
+    "availability": null,
+    "notes": null
+  },
+  "appearance_quality": {
+    "traits": [],
+    "grading": [],
+    "notes": null
+  },
+  "aroma": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "taste": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "texture": {
+    "descriptors": [],
+    "intensity": "unknown",
+    "evidence": []
+  },
+  "tcm_attributes": {
+    "applicable": false,
+    "nature": null,
+    "flavor": null,
+    "meridians": null,
+    "notes": "本卡不建立传统本草属性；传统理论必须与现代食品科学证据分开。"
+  },
+  "tcm_applications": {
+    "functions": [],
+    "traditional_uses": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "culinary_uses": {
+    "methods": [],
+    "preparation": [],
+    "heat_notes": null
+  },
+  "flavor_pairings": [
+    {
+      "with": "TOMATOES",
+      "reason": "The Flavor Bible 的 BASIL 条目把番茄列为搭配词。",
+      "evidence": [
+        {
+          "source_id": "FB-PAGE-2008",
+          "book_title": "The Flavor Bible",
+          "pdf_page": 73,
+          "printed_page": 58,
+          "chapter": null,
+          "section": null,
+          "quote": "BASIL (See also Basil, Thai, and lemon, juice peaches lemon Basil) lemon verbena peas Season: summer lime, juice pepper: black wh Taste: sweet liver PESTa (k .' Ite ey lngredi Weight: light, soft-leaved marjoram pineapple ent) meats Vo!uzne",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "with": "GARLIC",
+      "reason": "The Flavor Bible 的 BASIL 条目把大蒜列为搭配词。",
+      "evidence": [
+        {
+          "source_id": "FB-PAGE-2008",
+          "book_title": "The Flavor Bible",
+          "pdf_page": 73,
+          "printed_page": 58,
+          "chapter": null,
+          "section": null,
+          "quote": "BASIL (See also Basil, Thai, and lemon, juice peaches lemon Basil) lemon verbena peas Season: summer lime, juice pepper: black wh Taste: sweet liver PESTa (k .' Ite ey lngredi Weight: light, soft-leaved marjoram pineapple ent) meats Vo!uzne",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "substitutes": [],
+  "processing_storage": {
+    "processing": [],
+    "storage": [],
+    "shelf_life": null
+  },
+  "safety": {
+    "allergens": [],
+    "contraindications": [],
+    "toxicity": null,
+    "food_safety": [],
+    "at_risk_groups": []
+  },
+  "sources": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "book_title": "The Flavor Bible",
+      "pdf_page": 73,
+      "printed_page": 58,
+      "chapter": null,
+      "section": null,
+      "quote": "BASIL (See also Basil, Thai, and lemon, juice peaches lemon Basil) lemon verbena peas Season: summer lime, juice pepper: black wh Taste: sweet liver PESTa (k .' Ite ey lngredi Weight: light, soft-leaved marjoram pineapple ent) meats Vo!uzne",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MCG-V2-2013",
+      "book_title": "食物与厨艺：蔬·果·香料·谷物",
+      "pdf_page": 195,
+      "printed_page": 193,
+      "chapter": null,
+      "section": null,
+      "quote": "以植物来调味第四章·香草和香料茶和咖啡193我门会以香草利香料为食物,饮料增靠园味香草是植物的叶片(包括新鲜的和干案的),香料则是干焕植物细碎的种子,树皮和根部我们门对香草,香料的消耗量不大,而且这美食材也不具有营养价值。然而自远古以来,这种细碎芳香材料是最受珍视,也是最品贵的食材。这类食材在古代不仅作为食品:还被认为具有药效,甚至有地于与超越界联系。祭坛的圣火将馨香之气款送至天界取悦神明,也为生世子民注人此微大界的气息过去欧洲人认为香料来自世界的尽头,从阿按伯乃至于东方传来",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "scientific_name": null,
+  "ingredient_category": [
+    "香草"
+  ],
+  "botanical_or_animal_origin": null,
+  "physical_properties": null,
+  "chemical_composition": null,
+  "protein_profile": null,
+  "lipid_profile": null,
+  "carbohydrate_profile": null,
+  "aroma_compounds": null,
+  "flavor_characteristics": null,
+  "texture_properties": null,
+  "thermal_behavior": null,
+  "processing_behavior": null,
+  "storage_properties": null,
+  "culinary_applications": [],
+  "food_science_evidence": [
+    {
+      "claim": "该食材在本书知识库中有可追溯的页面记录；具体机制与数值需回到引用页核对。",
+      "claim_type": "original",
+      "conditions": null,
+      "evidence": [
+        {
+          "source_id": "FB-PAGE-2008",
+          "book_title": "The Flavor Bible",
+          "pdf_page": 73,
+          "printed_page": 58,
+          "chapter": null,
+          "section": null,
+          "quote": "BASIL (See also Basil, Thai, and lemon, juice peaches lemon Basil) lemon verbena peas Season: summer lime, juice pepper: black wh Taste: sweet liver PESTa (k .' Ite ey lngredi Weight: light, soft-leaved marjoram pineapple ent) meats Vo!uzne",
+          "extraction_method": "text_layer",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "traditional_materia_medica": {
+    "applicable": false,
+    "nature_flavor_meridians": null,
+    "functions": [],
+    "theory_basis": null,
+    "evidence": []
+  },
+  "safety_information": {
+    "allergens": [],
+    "hazards": [],
+    "at_risk_groups": [],
+    "evidence": []
+  },
+  "source_references": [
+    {
+      "source_id": "FB-PAGE-2008",
+      "book_title": "The Flavor Bible",
+      "pdf_page": 73,
+      "printed_page": 58,
+      "chapter": null,
+      "section": null,
+      "quote": "BASIL (See also Basil, Thai, and lemon, juice peaches lemon Basil) lemon verbena peas Season: summer lime, juice pepper: black wh Taste: sweet liver PESTa (k .' Ite ey lngredi Weight: light, soft-leaved marjoram pineapple ent) meats Vo!uzne",
+      "extraction_method": "text_layer",
+      "confidence": "high"
+    },
+    {
+      "source_id": "MCG-V2-2013",
+      "book_title": "食物与厨艺：蔬·果·香料·谷物",
+      "pdf_page": 195,
+      "printed_page": 193,
+      "chapter": null,
+      "section": null,
+      "quote": "以植物来调味第四章·香草和香料茶和咖啡193我门会以香草利香料为食物,饮料增靠园味香草是植物的叶片(包括新鲜的和干案的),香料则是干焕植物细碎的种子,树皮和根部我们门对香草,香料的消耗量不大,而且这美食材也不具有营养价值。然而自远古以来,这种细碎芳香材料是最受珍视,也是最品贵的食材。这类食材在古代不仅作为食品:还被认为具有药效,甚至有地于与超越界联系。祭坛的圣火将馨香之气款送至天界取悦神明,也为生世子民注人此微大界的气息过去欧洲人认为香料来自世界的尽头,从阿按伯乃至于东方传来",
+      "extraction_method": "ocr",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "科学名称、品种、产地、香气化合物定量、传统本草属性均未在本卡建立。"
+  ]
+}

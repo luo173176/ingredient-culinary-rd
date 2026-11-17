@@ -109,3 +109,46 @@
 ## 安全边界
 
 涉及油炸、压力锅、明火、酒精时提示操作风险；不提供危险的高温/高压“技巧”。
+
+## Phase 2 机制增强
+
+### 五书联合诊断
+
+复杂风味问题至少按需调用：
+
+| 问题 | 来源 |
+|---|---|
+| 盐、脂、酸、热的烹饪平衡 | `FS-SFAH-2023` |
+| 食材结构与加热变化 | 对应《食物与厨艺》卷册 |
+| 化学机制与条件 | `FC-BELITZ-2009` |
+| 搭配候选 | `FB-PAGE-2008` |
+| 原料品质、加工与保藏 | `CR-WXY-2003` |
+| 产地、品种、感官 | 第一阶段食材书 |
+
+### 常见现象到机制
+
+| 现象 | 先查 | 再查 |
+|---|---|---|
+| 肉变干、收缩 | 肌肉蛋白/变性 | 《食物与厨艺》肉类章 |
+| 酱汁稀、结块 | 淀粉糊化 | 卷一酱料章 |
+| 酱汁分层 | 乳化/脂水界面 | Food Chemistry 脂质及乳状液 |
+| 表面褐变、香气 | 美拉德反应 | 卷一烘焙/卷三烹调原理 |
+| 油脂哈喇味 | 脂质氧化 | Food Chemistry 脂质章 |
+| 香气弱 | 香气阈值/挥发 | 食品化学香气章 + 搭配条目 |
+
+### 检索示例
+
+```bash
+python scripts/search.py --chemistry "gelatinization" --top 8
+python scripts/search.py "sauce thickening starch" --source MCG-V1-2013
+python scripts/search.py "lipid peroxidation" --source FC-BELITZ-2009
+python scripts/search.py "Maillard aroma" --source FC-BELITZ-2009
+python scripts/search.py --pairing BASIL --top 15
+```
+
+### 质量检查补充
+
+- [ ] 是否引用了具体机制页，而不是只写“化学反应”？
+- [ ] 是否保留了原书的温度、pH、浓度或样品条件？
+- [ ] 是否把实验条件直接推广为家用参数？
+- [ ] 是否把机制解释与“好吃”结论分开？

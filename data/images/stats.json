@@ -1,8 +1,8 @@
 {
-  "records": 1152,
-  "images": 353,
-  "page_scans": 769,
-  "table_candidates": 30,
+  "records": 6811,
+  "images": 2913,
+  "page_scans": 2392,
+  "table_candidates": 1506,
   "books": [
     {
       "source_id": "MM-ZYX-2016",
@@ -26,6 +26,42 @@
       "source_id": "DK-INGREDIENTS",
       "images": 0,
       "page_scans": 530,
+      "table_candidates": 0
+    },
+    {
+      "source_id": "MCG-V1-2013",
+      "images": 0,
+      "page_scans": 652,
+      "table_candidates": 0
+    },
+    {
+      "source_id": "MCG-V2-2013",
+      "images": 161,
+      "page_scans": 363,
+      "table_candidates": 0
+    },
+    {
+      "source_id": "MCG-V3-2013",
+      "images": 112,
+      "page_scans": 365,
+      "table_candidates": 0
+    },
+    {
+      "source_id": "FC-BELITZ-2009",
+      "images": 1448,
+      "page_scans": 0,
+      "table_candidates": 1100
+    },
+    {
+      "source_id": "FB-PAGE-2008",
+      "images": 839,
+      "page_scans": 0,
+      "table_candidates": 376
+    },
+    {
+      "source_id": "CR-WXY-2003",
+      "images": 0,
+      "page_scans": 243,
       "table_candidates": 0
     }
   ],

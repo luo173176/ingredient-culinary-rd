@@ -18,5 +18,35 @@
     "sha256": "c0ac3fd4d2cda4c92537d860625ce8e8028312a0029af20c7bd316b51d9278b3",
     "bytes": 200363567,
     "pages": 531
+  },
+  "MCG-V1-2013": {
+    "bytes": 24293005,
+    "sha256": "96127937cb0835c92c7bd704a377866a27d054d0031c81c04443917cb45e831f",
+    "pages": 326
+  },
+  "MCG-V2-2013": {
+    "bytes": 34284928,
+    "sha256": "f59ee89ac966198d9401e9acd453b7de6c3aacb919b018ad93ee8cb35d61d018",
+    "pages": 363
+  },
+  "MCG-V3-2013": {
+    "bytes": 34576951,
+    "sha256": "5cd5cc3e48b0d959b37232655c42a80a0f0aa699949673b0c539cc84ebb17975",
+    "pages": 367
+  },
+  "FC-BELITZ-2009": {
+    "bytes": 14468695,
+    "sha256": "945fcda06a5275ef05c9f0cf2fdabfabee1f0ed21576dc86a5e42116f898e24d",
+    "pages": 1114
+  },
+  "FB-PAGE-2008": {
+    "bytes": 100281701,
+    "sha256": "805bc6b69c982e8bb995b62177dd56b82a304934d7400edf4f8c381832d6e0c5",
+    "pages": 391
+  },
+  "CR-WXY-2003": {
+    "bytes": 57835000,
+    "sha256": "a0669bb5555bc8c23c126e88c26887743b9f656c932ca60979cb94b4278092ce",
+    "pages": 244
   }
 }

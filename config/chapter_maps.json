@@ -3,14 +3,38 @@
     "content_start": 27,
     "content_end": 238,
     "chapters": [
-      {"start": 27, "chapter": "第一章 谷物和米面制品"},
-      {"start": 61, "chapter": "第二章 乳制品和蛋"},
-      {"start": 75, "chapter": "第三章 蔬菜"},
-      {"start": 125, "chapter": "第四章 水果"},
-      {"start": 160, "chapter": "第五章 坚果"},
-      {"start": 178, "chapter": "第六章 肉"},
-      {"start": 203, "chapter": "第七章 鱼虾蟹贝"},
-      {"start": 229, "chapter": "第八章 调味品"}
+      {
+        "start": 27,
+        "chapter": "第一章 谷物和米面制品"
+      },
+      {
+        "start": 61,
+        "chapter": "第二章 乳制品和蛋"
+      },
+      {
+        "start": 75,
+        "chapter": "第三章 蔬菜"
+      },
+      {
+        "start": 125,
+        "chapter": "第四章 水果"
+      },
+      {
+        "start": 160,
+        "chapter": "第五章 坚果"
+      },
+      {
+        "start": 178,
+        "chapter": "第六章 肉"
+      },
+      {
+        "start": 203,
+        "chapter": "第七章 鱼虾蟹贝"
+      },
+      {
+        "start": 229,
+        "chapter": "第八章 调味品"
+      }
     ]
   },
   "DK-INGREDIENTS": {
@@ -27,5 +51,199 @@
     "content_start": 18,
     "content_end": 346,
     "chapters": []
+  },
+  "FC-BELITZ-2009": {
+    "content_start": 45,
+    "content_end": 1044,
+    "chapters": [
+      {
+        "start": 45,
+        "chapter": "0 Water",
+        "printed_start": 1
+      },
+      {
+        "start": 52,
+        "chapter": "1 Amino Acids, Peptides, Proteins",
+        "printed_start": 8
+      },
+      {
+        "start": 137,
+        "chapter": "2 Enzymes",
+        "printed_start": 93
+      },
+      {
+        "start": 202,
+        "chapter": "3 Lipids",
+        "printed_start": 158
+      },
+      {
+        "start": 292,
+        "chapter": "4 Carbohydrates",
+        "printed_start": 248
+      },
+      {
+        "start": 384,
+        "chapter": "5 Aroma Compounds",
+        "printed_start": 340
+      },
+      {
+        "start": 447,
+        "chapter": "6 Vitamins",
+        "printed_start": 403
+      },
+      {
+        "start": 465,
+        "chapter": "7 Minerals",
+        "printed_start": 421
+      },
+      {
+        "start": 473,
+        "chapter": "8 Food Additives",
+        "printed_start": 429
+      },
+      {
+        "start": 511,
+        "chapter": "9 Food Contamination",
+        "printed_start": 467
+      },
+      {
+        "start": 542,
+        "chapter": "10 Milk and Dairy Products",
+        "printed_start": 498
+      },
+      {
+        "start": 590,
+        "chapter": "11 Eggs",
+        "printed_start": 546
+      },
+      {
+        "start": 607,
+        "chapter": "12 Meat",
+        "printed_start": 563
+      },
+      {
+        "start": 661,
+        "chapter": "13 Fish, Whales, Crustaceans, Mollusks",
+        "printed_start": 617
+      },
+      {
+        "start": 684,
+        "chapter": "14 Edible Fats and Oils",
+        "printed_start": 640
+      },
+      {
+        "start": 714,
+        "chapter": "15 Cereals and Cereal Products",
+        "printed_start": 670
+      },
+      {
+        "start": 790,
+        "chapter": "16 Legumes",
+        "printed_start": 746
+      },
+      {
+        "start": 814,
+        "chapter": "17 Vegetables and Vegetable Products",
+        "printed_start": 770
+      },
+      {
+        "start": 851,
+        "chapter": "18 Fruits and Fruit Products",
+        "printed_start": 807
+      },
+      {
+        "start": 906,
+        "chapter": "19 Sugars, Sugar Alcohols and Honey",
+        "printed_start": 862
+      },
+      {
+        "start": 936,
+        "chapter": "20 Alcoholic Beverages",
+        "printed_start": 892
+      },
+      {
+        "start": 982,
+        "chapter": "21 Coffee, Tea, Cocoa",
+        "printed_start": 938
+      },
+      {
+        "start": 1015,
+        "chapter": "22 Spices, Salt and Vinegar",
+        "printed_start": 971
+      },
+      {
+        "start": 1030,
+        "chapter": "23 Drinking Water, Mineral and Table Water",
+        "printed_start": 986
+      }
+    ],
+    "note": "PDF 页码偏移由页眉/页脚直接观察：printed 1 = PDF 45。"
+  },
+  "FB-PAGE-2008": {
+    "content_start": 40,
+    "content_end": 391,
+    "chapters": [
+      {"start": 40, "chapter": "字母序食材条目"}
+    ],
+    "note": "该 PDF 的扫描页序与书内字母顺序不一致；章节字段统一写“字母序食材条目”，印刷页逐页从页脚识别。"
+  },
+  "MCG-V1-2013": {
+    "content_start": 11,
+    "content_end": 316,
+    "chapters": [
+      {"start": 11, "chapter": "第一章 面包、蛋糕、酥皮和面食"},
+      {"start": 87, "chapter": "第二章 调味酱料"},
+      {"start": 165, "chapter": "第三章 巧克力和甜点"},
+      {"start": 241, "chapter": "第四章 葡萄酒、啤酒和蒸馏烈酒"}
+    ],
+    "note": "章节起点由正文章首页直接观察；PDF 页码与印刷页码偏移为 2。"
+  },
+  "MCG-V2-2013": {
+    "content_start": 11,
+    "content_end": 358,
+    "chapters": [
+      {"start": 13, "chapter": "第一章 食用植物"},
+      {"start": 149, "chapter": "第二章 常见果实"},
+      {"start": 195, "chapter": "第四章 香草和香料"},
+      {"start": 279, "chapter": "第五章 豆子和坚果"}
+    ],
+    "note": "第三章的章首页在 OCR 中未能可靠定位，未强行补写；按已观察到的章首页建图。"
+  },
+  "MCG-V3-2013": {
+    "content_start": 11,
+    "content_end": 367,
+    "chapters": [
+      {"start": 25, "chapter": "第一章 乳与乳制品"},
+      {"start": 99, "chapter": "第二章 蛋"},
+      {"start": 159, "chapter": "第三章 肉类"},
+      {"start": 233, "chapter": "第四章 海鲜"},
+      {"start": 311, "chapter": "第五部分 第一章 烹调方法与器具材质"},
+      {"start": 331, "chapter": "第五部分 第二章 四种基本的食物分子"},
+      {"start": 353, "chapter": "第五部分 第三章 化学入门：原子、分子、能量"}
+    ],
+    "note": "前四章为食材篇；311 页以后为第二部分的烹饪原理章节。"
+  },
+  "CR-WXY-2003": {
+    "content_start": 12,
+    "content_end": 232,
+    "chapters": [
+      {"start": 15, "chapter": "第一章 烹饪原料的资源和分类"},
+      {"start": 20, "chapter": "第二章 烹饪原料生物学基础"},
+      {"start": 36, "chapter": "第三章 烹饪原料的色香味形基础和烹饪特性"},
+      {"start": 49, "chapter": "第四章 烹饪原料的品质检验和保藏原理"},
+      {"start": 69, "chapter": "第五章 粮食类烹饪原料"},
+      {"start": 79, "chapter": "第六章 蔬菜类烹饪原料"},
+      {"start": 108, "chapter": "第七章 果品类烹饪原料"},
+      {"start": 118, "chapter": "第八章 花卉药草类原料"},
+      {"start": 124, "chapter": "第九章 畜禽类烹饪原料"},
+      {"start": 152, "chapter": "第十章 蛋品和乳品烹饪原料"},
+      {"start": 158, "chapter": "第十一章 鱼类烹饪原料"},
+      {"start": 178, "chapter": "第十二章 其他水产品烹饪原料"},
+      {"start": 194, "chapter": "第十三章 干货制品类烹饪原料"},
+      {"start": 210, "chapter": "第十四章 半成品烹饪原料"},
+      {"start": 222, "chapter": "第十五章 调料和食品添加剂"},
+      {"start": 236, "chapter": "第十六章 辅助烹饪原料"}
+    ],
+    "note": "章首页由 OCR 正文直接观察；印刷页 = PDF 页 - 11。"
   }
 }

@@ -78,3 +78,38 @@
 ## 安全边界
 
 不为了“猎奇”使用有毒动植物、未熟豆类、野生菌、河豚等高风险原料。
+
+## Phase 2 创新增强
+
+### 创新证据三层
+
+| 层 | 来源 | 输出要求 |
+|---|---|---|
+| 书中直接支持 | Flavor Bible 条目/affinity，或食材/烹饪书 | 书名、卷册、页 |
+| 跨来源推理 | Food Chemistry 机制 + 食材结构 + 搭配条目 | 推理链、条件 |
+| AI 创新假设 | 书中没有的组合或工艺 | 假设、变量、对照、指标 |
+
+### 创新矩阵新增轴
+
+- 化学机制：褐变、糊化、凝胶、乳化、氧化。
+- 食材结构：纤维、蛋白、淀粉、脂质、水分。
+- 加工方式：干制、腌制、发酵、低温/高温、传热。
+- 搭配证据：直接搭配、组合推导、完全新组合。
+
+### 检索示例
+
+```bash
+python scripts/search.py --pairing BASIL --top 30
+python scripts/search.py "aroma compounds" --source FC-BELITZ-2009
+python scripts/search.py "果实 成熟 香气" --source MCG-V2-2013
+python scripts/search.py "乳化 酱汁" --source MCG-V1-2013
+python scripts/search.py --chemistry "Maillard" --top 8
+```
+
+### 最小验证
+
+- 至少 1 个对照 + 2 个变体；
+- 固定原料品种、成熟度、切割尺寸和环境温度；
+- 记录配方、设备、时间、重量；
+- 盲评香气、甜酸、咸度、质地、苦涩、整体喜好；
+- 没做实验时不得写“成功”“最佳”“消费者喜欢”。

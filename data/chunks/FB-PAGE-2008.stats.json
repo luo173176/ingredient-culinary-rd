@@ -1,0 +1,13 @@
+{
+  "source_id": "FB-PAGE-2008",
+  "chunks": 1289,
+  "chars": 905921,
+  "by_content_type": {
+    "text": 1289
+  },
+  "pages_with_chunks": 376,
+  "high_confidence": 1289,
+  "medium_confidence": 0,
+  "low_confidence": 0,
+  "output": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\data\\chunks\\FB-PAGE-2008.jsonl"
+}

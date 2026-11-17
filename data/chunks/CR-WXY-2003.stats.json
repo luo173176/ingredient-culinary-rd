@@ -1,0 +1,13 @@
+{
+  "source_id": "CR-WXY-2003",
+  "chunks": 447,
+  "chars": 258834,
+  "by_content_type": {
+    "text": 447
+  },
+  "pages_with_chunks": 244,
+  "high_confidence": 0,
+  "medium_confidence": 434,
+  "low_confidence": 13,
+  "output": "E:\\Users\\luo17\\Documents\\Codex\\Ingredient Research & Culinary R&D Skill\\ingredient-culinary-rd\\data\\chunks\\CR-WXY-2003.jsonl"
+}

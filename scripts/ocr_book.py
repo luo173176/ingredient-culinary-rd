@@ -151,8 +151,8 @@ def _assemble_text(boxes: list[dict[str, Any]], layout: str) -> str:
     return clean_ocr_text("".join(out))
 
 
-def ocr_page(args: tuple[str, int, float]) -> dict[str, Any]:
-    path, page_index, dpi = args
+def ocr_page(args: tuple[str, int, float, bool]) -> dict[str, Any]:
+    path, page_index, dpi, allow_suffix = args
     import pymupdf
 
     t0 = time.time()
@@ -173,7 +173,7 @@ def ocr_page(args: tuple[str, int, float]) -> dict[str, Any]:
             boxes.append({"text": text, "score": score, "bbox": _bbox_from_points(pts)})
     ordered, layout = _reading_order(boxes, float(pix.width), float(pix.height))
     text = _assemble_text(ordered, layout)
-    printed, raw = parse_printed_page(ordered, float(pix.height))
+    printed, raw = parse_printed_page(ordered, float(pix.height), allow_suffix=allow_suffix)
     scores = [b["score"] for b in ordered]
     mean_score = round(sum(scores) / len(scores), 4) if scores else 0.0
     low = sum(1 for s in scores if s < 0.75)
@@ -247,7 +247,10 @@ def main() -> None:
     ok = failed = 0
 
     with ProcessPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(ocr_page, (str(pdf), p - 1, args.dpi)): p for p in todo}
+        futures = {
+            pool.submit(ocr_page, (str(pdf), p - 1, args.dpi, bool(book.get("page_number_suffix")))): p
+            for p in todo
+        }
         for i, fut in enumerate(as_completed(futures), 1):
             page_no = futures[fut]
             try:

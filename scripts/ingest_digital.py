@@ -73,7 +73,7 @@ def heading_for(
     return part, chapter, section, path[-4:]
 
 
-def extract_page(page, toc: list[tuple[int, int, str]]) -> dict[str, Any]:
+def extract_page(page, toc: list[tuple[int, int, str]], allow_suffix: bool = False) -> dict[str, Any]:
     d = page.get_text("dict")
     lines: list[dict[str, Any]] = []
     for block in d.get("blocks", []):
@@ -81,7 +81,21 @@ def extract_page(page, toc: list[tuple[int, int, str]]) -> dict[str, Any]:
             continue
         for line in block.get("lines", []):
             spans = line.get("spans", [])
-            text = "".join(s.get("text", "") for s in spans).strip()
+            # PyMuPDF sometimes emits one span per word with no trailing
+            # space.  Joining blindly produces "Water(moisture)isthe..." and
+            # destroys both search and citation fidelity.  Re-insert a space
+            # when the horizontal gap between spans is visible.
+            parts: list[str] = []
+            prev = None
+            for s in spans:
+                t = s.get("text", "")
+                if prev is not None and t:
+                    gap = s["bbox"][0] - prev["bbox"][2]
+                    if gap > 0.8 and parts and not parts[-1].endswith((" ", "\n")):
+                        parts.append(" ")
+                parts.append(t)
+                prev = s
+            text = "".join(parts).strip()
             if not text:
                 continue
             sizes = [s.get("size", 0) for s in spans if s.get("text", "").strip()]
@@ -94,7 +108,7 @@ def extract_page(page, toc: list[tuple[int, int, str]]) -> dict[str, Any]:
             )
     lines.sort(key=lambda x: (round(x["bbox"][1], 0), x["bbox"][0]))
     text = normalize_text("\n".join(line["text"] for line in lines))
-    printed, raw = parse_printed_page(lines, page.rect.height)
+    printed, raw = parse_printed_page(lines, page.rect.height, allow_suffix=allow_suffix)
     part, chapter, section, path = heading_for(page.number + 1, toc)
     warnings: list[str] = []
     if len(text) < 30:
@@ -129,7 +143,7 @@ def run(book: dict[str, Any]) -> dict[str, Any]:
     toc = toc_map(doc)
     rows = []
     for i in range(doc.page_count):
-        rec = extract_page(doc[i], toc)
+        rec = extract_page(doc[i], toc, allow_suffix=bool(book.get("page_number_suffix")))
         rec["source_id"] = book["source_id"]
         rows.append(rec)
     doc.close()
